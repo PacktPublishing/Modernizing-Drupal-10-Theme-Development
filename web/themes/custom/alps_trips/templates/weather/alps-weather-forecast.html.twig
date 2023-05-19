@@ -1,0 +1,42 @@
+{#
+/**
+ * @file
+ * Theme override to display a wather forecast.
+ *
+ * Available variables:
+ * - forecast: An array of array with forecast data.
+ * - units: The system used to render values. Can be metric or imperial.
+ *
+ * @see template_preprocess_alps_weather_forecast()
+ */
+#}
+
+{% set forecasts %}
+  {% for item in forecast.list %}
+    {{ include('@molecules/weather.html.twig',
+      {
+        'date1': item.dt_txt|date("d/m/Y"),
+        'date2': item.dt_txt|date("H:i"),
+        'title': item.weather[0].description|title,
+        'temp':
+        item.main.temp
+        ~ ' °'
+        ~ (units == 'metric' ? 'C' : 'F'),
+        'dialogUrl':
+        path(
+          'alps_weather.details',
+          {city:forecast.city.name, date:item.dt_txt}
+        ),
+        'infoLabel': 'More info'|t,
+        'dialog': true,
+      }
+    ) }}
+  {% endfor %}
+{% endset %}
+
+{{ include('@organisms/forecast.html.twig',
+  {
+    'city': forecast.city.name,
+    'forecasts': forecasts,
+  })
+}}

@@ -1,0 +1,8 @@
+uuid: afbf3ffa-0962-4767-a14b-151e441eed98
+langcode: en
+status: true
+dependencies: {  }
+name: Level
+vid: level
+description: 'Represent the level of a tour.'
+weight: 0

@@ -1,0 +1,10 @@
+<div class="mb-5">
+  <div class="mb-5 text-nord-3">{{ text }}</div>
+  <div>
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+      {% for card in cards %}
+        {{ card }}
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: ee91487d-da90-46f8-a67c-3748d8e737d6
+  bundle: duration
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '3 Hours'
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

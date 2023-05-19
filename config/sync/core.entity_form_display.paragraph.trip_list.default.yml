@@ -1,0 +1,34 @@
+uuid: c593d384-eec8-4a3f-8055-991812bbef64
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.trip_list.field_title
+    - field.field.paragraph.trip_list.field_trips
+    - paragraphs.paragraphs_type.trip_list
+id: paragraph.trip_list.default
+targetEntityType: paragraph
+bundle: trip_list
+mode: default
+content:
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_trips:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,40 @@
+uuid: 6531c57b-cf49-4df7-96ac-428a04753334
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.trip.body
+    - field.field.node.trip.field_destination
+    - field.field.node.trip.field_duration
+    - field.field.node.trip.field_lat_lng
+    - field.field.node.trip.field_level
+    - field.field.node.trip.field_origin
+    - field.field.node.trip.field_picture
+    - node.type.trip
+  module:
+    - text
+    - user
+id: node.trip.search_index
+targetEntityType: node
+bundle: trip
+mode: search_index
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_destination: true
+  field_duration: true
+  field_lat_lng: true
+  field_level: true
+  field_origin: true
+  field_picture: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

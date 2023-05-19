@@ -1,0 +1,8 @@
+{% set classes %}{% if active %}block py-2 pr-4 pl-3 text-nord-1
+hover:rounded-lg hover:bg-nord-6 hover:bg-opacity-40{% else %}block py-2 pr-4
+pl-3 text-nord-3 hover:rounded-lg hover:bg-nord-6 hover:bg-opacity-40{% endif
+%}{% endset %}
+
+<li>
+  <a href="{{ url }}" class="{{ classes }}">{{ title }}</a>
+</li>

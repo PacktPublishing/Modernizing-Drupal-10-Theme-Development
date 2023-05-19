@@ -1,0 +1,8 @@
+uuid: a542577e-c2be-4db7-b5b1-bfc2fe17640d
+langcode: en
+status: true
+dependencies: {  }
+id: banner
+label: Banner
+revision: 0
+description: 'A block to show ad banner'

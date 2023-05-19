@@ -1,0 +1,34 @@
+uuid: fd5e1c0a-448f-4aa4-9e23-29ebc40206c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.teaser
+    - field.field.taxonomy_term.trip_equipment.field_picture
+    - taxonomy.vocabulary.trip_equipment
+  module:
+    - text
+id: taxonomy_term.trip_equipment.teaser
+targetEntityType: taxonomy_term
+bundle: trip_equipment
+mode: teaser
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_picture:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

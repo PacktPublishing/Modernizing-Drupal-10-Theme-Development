@@ -1,0 +1,69 @@
+label: Contenuto
+description: 'Trova e gestisci contenuti.'
+display:
+  default:
+    display_title: Predefinito
+    display_options:
+      title: Contenuto
+      fields:
+        title:
+          label: Titolo
+        type:
+          label: 'Tipo di contenuto'
+          separator: ', '
+        name:
+          label: Autore
+        status:
+          label: Stato
+          settings:
+            format_custom_false: 'Non pubblicato'
+            format_custom_true: Pubblicato
+        changed:
+          label: Aggiornato
+        operations:
+          label: Operazioni
+      pager:
+        options:
+          tags:
+            next: 'Seguente ›'
+            previous: '‹ Precedente'
+            first: '« Prima'
+            last: 'Ultima »'
+      exposed_form:
+        options:
+          submit_button: Filtra
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+      empty:
+        area_text_custom:
+          content: 'Nessun contenuto disponibile.'
+      filters:
+        title:
+          expose:
+            label: Titolo
+        type:
+          expose:
+            label: 'Tipo di contenuto'
+        status:
+          expose:
+            label: Stato
+          group_info:
+            label: 'Stato pubblicazione'
+            group_items:
+              1:
+                title: Pubblicato
+              2:
+                title: 'Non pubblicato'
+        langcode:
+          expose:
+            label: Lingua
+  page_1:
+    display_title: Pagina
+    display_options:
+      menu:
+        title: Contenuto
+      tab_options:
+        title: Contenuto
+        description: 'Trova e gestisci contenuti'

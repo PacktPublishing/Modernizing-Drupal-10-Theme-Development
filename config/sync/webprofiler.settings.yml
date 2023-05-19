@@ -1,0 +1,21 @@
+_core:
+  default_config_hash: l23AWlsVwlhblRhggKqahd8SBZzQDs5_GsFuCKgDItg
+exclude_paths: "/contextual/*\r\n/toolbar/*\r\n/edit/*\r\n*.js\r\n*.css"
+intercept_redirects: false
+purge_on_cache_clear: true
+active_toolbar_items:
+  ajax: ajax
+  blocks: blocks
+  database: database
+  devel: devel
+  forms: forms
+  memory: memory
+  request: request
+  time: time
+  user: user
+  views: views
+query_sort: source
+query_highlight: 5
+ide: 'phpstorm://open?file=%f&line=%l'
+ide_remote_path: ''
+ide_local_path: ''

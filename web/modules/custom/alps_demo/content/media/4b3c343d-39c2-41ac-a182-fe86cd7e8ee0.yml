@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4b3c343d-39c2-41ac-a182-fe86cd7e8ee0
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    d7919bf9-2358-46d0-bb6a-8bdf13fc37db: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: cervino.jpg
+  created:
+    -
+      value: 1676918609
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_caption:
+    -
+      value: Cervino
+  field_media_image:
+    -
+      entity: d7919bf9-2358-46d0-bb6a-8bdf13fc37db
+      alt: Cervino
+      title: ''
+      width: 5827
+      height: 3885

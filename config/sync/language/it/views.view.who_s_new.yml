@@ -1,0 +1,20 @@
+label: 'Nuovi utenti'
+description: 'Mostra un elenco dei più recenti profili utente sul sito.'
+display:
+  default:
+    display_title: Predefinito
+    display_options:
+      title: 'Nuovi utenti'
+      exposed_form:
+        options:
+          submit_button: Applica
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+  block_1:
+    display_title: 'Nuovi utenti'
+    display_options:
+      display_description: 'Un elenco di nuovi utenti'
+      block_description: 'Nuovi utenti'
+      block_category: Utente

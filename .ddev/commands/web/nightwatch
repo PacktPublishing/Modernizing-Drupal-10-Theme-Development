@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Run nightwatch tests.
+## Usage: nightwatch
+## Example: "ddev nightwatch"
+
+yarn --cwd=web/core test:nightwatch "../themes/custom/alps_trips/tests/src/Nightwatch"

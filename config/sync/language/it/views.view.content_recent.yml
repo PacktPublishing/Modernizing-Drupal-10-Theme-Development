@@ -1,0 +1,23 @@
+label: 'Contenuti recenti'
+description: 'Contenuti recenti.'
+display:
+  default:
+    display_title: Predefinito
+    display_options:
+      title: 'Contenuti recenti'
+      fields:
+        changed:
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: Applica
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+      empty:
+        area_text_custom:
+          content: 'Nessun contenuto disponibile.'
+      use_more_text: Altro
+  block_1:
+    display_title: Blocco

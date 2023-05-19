@@ -1,0 +1,6 @@
+alps_messages.settings:
+  title: Messages
+  description: Manage messages printed in the page_top region.
+  parent: system.admin_config_system
+  route_name: alps_messages.settings
+  weight: 10

@@ -1,0 +1,29 @@
+uuid: 49746cc5-181d-4003-9f03-d9a8e0318751
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_trips
+    - node.type.trip
+    - paragraphs.paragraphs_type.trip_list
+id: paragraph.trip_list.field_trips
+field_name: field_trips
+entity_type: paragraph
+bundle: trip_list
+label: Trips
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      trip: trip
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

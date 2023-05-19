@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 67124eac-1f49-4ffd-b7a1-54f98e7f4701
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rocciamelone.jpg
+  uri:
+    -
+      value: 'public://2023-02/rocciamelone_4_21_3_0_1_0_2_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3317796
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1676918572

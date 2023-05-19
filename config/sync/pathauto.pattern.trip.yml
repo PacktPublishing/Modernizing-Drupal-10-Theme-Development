@@ -1,0 +1,22 @@
+uuid: be6fe8f2-4882-4a03-b307-f4e503254d6b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: trip
+label: Trip
+type: 'canonical_entities:node'
+pattern: 'trip/[node:title]'
+selection_criteria:
+  083ecda3-57bd-4e68-9604-23d519c58fec:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 083ecda3-57bd-4e68-9604-23d519c58fec
+    context_mapping:
+      node: node
+    bundles:
+      trip: trip
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7cde5c8d-b35b-4955-a4f2-010d662fe8b9
+  bundle: image
+  default_langcode: en
+  depends:
+    4b41973c-cc92-4fd0-a6fe-40697da37f41: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: compass.jpg
+  created:
+    -
+      value: 1682761076
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 4b41973c-cc92-4fd0-a6fe-40697da37f41
+      alt: 'A compass'
+      title: ''
+      width: 1090
+      height: 613

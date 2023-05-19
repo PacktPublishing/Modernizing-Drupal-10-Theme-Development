@@ -1,0 +1,91 @@
+uuid: c5c5975c-ab6d-43b5-a415-baf5a13ec204
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api
+_core:
+  default_config_hash: TtSWlBl_1VI03GJW1yyzVwtlq15Yst0id1vPdvz5qxM
+id: search-api-index-fields
+label: 'Fields indexed in this index'
+module: search_api
+routes:
+  -
+    route_name: entity.search_api_index.fields
+tips:
+  search-api-index-fields-introduction:
+    id: search-api-index-fields-introduction
+    plugin: text
+    label: 'Fields indexed in this index'
+    weight: 1
+    body: 'This page lists which fields are indexed in this index, grouped by datasource. (Datasource-independent fields are listed under "General".) Indexed fields can be used to add filters or sorting to views or other search displays based on the index. Fields with type "Fulltext" can also be used for fulltext searching.'
+  search-api-index-fields-add:
+    id: search-api-index-fields-add
+    plugin: text
+    label: 'Add fields'
+    weight: 2
+    selector: '.button-action[data-drupal-selector="edit-add-field"]'
+    body: 'With the "Add fields" button you can add additional fields to this index.'
+  search-api-index-fields-label:
+    id: search-api-index-fields-label
+    plugin: text
+    label: Label
+    weight: 3
+    selector: '.details-wrapper table thead th:nth-child(1)'
+    body: 'A label for the field that will be used to refer to the field in most places in the user interface.'
+  search-api-index-fields-machine-name:
+    id: search-api-index-fields-machine-name
+    plugin: text
+    label: 'Machine name'
+    weight: 4
+    selector: '.details-wrapper table thead th:nth-child(2)'
+    body: "The internal ID to use for this field. Can safely be ignored by inexperienced users in most cases. Changing a field's machine name requires reindexing of the index."
+  search-api-index-fields-property-path:
+    id: search-api-index-fields-property-path
+    plugin: text
+    label: 'Property path'
+    weight: 5
+    selector: '.details-wrapper table thead th:nth-child(3)'
+    body: 'The internal relationship linking the indexed item to the field, with links being separated by colons (:). This can be useful information for advanced users, but can otherwise be ignored.'
+  search-api-index-fields-type:
+    id: search-api-index-fields-type
+    plugin: text
+    label: Type
+    weight: 6
+    selector: '.details-wrapper table thead th:nth-child(4)'
+    body: 'The data type to use when indexing the field. Determines how a field can be used in searches. For information on the available types, see the <a href="#search-api-data-types-table">"Data types" box</a> at the bottom of the page.'
+  search-api-index-fields-boost:
+    id: search-api-index-fields-boost
+    plugin: text
+    label: Boost
+    weight: 7
+    selector: '.details-wrapper table thead th:nth-child(5)'
+    body: 'Only applicable for fulltext fields. Determines how "important" the field is compared to other fulltext fields, to influence scoring of fulltext searches.'
+  search-api-index-fields-edit:
+    id: search-api-index-fields-edit
+    plugin: text
+    label: 'Edit field'
+    weight: 8
+    selector: '.details-wrapper table tbody td:nth-child(6) a'
+    body: 'Some fields have additional configuration available, in which case an "Edit" link is displayed in the "Operations" column.'
+  search-api-index-fields-remove:
+    id: search-api-index-fields-remove
+    plugin: text
+    label: 'Remove field'
+    weight: 9
+    selector: '.details-wrapper table tbody td:nth-child(7) a'
+    body: 'Removes a field from the index again. (Note: Sometimes, a field is required (for example, by a processor) and cannot be removed.)'
+  search-api-index-fields-submit:
+    id: search-api-index-fields-submit
+    plugin: text
+    label: 'Save changes'
+    weight: 10
+    selector: '#edit-actions-submit'
+    body: 'This saves all changes made to the fields for this index. Until this button is pressed, all added, changed or removed fields will only be stored temporarily and not effect the actual index used in the rest of the site.'
+  search-api-index-fields-cancel:
+    id: search-api-index-fields-cancel
+    plugin: text
+    label: 'Cancel changes'
+    weight: 10
+    selector: '#edit-actions-cancel'
+    body: 'If you have made changes to the index''s fields but not yet saved them, the "Cancel" link lets you discard those changes.'

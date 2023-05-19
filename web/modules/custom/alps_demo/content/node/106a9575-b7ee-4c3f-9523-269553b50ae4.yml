@@ -1,0 +1,317 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 106a9575-b7ee-4c3f-9523-269553b50ae4
+  bundle: landing_page
+  default_langcode: en
+  depends:
+    8591ff53-d680-44f5-a84e-05c3524f62c3: media
+    e0fe447a-f94f-49ca-823a-a8251ad2eb3e: media
+    7eac7760-dee5-4665-82e9-abcd3c0bab72: media
+    b035d255-33c4-48a8-a965-e54b13e82d5c: media
+    837ddf55-6114-4c60-9197-afc9f1e3b1f3: media
+    bce16c94-2b16-4040-af52-57d28146ce5b: media
+    49287044-bec7-4f58-97f2-4229cde10723: node
+    8113fc08-661c-41dc-b2bf-1d8b0b05af39: node
+    64843efa-ae3d-4c8f-b295-dadc5caa3228: node
+    b39a4c31-e0e8-4b17-8f8a-9be984cc70bc: node
+    363afaca-baca-4fb6-b4f1-f6c476c7850c: node
+    85444260-a1ca-4f80-b51a-c740c3109ebd: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Home
+  created:
+    -
+      value: 1670609534
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_contents:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 5f059b89-7f09-45e9-86c2-c60e4f5e9dad
+          bundle: slider
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1677052084
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_contents:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 47024141-2a4a-419f-a51e-a256c54ceb87
+                  bundle: slide
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1677059636
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_description:
+                    -
+                      value: '<p>Lorem ipsum</p>'
+                      format: basic_html
+                  field_picture:
+                    -
+                      entity: 8591ff53-d680-44f5-a84e-05c3524f62c3
+                  field_title:
+                    -
+                      value: 'Slide 1 title'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 1c3686a6-05f1-4ff0-88cb-77ffb3062de0
+                  bundle: slide
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1677059650
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_description:
+                    -
+                      value: '<p>Lorem ipsum</p>'
+                      format: basic_html
+                  field_picture:
+                    -
+                      entity: e0fe447a-f94f-49ca-823a-a8251ad2eb3e
+                  field_title:
+                    -
+                      value: 'Slide 2 title'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: c6861da5-d045-4d84-a618-2d9ea1641e4c
+                  bundle: slide
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1677059657
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_description:
+                    -
+                      value: '<p>Lorem ipsum</p>'
+                      format: basic_html
+                  field_picture:
+                    -
+                      entity: 7eac7760-dee5-4665-82e9-abcd3c0bab72
+                  field_title:
+                    -
+                      value: 'Slide 3 title'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9810b999-0277-4c58-a5c8-261ac3091c3b
+          bundle: grid
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1670609559
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_contents:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 4491418d-5b72-46fc-aa9d-8a387984f57a
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1670609559
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_description:
+                    -
+                      value: '<p>Our best trips are the ones that leave us with lasting memories and a sense of wonder and appreciation for the world around us.</p>'
+                      format: basic_html
+                  field_picture:
+                    -
+                      entity: b035d255-33c4-48a8-a965-e54b13e82d5c
+                  field_title:
+                    -
+                      value: 'Popular trips'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5ac52d5c-bbbe-4ce3-b2d8-7f5d33c4ac65
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1670609564
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_description:
+                    -
+                      value: '<p>Our top route on the mountain offers breathtaking views and a thrilling challenge for adventurous hikers.</p>'
+                      format: basic_html
+                  field_picture:
+                    -
+                      entity: 837ddf55-6114-4c60-9197-afc9f1e3b1f3
+                  field_title:
+                    -
+                      value: 'Top route'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 5b03a000-1acf-47fb-9781-3a6ad0010777
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1670609582
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_description:
+                    -
+                      value: '<p>Online booking has made it easier and more convenient than ever before to reserve travel accommodations and activities.</p>'
+                      format: basic_html
+                  field_picture:
+                    -
+                      entity: bce16c94-2b16-4040-af52-57d28146ce5b
+                  field_title:
+                    -
+                      value: 'Online booking'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1d4d6163-f785-42ab-956b-6508f4f7b7ae
+          bundle: trip_list
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1676919846
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_title:
+            -
+              value: 'Our best trips!'
+          field_trips:
+            -
+              entity: 49287044-bec7-4f58-97f2-4229cde10723
+            -
+              entity: 8113fc08-661c-41dc-b2bf-1d8b0b05af39
+            -
+              entity: 64843efa-ae3d-4c8f-b295-dadc5caa3228
+            -
+              entity: b39a4c31-e0e8-4b17-8f8a-9be984cc70bc
+            -
+              entity: 363afaca-baca-4fb6-b4f1-f6c476c7850c
+            -
+              entity: 85444260-a1ca-4f80-b51a-c740c3109ebd

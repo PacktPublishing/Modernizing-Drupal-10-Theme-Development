@@ -1,0 +1,5 @@
+name: Base
+type: module
+description: Provides additional functionality for the site.
+package: Alps
+core_version_requirement: ^10

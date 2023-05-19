@@ -1,0 +1,33 @@
+uuid: 5f9e100d-1e3c-4b12-a733-913380803080
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.image_with_caption.field_caption
+    - field.field.media.image_with_caption.field_media_image
+    - image.style.thumbnail
+    - media.type.image_with_caption
+  module:
+    - image
+id: media.image_with_caption.media_library
+targetEntityType: media
+bundle: image_with_caption
+mode: media_library
+content:
+  field_media_image:
+    type: image_image
+    weight: -50
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_caption: true
+  langcode: true
+  name: true
+  path: true
+  status: true
+  uid: true

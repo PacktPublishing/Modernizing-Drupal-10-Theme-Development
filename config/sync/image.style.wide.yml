@@ -1,0 +1,25 @@
+uuid: 9e427c27-8200-43c4-a8f7-b371c1eb27f1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LswCVLg8z4Zk1u6pV1Dpj1qUj5YY2CQ7_ojx7bJQ8qk
+name: wide
+label: 'Wide (1090)'
+effects:
+  09959c15-59ce-4f6d-90df-e2d7cf32bce5:
+    uuid: 09959c15-59ce-4f6d-90df-e2d7cf32bce5
+    id: image_scale
+    weight: 1
+    data:
+      width: 1090
+      height: null
+      upscale: false
+  225609fa-c0e2-4dfb-8ee7-0cee63767134:
+    uuid: 225609fa-c0e2-4dfb-8ee7-0cee63767134
+    id: image_crop
+    weight: 2
+    data:
+      width: 1090
+      height: 400
+      anchor: center-center

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Description: Run yarn commands
+## Usage: theme [command]
+## Example: "ddev theme build -- Read the README.md for more commands"
+
+yarn --cwd=web/themes/custom/alps_trips install
+yarn --cwd=web/themes/custom/alps_trips $@

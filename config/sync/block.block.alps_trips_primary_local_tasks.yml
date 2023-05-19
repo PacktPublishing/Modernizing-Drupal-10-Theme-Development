@@ -1,0 +1,26 @@
+uuid: 3a04815d-450e-4a13-ae4b-558d03a340eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - alps_trips
+id: alps_trips_primary_local_tasks
+theme: alps_trips
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/user/login\r\n/user/register\r\n/user/password"

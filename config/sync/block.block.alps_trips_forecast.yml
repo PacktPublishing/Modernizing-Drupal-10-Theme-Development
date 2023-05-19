@@ -1,0 +1,30 @@
+uuid: 46d3f5ed-ca46-4be8-a695-8fe0dd57e559
+langcode: en
+status: true
+dependencies:
+  module:
+    - alps_weather
+    - node
+  theme:
+    - alps_trips
+id: alps_trips_forecast
+theme: alps_trips
+region: sidebar
+weight: -5
+provider: null
+plugin: alps_weather_forecast
+settings:
+  id: alps_weather_forecast
+  label: Forecast
+  label_display: '0'
+  provider: alps_weather
+  context_mapping:
+    node: '@node.node_route_context:node'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      trip: trip

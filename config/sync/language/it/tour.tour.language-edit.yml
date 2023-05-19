@@ -1,0 +1,13 @@
+label: 'Modificare le lingue'
+tips:
+  language-edit-overview:
+    label: 'Modificare le lingue'
+    body: '<p>Questa pagina offre la possibilità di modificare una lingua sul sito, comprese le lingue personalizzate.</p>'
+  language-edit-langcode:
+    label: 'Codice della lingua'
+    body: '<p>Non è possibile modificare il codice di una lingua sul sito, in quanto è utilizzato dal sistema per tenere traccia della lingua.</p>'
+  language-edit-label:
+    label: 'Nome della lingua'
+  language-edit-direction:
+    label: 'Direzione della lingua'
+    body: '<p>Scegli se la lingua è "da sinistra a destra" o "da destra a sinistra".</p><p>Si noti che non tutti i temi supportano la modalità "da destra a sinistra", testare quindi accuratamente il tema scelto se si intende usare la modalità "da destra a sinistra".</p>'

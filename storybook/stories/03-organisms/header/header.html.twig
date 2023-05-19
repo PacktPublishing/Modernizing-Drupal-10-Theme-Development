@@ -1,0 +1,13 @@
+{% if background %}
+  {% set classes = [ 'space-y-10', 'p-6', 'md:p-10', 'lg:mx-auto', 'relative', 'bg-nord-6' ] %}
+{% else %}
+  {% set classes = [ 'space-y-10', 'p-6', 'md:p-10', 'lg:mx-auto', 'relative' ] %}
+{% endif %}
+
+<header {{ attributes.addClass(classes) }}>
+  <div class="max-w-5xl lg:mx-auto">
+    <div class="flex max-w-screen-xl flex-wrap items-center justify-between">
+      {{ blocks }}
+    </div>
+  </div>
+</header>

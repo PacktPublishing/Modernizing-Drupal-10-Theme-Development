@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b035d255-33c4-48a8-a965-e54b13e82d5c
+  bundle: image
+  default_langcode: en
+  depends:
+    27beb261-f1ad-4160-b40b-09c5df9e1635: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: trekking.jpg
+  created:
+    -
+      value: 1676920801
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 27beb261-f1ad-4160-b40b-09c5df9e1635
+      alt: Trekking
+      title: ''
+      width: 4592
+      height: 3064

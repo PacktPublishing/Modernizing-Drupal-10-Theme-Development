@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 85444260-a1ca-4f80-b51a-c740c3109ebd
+  bundle: trip
+  default_langcode: en
+  depends:
+    2c98dd48-f2d3-4eea-be90-a5413fa71327: taxonomy_term
+    b202ca18-6f0d-43d5-9dac-038b561edb17: taxonomy_term
+    4edc8159-f2f8-45b6-bec3-0e652651a822: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Monte Rosa'
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/monte-rosa
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "Ex ille iusto rusticus. Acsi ideo jugis nibh praemitto premo quis secundum. Lenis nunc saepius. Abdo eum obruo. Os ut utrum. Abluo antehabeo eros iriure ludus pagus pecus secundum torqueo. Ibidem importunus incassum jumentum molior quis tum utinam. Commoveo decet diam ex exputo pecus validus. Comis eligo et lobortis roto tincidunt utrum. Acsi consequat dolore fere magna sudo suscipit.\r\n\r\nHumo jus letalis lucidus uxor. Aptent hos importunus patria qui ulciscor. Ille iriure proprius quae ratis utrum. Dolor gemino hendrerit ideo ludus ulciscor. Comis commoveo cui nunc os praemitto probo saluto sudo. Antehabeo causa consequat dignissim erat ex.\r\n\r\nDolus letalis persto quidem saepius saluto si sino volutpat. Euismod melior refero secundum similis veniam venio verto. Aliquam amet ex genitus scisco ymo. Luctus macto praemitto premo. Aliquam illum nobis qui. Luctus sagaciter si velit vereor voco. Accumsan damnum letalis voco.\r\n\r\nAptent erat immitto pala. Aptent exputo huic pala paulatim persto probo. Augue euismod jugis natu saepius sudo. Oppeto pagus quae. Dolore lobortis minim pneum refoveo tamen. Exputo gemino ludus nobis praemitto roto secundum sino. At dolor molior mos proprius refero vereor. Similis tum zelus. Bene caecus iustum refoveo turpis. Gemino gravis letalis minim mos si.\r\n\r\nHaero illum in loquor neque odio pecus plaga quis. Amet et praemitto. Camur consectetuer dolus huic melior refero velit vindico. Duis obruo secundum vulpes. Caecus os quibus. Acsi cogo patria pneum venio.\r\n\r\nEuismod gemino humo illum iusto valde. Dignissim inhibeo iriure letalis praesent ulciscor. Humo laoreet neque nobis paulatim persto uxor. Conventio incassum neque occuro patria tego. Autem distineo huic letalis odio refero sed. Esca hos ideo pneum praesent quadrum qui sagaciter secundum vel.\r\n\r\nExputo haero interdico jumentum paratus saluto tamen. Mauris nibh nobis premo secundum sudo turpis usitas. Abigo euismod ex ludus paratus patria sino valetudo. Commodo elit enim lenis pertineo refero vindico. Autem dignissim ille importunus meus pagus patria suscipit tego turpis. Aliquam antehabeo facilisis gravis lobortis neque typicus valde.\r\n\r\nGenitus sit te veniam vero wisi. Abluo elit melior pagus pecus praesent rusticus sit uxor volutpat. Abbas distineo gravis praemitto quadrum refoveo vel. Aliquam et exerci. Facilisi fere iustum mauris singularis uxor.\r\n\r\nBrevitas consequat dignissim feugiat os pecus te. Autem commoveo facilisi iusto persto proprius turpis ymo. Bene diam dignissim distineo elit ex immitto lenis persto tego. Gemino imputo nibh praesent quidne similis turpis. Facilisi ibidem letalis proprius sino tego validus. Commodo hendrerit immitto inhibeo nutus si suscipit vero. Defui dolus exputo ludus mos wisi.\r\n\r\nAd causa eligo persto quis ratis venio wisi. Cui exputo gemino metuo. In iriure quidem. Abbas at caecus decet facilisi loquor lucidus nulla. Fere feugiat ibidem importunus quibus rusticus. Dolore gilvus iaceo imputo modo neque nibh olim paratus quadrum. Abbas amet appellatio dignissim lobortis ludus vicis.\r\n\r\nAbico dolore neo nisl pagus praemitto. Comis iaceo nostrud. Cogo eum ex gravis meus quidne ulciscor. Nisl sed utrum. Erat esse iaceo ille natu nobis obruo quibus sino vel. Abbas hos inhibeo laoreet nobis scisco voco. Blandit eros pala sed sit. Duis gemino jugis. Camur esse exputo humo neque nunc odio pagus zelus.\r\n\r\nIusto pneum verto zelus. Natu tum validus. Esca ludus quibus ut. Brevitas eros scisco similis virtus. Abluo aliquam imputo iustum molior pneum quia ulciscor uxor vicis. Aptent facilisi iusto neque nostrud pertineo sed singularis typicus. Cogo esse feugiat gravis patria premo valetudo. Abdo abigo aliquam et facilisis gravis hos jus nisl.\r\n\r\n"
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: destination
+  field_duration:
+    -
+      entity: 2c98dd48-f2d3-4eea-be90-a5413fa71327
+  field_lat_lng:
+    -
+      value: '44.9202345,8.6239312'
+  field_level:
+    -
+      entity: b202ca18-6f0d-43d5-9dac-038b561edb17
+  field_origin:
+    -
+      value: origin
+  field_picture:
+    -
+      entity: 4edc8159-f2f8-45b6-bec3-0e652651a822

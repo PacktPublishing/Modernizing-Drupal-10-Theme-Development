@@ -1,0 +1,6 @@
+label: 'Aggiunta lingue'
+tips:
+  language-add-overview:
+    label: 'Aggiunta lingue'
+  language-add-choose:
+    label: 'Selezionare una lingua'

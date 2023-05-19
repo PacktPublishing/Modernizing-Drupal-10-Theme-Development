@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 49287044-bec7-4f58-97f2-4229cde10723
+  bundle: trip
+  default_langcode: en
+  depends:
+    138893e7-20d4-4c36-a3fb-6db0fd52d57f: taxonomy_term
+    150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f: taxonomy_term
+    b9fb7ee5-36f1-4af7-a74c-535f3aef48b4: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Monviso tour'
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/monviso-tour
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>A trip around the Monviso mountain in Italy can be a truly <span class="text-nord-11">breathtaking</span> experience. Monviso is the highest mountain in the Cottian Alps and is known for its distinctive pyramid shape. Here''s a possible itinerary for a trip around the Monviso mountain:</p><p><span class="text-nord-10 font-bold">Day 1: Arrival in Pian del Re</span><br>The starting point for the trip around Monviso is the small village of Pian del Re, located at an altitude of 2020 meters. You can arrive here by car or by public transport. Once you arrive, you can check into your accommodation and explore the village. Pian del Re is a popular destination for <span class="text-nord-11">hikers</span> and <span class="text-nord-11">skiers</span>, and you can find many facilities for these activities.</p><p><span class="text-nord-10 font-bold">Day 2: Hike to the Viso di Vallanta</span><br>The first day of hiking will take you to the Viso di Vallanta, a peak that offers a <span class="text-nord-11">stunning</span> view of Monviso. The hike is approximately 10 kilometers long and takes about 5 hours. Along the way, you will cross beautiful meadows and forests, and pass by alpine lakes. Once you reach the peak, you can enjoy the stunning panoramic view of Monviso and the surrounding mountains.</p><p><span class="text-nord-10 font-bold">Day 3: Hike to the Monviso Refuge</span><br>The second day of hiking will take you to the Monviso Refuge, which is located at an altitude of 2,740 meters. The hike is approximately 8 kilometers long and takes about 4 hours. Along the way, you will cross a high mountain pass and walk through a <span class="text-nord-11">beautiful alpine valley</span>. Once you reach the refuge, you can rest and enjoy the magnificent view of Monviso and the surrounding glaciers.</p><p><span class="text-nord-10 font-bold">Day 4: Hike to the Quintino Sella Refuge</span>&nbsp;<br>On the third day of hiking, you will make your way to the Quintino Sella Refuge, which is located at an altitude of 2,584 meters. The hike is approximately 12 kilometers long and takes about 6 hours. Along the way, you will cross several high mountain passes and walk through some of the <span class="text-nord-11">most beautiful alpine landscapes</span> in the region. Once you reach the refuge, you can rest and enjoy the view of Monviso and the surrounding peaks.</p><p><span class="text-nord-10 font-bold">Day 5: Hike back to Pian del Re</span><br>On the last day of the trip, you will hike back to Pian del Re. The hike is approximately 10 kilometers long and takes about 5 hours. Along the way, you will retrace some of the paths you took earlier in the trip and enjoy the stunning views of Monviso from a different perspective. Once you arrive back in Pian del Re, you can rest and reflect on the <span class="text-nord-11">amazing journey</span> you just had.</p><p>Overall, a trip around the Monviso mountain is a challenging but incredibly rewarding experience. It offers breathtaking views of the Alps, and the opportunity to explore some of the most beautiful alpine landscapes in Italy.</p>'
+      format: basic_html
+      summary: ''
+  field_destination:
+    -
+      value: 'Pian del Re'
+  field_duration:
+    -
+      entity: 138893e7-20d4-4c36-a3fb-6db0fd52d57f
+  field_lat_lng:
+    -
+      value: '44.7007764,7.091055'
+  field_level:
+    -
+      entity: 150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f
+  field_origin:
+    -
+      value: 'Pian del Re'
+  field_picture:
+    -
+      entity: b9fb7ee5-36f1-4af7-a74c-535f3aef48b4

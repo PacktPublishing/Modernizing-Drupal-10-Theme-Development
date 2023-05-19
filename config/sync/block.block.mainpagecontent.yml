@@ -1,0 +1,20 @@
+uuid: 86841925-cfc7-48dd-9c91-917df8ba5be6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - alps_trips
+id: mainpagecontent
+theme: alps_trips
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

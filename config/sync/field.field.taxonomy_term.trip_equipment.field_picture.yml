@@ -1,0 +1,29 @@
+uuid: abed6203-8ecf-423c-a38e-db05ef61028f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_picture
+    - media.type.image
+    - taxonomy.vocabulary.trip_equipment
+id: taxonomy_term.trip_equipment.field_picture
+field_name: field_picture
+entity_type: taxonomy_term
+bundle: trip_equipment
+label: Picture
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

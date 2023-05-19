@@ -1,0 +1,18 @@
+<table class="mt-10 w-full table-auto border-collapse text-sm">
+  <thead>
+    <tr>
+      {% for header in headers %}
+      <th class="border-b p-4 pl-8 pt-0 pb-3 text-left font-medium text-nord-1">
+        {{ header }}
+      </th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody class="bg-white">
+    <tr>
+      {% for row in rows %}
+      <td class="border-b border-nord-4 p-4 pl-8 text-nord-3">{{ row }}</td>
+      {% endfor %}
+    </tr>
+  </tbody>
+</table>

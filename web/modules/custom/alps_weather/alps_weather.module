@@ -1,0 +1,41 @@
+<?php
+
+/**
+ * Implements hook_help().
+ */
+function alps_weather_help($route_name) {
+  switch ($route_name) {
+    case 'help.page.alps_weather':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The Weather module provides weather information.') . '</p>';
+
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function alps_weather_theme(): array {
+  return [
+    'alps_weather_forecast' => [
+      'variables' => [
+        'forecast' => [],
+        'units' => 'metric',
+      ],
+    ],
+    'alps_weather_details' => [
+      'variables' => [
+        'forecast' => [],
+        'units' => 'metric',
+      ],
+    ],
+    'alps_weather_forecast_single' => [
+      'variables' => [
+        'forecast' => [],
+        'city' => NULL,
+        'units' => 'metric',
+      ],
+    ],
+  ];
+}

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 93455817-2228-4cf9-9c49-ec1467360817
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'Screenshot 2023-04-15 alle 09.50.20.png'
+  uri:
+    -
+      value: 'public://2023-04/Screenshot 2023-04-15 alle 09.50.20_0_1_0_2_1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 906522
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1681545049

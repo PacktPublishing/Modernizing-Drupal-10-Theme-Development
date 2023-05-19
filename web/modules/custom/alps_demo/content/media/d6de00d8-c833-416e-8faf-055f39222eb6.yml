@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d6de00d8-c833-416e-8faf-055f39222eb6
+  bundle: image
+  default_langcode: en
+  depends:
+    dadce62d-2955-4c31-9d7c-0573213bda6d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: trakking_shoes.jpg
+  created:
+    -
+      value: 1682756625
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: dadce62d-2955-4c31-9d7c-0573213bda6d
+      alt: 'Trekking shoes'
+      title: ''
+      width: 1090
+      height: 726

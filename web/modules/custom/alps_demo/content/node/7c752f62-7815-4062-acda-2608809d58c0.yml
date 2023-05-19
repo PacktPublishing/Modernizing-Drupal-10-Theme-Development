@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7c752f62-7815-4062-acda-2608809d58c0
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Privacy policy'
+  created:
+    -
+      value: 1676194846
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p><strong>Introduction:</strong></p><p>This privacy policy outlines the information that [Website Name] collects, how we use and protect that information, and the choices you have regarding the collection and use of such information. By accessing or using [Website Name] you agree to the terms of this privacy policy. If you do not agree with the terms outlined in this policy, please do not use [Website Name].&nbsp;</p><p>&nbsp;</p><p><strong>Information Collection:</strong></p><p>[Website Name] may collect personal information from users in a variety of ways, including, but not limited to, when users visit our site, register on the site, fill out a form, respond to a survey, and in connection with other activities, services, features or resources we make available on our site. Personal information may include, but is not limited to, name, email address, postal address, phone number and credit card information.&nbsp;</p><p>&nbsp;</p><p><strong>Use of Information:</strong></p><p>The information collected by [Website Name] may be used in one of the following ways:</p><ul><li>To personalize user experience and to allow us to deliver the type of content and product offerings in which you are most interested.</li><li>To improve our website in order to better serve you.</li><li>To allow us to better respond to your customer service requests and support needs.</li><li>To administer a contest, promotion, survey or other site feature.</li><li>To send periodic emails regarding new products, special offers or other information which we think you may find interesting using the email address which you have provided.</li></ul><p>&nbsp;</p><p><strong>Protection of Information:</strong></p><p>[Website Name] implements a variety of security measures to maintain the safety of your personal information. Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential.</p><p>&nbsp;</p><p><strong>Third-Party Disclosures:</strong></p><p>[Website Name] does not sell, trade, or otherwise transfer to outside parties your personally identifiable information unless we provide you with advance notice. This does not include website hosting partners and other parties who assist us in operating our website, conducting our business, or serving our users, so long as those parties agree to keep this information confidential. We may also release information when its release is appropriate to comply with the law, enforce our site policies, or protect ours or others' rights, property or safety.</p><p>&nbsp;</p><p><strong>Links to Other Sites:</strong>&nbsp;</p><p>Our site may contain links to other sites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the privacy policy of every site you visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services.</p>"
+      format: basic_html
+      summary: ''

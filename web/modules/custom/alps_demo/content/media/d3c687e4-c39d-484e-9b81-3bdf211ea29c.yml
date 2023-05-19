@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: d3c687e4-c39d-484e-9b81-3bdf211ea29c
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    283e3881-0f2d-48d7-8ea8-dc75df45c7df: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 2-slide-mnt-blanc-area-glacier-ibex-pano.jpg
+  created:
+    -
+      value: 1680368047
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 283e3881-0f2d-48d7-8ea8-dc75df45c7df
+      alt: 'The Houte Route'
+      title: ''
+      width: 1284
+      height: 700

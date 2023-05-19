@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 837ddf55-6114-4c60-9197-afc9f1e3b1f3
+  bundle: image
+  default_langcode: en
+  depends:
+    94bdf43d-5f09-44c0-8e5e-1554e2f6d532: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: stars.jpg
+  created:
+    -
+      value: 1676920881
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 94bdf43d-5f09-44c0-8e5e-1554e2f6d532
+      alt: 'Mountain with milky way behind'
+      title: ''
+      width: 4096
+      height: 2733

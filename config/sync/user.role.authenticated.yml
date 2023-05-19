@@ -1,0 +1,22 @@
+uuid: 0f1b6315-2306-4204-bbfe-c04604fa26e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - file
+    - media
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'delete own files'
+  - 'view media'

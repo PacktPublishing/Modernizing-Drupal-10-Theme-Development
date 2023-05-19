@@ -1,0 +1,39 @@
+uuid: 315df483-7f66-480d-bff6-c28a662af229
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contents
+    - paragraphs.paragraphs_type.card
+    - paragraphs.paragraphs_type.grid
+    - paragraphs.paragraphs_type.trip_list
+  module:
+    - entity_reference_revisions
+id: paragraph.grid.field_contents
+field_name: field_contents
+entity_type: paragraph
+bundle: grid
+label: Contents
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      card: card
+      trip_list: trip_list
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 3
+        enabled: true
+      grid:
+        weight: 4
+        enabled: false
+      trip_list:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

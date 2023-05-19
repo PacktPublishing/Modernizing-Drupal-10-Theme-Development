@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0a78d7c0-14b8-477f-9ae3-6b57f5e96f8f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cortina_ampezzo.jpg
+  uri:
+    -
+      value: 'public://2023-04/cortina_ampezzo_0_3_0_1_0_2_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 272017
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1680368646

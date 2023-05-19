@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 31fb5660-ec44-4f6c-80ee-9ffb4205c7c9
+  bundle: image
+  default_langcode: en
+  depends:
+    391f6d0c-24d5-48fb-910b-a7bae567b2fb: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: rain_jacket.jpeg
+  created:
+    -
+      value: 1682761380
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 391f6d0c-24d5-48fb-910b-a7bae567b2fb
+      alt: 'Rain jacket'
+      title: ''
+      width: 1090
+      height: 727

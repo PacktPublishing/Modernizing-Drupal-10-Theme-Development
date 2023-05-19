@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Export demo contents
+## Usage: export-contents
+
+rm -rf modules/custom/alps_demo/content
+drush dcer media --folder=modules/custom/alps_demo/content
+drush dcer taxonomy_term --folder=modules/custom/alps_demo/content
+drush dcer node --folder=modules/custom/alps_demo/content
+drush dcer menu_link_content --folder=modules/custom/alps_demo/content
+drush dcer block_content --folder=modules/custom/alps_demo/content

@@ -1,0 +1,32 @@
+uuid: bb30ccdb-4f10-4ca0-a2ae-0291bef270c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.search_index
+    - field.field.node.offer.body
+    - field.field.node.offer.field_new_price
+    - field.field.node.offer.field_old_price
+    - node.type.offer
+  module:
+    - text
+    - user
+id: node.offer.search_index
+targetEntityType: node
+bundle: offer
+mode: search_index
+content:
+  body:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_new_price: true
+  field_old_price: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

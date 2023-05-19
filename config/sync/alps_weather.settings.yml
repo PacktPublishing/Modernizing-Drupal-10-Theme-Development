@@ -1,0 +1,6 @@
+_core:
+  default_config_hash: xsb1MHdH5lro8EHcsVA7G2KOsdaXQfs50EJTpLWuLWI
+url: 'http://api.openweathermap.org/data/2.5/forecast'
+api_key: e48e7caf838a70d5cfa6fb5f6206013d
+units: metric
+cnt: 5

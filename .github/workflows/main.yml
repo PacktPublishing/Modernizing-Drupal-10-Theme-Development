@@ -1,0 +1,27 @@
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Clone the code
+        uses: actions/checkout@v1
+      - name: Install DDEV
+        uses: jonaseberle/github-action-setup-ddev@v1
+      - name: Build the website
+        run: ddev build
+      - name: Check for JavaScript coding standard
+        run: ddev yarn --cwd=web/themes/custom/alps_trips lint:js
+      - name: Check for CSS coding standard
+        run: ddev yarn --cwd=web/themes/custom/alps_trips lint:css
+      - name: Check for PHP coding standard
+        run: ddev composer run-script lint:php
+      - run: docker ps
+      - run: docker network ls
+      - name: Run BackstopJs tests
+        uses: addnab/docker-run-action@v3
+        with:
+          image: backstopjs/backstopjs:6.1.4
+          options: -v ${{ github.workspace }}/.ddev/tests:/src
+          run: |
+            ls -la

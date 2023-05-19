@@ -1,0 +1,29 @@
+uuid: 3fff0f03-d956-4d0e-bf22-3a30ad25d518
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.promotions
+  module:
+    - system
+    - views
+  theme:
+    - alps_trips
+id: alps_trips_views_block__promotions_block_1
+theme: alps_trips
+region: sidebar
+weight: -6
+provider: null
+plugin: 'views_block:promotions-block_1'
+settings:
+  id: 'views_block:promotions-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /trips

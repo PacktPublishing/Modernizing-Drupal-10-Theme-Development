@@ -1,0 +1,7 @@
+{{ attach_library('alps_trips/map') }}
+
+{{ include('@atoms/map.html.twig', {
+  'lat': lat,
+  'lng': lng,
+  'text': text,
+}) }}

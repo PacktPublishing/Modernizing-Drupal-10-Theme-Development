@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2c4e17af-f5a2-4387-ade8-f15829f65f19
+  bundle: offer
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Summer offer'
+  created:
+    -
+      value: 1681567765
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Summer Promo - Discover the Majestic Alps</p><p>Get ready to experience the Alps in all its glory! Plan your summer trip now and take advantage of our exclusive summer promotion. Enjoy breathtaking views, fresh mountain air, and a myriad of outdoor activities.</p><p>Here’s what we have in store for you:</p><p>- A 7-night stay at a cozy and comfortable hotel in the heart of the Alps<br>- Daily breakfast and dinner, featuring local and seasonal ingredients<br>- Guided hikes and mountain walks, with the option to explore on your own<br>- Access to top-tier facilities, including a swimming pool, sauna, and fitness center<br>- Complimentary pick-up and drop-off from the nearest airport or train station</p><p>Book now and benefit from our discounted rates. Starting from just $999 per person, this is the best time to discover the majestic Alps. Don't wait; this promotion won’t last forever!</p><p>Contact us today to book your summer escape to the stunning Alps.</p>"
+      format: basic_html
+      summary: ''
+  field_new_price:
+    -
+      value: 999.0
+  field_old_price:
+    -
+      value: 2000.0

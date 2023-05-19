@@ -1,0 +1,6 @@
+#!/bin/bash
+
+## Description: Run BackstopJS commands.
+## Usage: backstop [command]
+
+docker run -it -v $(pwd)/.ddev/tests:/src --network=ddev-${DDEV_PROJECT}_default backstopjs/backstopjs:6.2.1 $@ --config=/src/backstop.json

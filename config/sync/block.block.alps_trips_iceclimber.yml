@@ -1,0 +1,33 @@
+uuid: 1cf0c099-fa56-41cf-97c1-a63e5266141a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner:c15f2fe1-f5ab-4ff9-b6a7-9c9933d4d895'
+  module:
+    - block_content
+    - node
+  theme:
+    - alps_trips
+id: alps_trips_iceclimber
+theme: alps_trips
+region: sidebar
+weight: -4
+provider: null
+plugin: 'block_content:c15f2fe1-f5ab-4ff9-b6a7-9c9933d4d895'
+settings:
+  id: 'block_content:c15f2fe1-f5ab-4ff9-b6a7-9c9933d4d895'
+  label: 'Ice climber'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      trip: trip

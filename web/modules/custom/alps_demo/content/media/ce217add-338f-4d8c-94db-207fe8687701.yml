@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: ce217add-338f-4d8c-94db-207fe8687701
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    e3ea1491-f025-469e-9454-5259825d33e1: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: tre_cime_di_lavaredo.jpg
+  created:
+    -
+      value: 1676918641
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_caption:
+    -
+      value: 'Tre cime di Lavaredo'
+  field_media_image:
+    -
+      entity: e3ea1491-f025-469e-9454-5259825d33e1
+      alt: 'Tre cime di Lavaredo'
+      title: ''
+      width: 3434
+      height: 1965

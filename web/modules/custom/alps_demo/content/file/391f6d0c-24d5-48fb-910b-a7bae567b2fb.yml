@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 391f6d0c-24d5-48fb-910b-a7bae567b2fb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: rain_jacket.jpeg
+  uri:
+    -
+      value: 'public://2023-04/rain_jacket.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 110633
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1682761380

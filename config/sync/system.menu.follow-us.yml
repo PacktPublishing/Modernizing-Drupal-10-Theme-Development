@@ -1,0 +1,8 @@
+uuid: 3908e045-6255-4b00-9766-aac54951e1aa
+langcode: en
+status: true
+dependencies: {  }
+id: follow-us
+label: 'Follow Us'
+description: 'Footer links for follow us'
+locked: false

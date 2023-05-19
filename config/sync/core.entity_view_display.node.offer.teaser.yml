@@ -1,0 +1,36 @@
+uuid: 1e07458a-3a08-4c53-9d0a-a6bc9358a9a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.offer.body
+    - field.field.node.offer.field_new_price
+    - field.field.node.offer.field_old_price
+    - node.type.offer
+  module:
+    - text
+    - user
+id: node.offer.teaser
+targetEntityType: node
+bundle: offer
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_new_price: true
+  field_old_price: true
+  langcode: true
+  search_api_excerpt: true

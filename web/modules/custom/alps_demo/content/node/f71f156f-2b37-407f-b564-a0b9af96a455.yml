@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f71f156f-2b37-407f-b564-a0b9af96a455
+  bundle: trip
+  default_langcode: en
+  depends:
+    2c98dd48-f2d3-4eea-be90-a5413fa71327: taxonomy_term
+    5fc5b5d9-5b79-4e66-8169-ab648bd9769b: taxonomy_term
+    e87cc62c-5267-449f-8413-c53f0f95b4aa: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: "Cortina d'Ampezzo"
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/cortina-dampezzo
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "Iaceo inhibeo iusto lucidus mauris venio vulpes. Appellatio iusto iustum quidem. Comis consectetuer dignissim erat mos nibh proprius ut. Aliquip eum gravis oppeto utinam. Facilisis oppeto patria quidem ut utinam velit. Dolor humo tation. Aliquip neque olim paulatim tamen velit. Accumsan blandit et imputo nulla persto quadrum rusticus tamen velit.\r\n\r\nBene facilisi lucidus neque odio vindico. Amet consectetuer feugiat inhibeo iusto letalis nibh patria quadrum quibus. Appellatio comis letalis mauris nunc paratus pertineo similis vicis.\r\n\r\nCapto iaceo natu quia vulpes. Accumsan aliquam hendrerit suscipere. Aliquam dignissim erat pneum. Antehabeo defui dolus ea importunus occuro premo tincidunt venio vicis. Abigo autem duis ex jumentum persto. Ibidem patria valde. Caecus causa consectetuer consequat fere nobis qui tincidunt. Abbas ideo modo mos odio saluto. Comis consequat quae tamen. Haero quae quidem sit. Commodo facilisis letalis sed venio.\r\n\r\nAbico appellatio iusto olim pagus pecus sed utinam voco. Ad adipiscing feugiat letalis natu si tation. Blandit esca hos melior proprius velit virtus. Decet ea elit olim paulatim si tum ut veniam wisi. Exerci immitto imputo magna neo roto.\r\n\r\nDamnum iaceo uxor. Augue metuo natu quae. Caecus commodo euismod exerci fere imputo in tego tincidunt vulputate. Accumsan iustum voco. Nimis quidem refoveo. Cogo damnum decet in lobortis melior premo vel.\r\n\r\nDolor loquor paratus pneum. Adipiscing at oppeto quadrum rusticus tum. Augue eligo interdico olim refero. Aptent comis commoveo feugiat illum in quae sit valde. Conventio feugiat in proprius. Defui eligo nobis refero secundum si sudo voco volutpat vulputate. Abdo iaceo nunc.\r\n\r\nDecet populus premo refoveo roto saluto scisco ut. Diam dignissim loquor quidem refero tation. Adipiscing aliquip incassum lucidus melior molior nimis rusticus suscipit. Adipiscing cui lenis metuo probo vereor. Acsi aliquip ea euismod facilisis ille interdico premo.\r\n\r\nMacto tego zelus. Abico ibidem praesent virtus. Bene consectetuer consequat torqueo turpis zelus. Inhibeo iusto laoreet meus nulla tation usitas vero. Augue quidne suscipit. Abico exputo facilisi humo nisl nutus ulciscor. Ad et loquor minim premo quibus suscipere tincidunt verto. Abluo blandit diam erat exerci pala patria typicus vicis vulpes.\r\n\r\nConventio neo neque populus praesent si voco. Incassum premo probo. Eros neque quibus utinam. Exputo populus refoveo te. Aliquam amet conventio jugis lenis melior nostrud sagaciter utrum. Melior refero ut. Roto tation utrum valde vindico. Consectetuer dolor humo iaceo jus os ratis singularis tation valetudo.\r\n\r\nAliquam defui exputo immitto mauris virtus. Commodo neque ymo. Ille quidne singularis. Blandit lenis mauris nibh olim paulatim sit. Gemino humo lenis obruo tum.\r\n\r\nDuis iustum meus sit. Pecus quae refero venio. Aptent distineo mauris neque vereor. Decet distineo saepius sit. Eros ex neque praemitto quidne sed tincidunt turpis valde verto. Abluo cogo gilvus modo pala valde. Abico adipiscing aptent consectetuer mauris neque nunc os scisco vulputate. Adipiscing feugiat incassum mauris minim tamen typicus. At augue comis fere ideo singularis tego turpis vicis volutpat.\r\n\r\nCommoveo eros facilisis patria. Amet haero humo iusto patria pneum quidne secundum ulciscor. Facilisis fere ideo interdico paratus pecus scisco sit validus. Brevitas gilvus jugis. Capto defui feugiat hos premo proprius quibus. Dignissim exerci neo quibus refero saepius vereor. Abdo genitus quae sagaciter sed usitas. Damnum duis elit obruo suscipit torqueo vicis zelus. Defui facilisi lenis probo quia tation.\r\n\r\n"
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: "Cortina d'Ampezzo"
+  field_duration:
+    -
+      entity: 2c98dd48-f2d3-4eea-be90-a5413fa71327
+  field_lat_lng:
+    -
+      value: '44.9202345,8.6239312'
+  field_level:
+    -
+      entity: 5fc5b5d9-5b79-4e66-8169-ab648bd9769b
+  field_origin:
+    -
+      value: "Cortina d'Ampezzo"
+  field_picture:
+    -
+      entity: e87cc62c-5267-449f-8413-c53f0f95b4aa

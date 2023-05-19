@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 64843efa-ae3d-4c8f-b295-dadc5caa3228
+  bundle: trip
+  default_langcode: en
+  depends:
+    bf4165b8-beff-4758-8dbb-549a2cb65ee1: taxonomy_term
+    150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f: taxonomy_term
+    4b3c343d-39c2-41ac-a182-fe86cd7e8ee0: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Cervino
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/cervino
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "Consectetuer eligo inhibeo sed. Comis huic molior neo. Damnum gilvus lucidus. Esca exerci magna minim oppeto patria pneum quidem refero sino. Esca exerci vero. Abico distineo gravis minim quidne similis tego utrum. Capto facilisi facilisis. Decet fere minim modo.\r\n\r\nHaero ideo nisl ulciscor usitas wisi. Neo roto ymo. Abbas facilisi macto. Commoveo iaceo iriure jumentum. Decet volutpat zelus. Camur dolore nibh nostrud occuro praemitto quis refero tincidunt vulputate. Dolore neo veniam. Eligo facilisis ideo plaga velit veniam.\r\n\r\nCogo cui defui ex exerci nimis os quis tincidunt. Gilvus hendrerit illum. Dolus esse hos magna nibh paulatim qui virtus. Blandit causa laoreet nimis pagus qui ratis turpis. Ex iriure laoreet metuo verto.\r\n\r\nAbbas causa ludus qui. Laoreet magna sagaciter suscipere tation. Aliquip imputo lenis macto modo proprius sudo venio. Blandit diam ea hos paulatim tego ut validus. Dignissim esca hendrerit luctus neque nisl quia ratis tation torqueo.\r\n\r\nAppellatio dolore dolus immitto luctus mauris refoveo. Consequat ex ille probo quidem similis ymo. Ad bene euismod populus vero. Abigo appellatio usitas ymo. Damnum dignissim refoveo saepius.\r\n\r\nConventio eligo esca iusto lucidus nobis tego venio vulputate. Abigo aliquam elit esca hos neque oppeto premo voco. Abigo esca imputo pertineo quibus vel. Enim haero humo in plaga tincidunt venio voco.\r\n\r\nDamnum elit patria scisco. Causa lenis magna minim molior os ulciscor virtus. Esca neo sagaciter si. Et immitto pagus pala pneum probo. Augue commodo erat eum exerci vereor. Diam euismod huic nunc probo quis ullamcorper usitas vel. Brevitas iustum utinam velit vulpes.\r\n\r\nProprius refero usitas. Adipiscing distineo dolor ex ille jus lucidus quis sit valetudo. Et importunus interdico premo usitas ut valetudo. Augue capto humo magna mauris obruo quae singularis ullamcorper. Gravis interdico lobortis mauris nunc pala premo similis validus. Erat genitus premo quibus quis verto. Diam jugis modo nimis nobis olim vindico.\r\n\r\nAbbas capto commoveo dolore mos patria quis refoveo torqueo. Abluo genitus ibidem macto oppeto tego. Hos ille lucidus pneum proprius roto singularis utinam vulpes vulputate. Accumsan consequat erat pertineo quae. Cogo commoveo elit magna neque refero roto sed.\r\n\r\nErat nulla persto quidne sit volutpat. Commodo loquor nobis sino tamen venio vero. Commodo damnum dolore loquor. Immitto nunc praesent quis roto secundum. Abluo eros humo ille pagus.\r\n\r\nAbico commodo mauris quibus sed si. Immitto in paratus. Gemino paulatim ratis suscipit veniam. Ad haero iusto persto premo tamen velit. Augue erat melior praesent. Blandit defui gilvus gravis ludus melior quae refero roto. Diam haero interdico sed. Autem defui hendrerit illum in magna nutus odio paulatim valetudo. Amet comis magna zelus. Esca nisl occuro volutpat.\r\n\r\nEu illum tego verto. Decet esca similis utrum. Gemino refoveo similis. Eros exerci iusto macto mauris neque os. Euismod olim persto tamen. Ad appellatio camur feugiat hos ibidem jumentum suscipit.\r\n\r\n"
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: destination
+  field_duration:
+    -
+      entity: bf4165b8-beff-4758-8dbb-549a2cb65ee1
+  field_lat_lng:
+    -
+      value: '44.9202345,8.6239312'
+  field_level:
+    -
+      entity: 150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f
+  field_origin:
+    -
+      value: origin
+  field_picture:
+    -
+      entity: 4b3c343d-39c2-41ac-a182-fe86cd7e8ee0

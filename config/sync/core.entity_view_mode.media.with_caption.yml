@@ -1,0 +1,10 @@
+uuid: 2bf0bf6f-ef83-4c15-b80c-ebafb3326378
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.with_caption
+label: 'With caption'
+targetEntityType: media
+cache: true

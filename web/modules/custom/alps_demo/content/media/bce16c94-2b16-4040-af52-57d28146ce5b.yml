@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bce16c94-2b16-4040-af52-57d28146ce5b
+  bundle: image
+  default_langcode: en
+  depends:
+    176c2176-af1c-4643-ba93-392f01c79c4a: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: booking.jpg
+  created:
+    -
+      value: 1676920978
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 176c2176-af1c-4643-ba93-392f01c79c4a
+      alt: 'Men at an airport'
+      title: ''
+      width: 3648
+      height: 2241

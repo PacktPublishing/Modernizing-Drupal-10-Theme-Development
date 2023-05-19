@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 176c2176-af1c-4643-ba93-392f01c79c4a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: booking.jpg
+  uri:
+    -
+      value: 'public://2023-02/booking_4_21_3_0_1_0_2_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 319154
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1676920978

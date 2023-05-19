@@ -1,0 +1,29 @@
+uuid: 0e106af1-bbbd-48b8-9a98-dcd10eb069f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_equipment
+    - taxonomy.vocabulary.level
+    - taxonomy.vocabulary.trip_equipment
+id: taxonomy_term.level.field_equipment
+field_name: field_equipment
+entity_type: taxonomy_term
+bundle: level
+label: Equipment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      trip_equipment: trip_equipment
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

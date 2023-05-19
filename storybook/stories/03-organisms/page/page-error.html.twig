@@ -1,0 +1,24 @@
+<div class="mx-10 mb-5 max-w-5xl lg:mx-auto">
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+
+    <div class="gap-4 md:flex">
+      <div class="min-w-0 flex-1">
+        <section class="flex items-center h-full p-8">
+          <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+            <div class="max-w-md text-center">
+              <h2 class="mb-8 font-extrabold text-9xl text-nord-1">
+                <span class="sr-only">{{ srMessage }}</span>{{ errorCode }}
+              </h2>
+              <p class="text-2xl font-semibold md:text-3xl text-nord-3">{{ message1 }}</p>
+              <p class="mt-4 mb-8 text-nord-3">{{ message2 }}</p>
+              <a rel="noopener noreferrer" href="{{ url }}" class="px-8 py-3 font-semibold rounded text-nord-3">{{ cta }}</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </main>
+</div>

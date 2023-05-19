@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Theme override to display a media item.
+ *
+ * Available variables:
+ * - name: Name of the media.
+ * - content: Media content.
+ *
+ * @see template_preprocess_media()
+ *
+ * @ingroup themeable
+ */
+#}
+{{ include('@molecules/picture-with-caption.html.twig', {
+  'picture': content.field_media_image,
+  'caption': content.field_caption,
+}) }}

@@ -1,0 +1,43 @@
+uuid: e89ae38e-49f7-4b91-a7cd-602c60a822f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_contents
+    - paragraphs.paragraphs_type.slide
+    - paragraphs.paragraphs_type.slider
+  module:
+    - entity_reference_revisions
+id: paragraph.slider.field_contents
+field_name: field_contents
+entity_type: paragraph
+bundle: slider
+label: Slides
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      slide: slide
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 7
+        enabled: false
+      grid:
+        weight: 8
+        enabled: false
+      slide:
+        weight: 6
+        enabled: true
+      slider:
+        weight: 9
+        enabled: false
+      trip_list:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

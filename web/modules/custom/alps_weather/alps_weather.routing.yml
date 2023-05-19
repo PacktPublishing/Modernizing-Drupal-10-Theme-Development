@@ -1,0 +1,23 @@
+alps_weather.settings:
+  path: '/admin/config/system/alps-weather'
+  defaults:
+    _title: 'Weather Settings'
+    _form: 'Drupal\alps_weather\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+alps_weather.forecast:
+  path: '/forecast/{city}'
+  defaults:
+    _title: 'Forecast'
+    _controller: '\Drupal\alps_weather\Controller\ForecastController::page'
+  requirements:
+    _permission: 'access content'
+
+alps_weather.details:
+  path: '/weather/{city}/{date}'
+  defaults:
+    _title: 'Weather'
+    _controller: '\Drupal\alps_weather\Controller\ForecastController::details'
+  requirements:
+    _permission: 'access content'

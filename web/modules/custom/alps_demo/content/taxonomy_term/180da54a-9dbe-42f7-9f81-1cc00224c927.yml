@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 180da54a-9dbe-42f7-9f81-1cc00224c927
+  bundle: trip_equipment
+  default_langcode: en
+  depends:
+    7cde5c8d-b35b-4955-a4f2-010d662fe8b9: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Compass
+  description:
+    -
+      value: '<p>A compass is a crucial tool for navigation on a mountain trip, especially in areas where trails may not be well-defined or marked, or when visibility is poor due to weather conditions.</p>'
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_picture:
+    -
+      entity: 7cde5c8d-b35b-4955-a4f2-010d662fe8b9

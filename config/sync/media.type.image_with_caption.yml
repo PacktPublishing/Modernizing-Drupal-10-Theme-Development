@@ -1,0 +1,14 @@
+uuid: e6bfeba0-747e-4daf-9ad6-b496c8800f52
+langcode: en
+status: true
+dependencies: {  }
+id: image_with_caption
+label: 'Image with caption'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map:
+  name: name

@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 10f1a9b8-952e-4cc6-bea4-cbbcb4ba7abb
+  bundle: trip
+  default_langcode: en
+  depends:
+    baeb7428-4a49-4ac1-b60d-74bb74d9f162: taxonomy_term
+    b202ca18-6f0d-43d5-9dac-038b561edb17: taxonomy_term
+    d3c687e4-c39d-484e-9b81-3bdf211ea29c: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Haute Route'
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/haute-route
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "The Haute Route is a famous trekking trail that connects Chamonix in France to Zermatt in Switzerland. The trek takes around 10 days and passes through stunning mountain scenery, including the Mont Blanc massif and the Matterhorn\r\n\r\nEu iaceo nutus praemitto quis saepius. Abbas ea luctus luptatum saepius validus. Caecus capto decet dignissim nutus persto proprius quadrum sagaciter te. Brevitas camur esca eu illum meus nobis olim quis.\r\n\r\nImportunus minim mos odio sino torqueo tum virtus zelus. Acsi augue lucidus oppeto os plaga sit sudo utinam velit. Conventio jugis si tamen tum vulpes. Blandit dignissim fere interdico quibus tation. Abluo cogo exputo lobortis neque paratus praemitto saluto suscipit venio. Adipiscing at causa damnum huic probo quibus te.\r\n\r\nAbbas diam iriure luctus occuro premo quidne. Acsi commoveo ex gemino hendrerit immitto refoveo suscipere tation. Abico accumsan lobortis premo probo secundum turpis valde veniam venio. Antehabeo aptent comis defui gravis iaceo metuo sagaciter saluto vero. Abluo commodo facilisis laoreet nulla quidem venio.\r\n\r\nImmitto olim venio. Abico ad ibidem sino ut vulpes. Illum in verto. Abluo dolus elit gilvus nulla pertineo rusticus tego venio virtus. Appellatio decet in iustum proprius quae quia singularis utrum. Exerci importunus usitas utinam. Capto defui distineo haero lobortis minim nimis torqueo vereor. Duis iaceo odio ratis singularis zelus. Cogo dolus luptatum proprius sit.\r\n\r\nAntehabeo brevitas lenis nunc pala veniam. Capto modo neque nobis sudo. Abbas bene damnum ea humo natu secundum ut. Abdo amet autem camur magna mos paratus sino suscipit. Conventio defui patria paulatim pecus tation tego validus.\r\n\r\nCamur conventio damnum et hendrerit paratus pertineo sed ulciscor vereor. Interdico natu oppeto patria praemitto tation veniam. Dolore esca immitto wisi. Causa consequat eligo esse huic incassum premo turpis virtus.\r\n\r\nDuis os ullamcorper. Abbas adipiscing comis conventio esca paulatim probo refero valde. Amet aptent consequat laoreet macto vulputate zelus. Exerci natu quidne. Acsi olim pagus populus quadrum suscipit te ulciscor vulputate.\r\n\r\nAugue conventio enim magna paratus pertineo quis utinam virtus ymo. Abluo duis incassum quidne rusticus. Aliquip dolore ludus paratus refoveo venio vulputate. Antehabeo cui fere feugiat te tincidunt verto. Importunus saepius vulpes. Antehabeo at pertineo typicus. Hos iusto mauris modo. At ludus nimis. Abico distineo lucidus singularis. Ad aliquip cogo facilisis immitto natu premo.\r\n\r\nAutem commodo nibh nunc usitas. Amet huic neo pagus valetudo vero. Enim iusto lucidus nobis paulatim saluto si validus verto. Amet caecus scisco sed virtus. Caecus cogo gemino ideo jugis letalis luptatum nimis quadrum vulputate.\r\n\r\nConsequat cui in proprius quibus sino sudo ut validus. Abluo ideo plaga praemitto ratis sed ut vulpes. Abbas quadrum secundum volutpat wisi. Abico blandit gravis humo neque sagaciter.\r\n\r\nAbigo camur dolor pneum vindico. Elit fere loquor nibh quidem secundum suscipere. Augue consectetuer in. Importunus pagus secundum singularis volutpat.\r\n\r\n"
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: destination
+  field_duration:
+    -
+      entity: baeb7428-4a49-4ac1-b60d-74bb74d9f162
+  field_lat_lng:
+    -
+      value: '44.9202345,8.6239312'
+  field_level:
+    -
+      entity: b202ca18-6f0d-43d5-9dac-038b561edb17
+  field_origin:
+    -
+      value: origin
+  field_picture:
+    -
+      entity: d3c687e4-c39d-484e-9b81-3bdf211ea29c

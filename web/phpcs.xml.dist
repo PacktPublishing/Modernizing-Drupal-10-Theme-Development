@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset>
+  <arg name="extensions" value="inc,install,module,php,profile,test,theme,yml"/>
+  <exclude-pattern>*/node_modules/*</exclude-pattern>
+  <rule ref="Drupal"/>
+  <rule ref="DrupalPractice"/>
+</ruleset>

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 283e3881-0f2d-48d7-8ea8-dc75df45c7df
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 2-slide-mnt-blanc-area-glacier-ibex-pano.jpg
+  uri:
+    -
+      value: 'public://2023-04/2-slide-mnt-blanc-area-glacier-ibex-pano_3_0_1_0_2_1.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 255154
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1680368047
