@@ -35,17 +35,17 @@ default:
       value: true
   path:
     -
-      alias: /trip/tre-cime-di-lavaredo
+      alias: ''
       langcode: en
-      pathauto: 1
+      pathauto: 0
   body:
     -
-      value: "Capto exerci illum luptatum saluto sit. Acsi nunc pecus persto valetudo veniam verto. Eum loquor turpis vulputate. Camur consequat meus nutus quidem sudo ulciscor. Bene ex facilisi refero sagaciter usitas velit. Bene letalis roto similis vel.\r\n\r\nAcsi bene decet dolus nutus patria ut. Acsi conventio laoreet lenis nibh nulla torqueo vero. Exerci fere gilvus humo lenis meus qui quidne tincidunt. Abico eum exerci illum in praesent. Elit iusto lenis persto premo sudo tamen validus.\r\n\r\nAliquam augue causa rusticus tincidunt velit. Diam nimis sit verto. Antehabeo camur inhibeo olim pagus quis tamen. Dolore feugiat lucidus. Aliquip fere importunus inhibeo lucidus oppeto quidne tation utrum validus. Immitto iustum odio saepius vicis. Adipiscing bene decet gravis magna paulatim quae tego zelus. Cui eu letalis neo proprius. Abigo fere immitto nobis olim scisco sit tego validus. Antehabeo comis duis incassum iustum nunc uxor zelus.\r\n\r\nEum occuro os validus vulputate. Distineo lenis os quibus typicus. Genitus macto similis. Gilvus luctus odio os. Acsi antehabeo augue dolor gemino jumentum. Aliquip nisl saepius. Huic jumentum pala saepius sagaciter vindico vulputate. Abdo abico commodo saepius tum. Distineo volutpat ymo. Jugis suscipit tation tego. Brevitas enim eros haero iustum letalis odio sino zelus. Molior refoveo virtus.\r\n\r\nConventio cui exputo inhibeo nimis pneum ullamcorper valde. Capto cogo ideo pala similis. Abigo brevitas modo quadrum saepius wisi. Abdo aliquip imputo nobis roto sudo uxor velit wisi. Abdo ad at cogo fere loquor luptatum patria plaga vulpes.\r\n\r\nAd autem blandit esca neo proprius vel. Hos ille jus pneum. In minim nibh nutus olim populus. Genitus humo jus melior neque. Commoveo damnum minim tincidunt torqueo utinam. Eu plaga sudo. Abluo ad autem eu loquor ludus os paratus persto.\r\n\r\nEligo eu humo melior pecus. Dignissim ex premo quis scisco ut utinam voco. Natu torqueo valde. Bene dolor gemino gravis ibidem imputo iriure pagus praesent. Autem consectetuer defui erat facilisis haero laoreet suscipere veniam vereor.\r\n\r\nAliquip gravis iaceo iustum lucidus zelus. Autem brevitas consequat loquor ulciscor vero vulputate. Camur gilvus torqueo tum vulpes. Diam in jus similis vindico ymo. Amet capto gravis humo importunus natu nobis tego valetudo.\r\n\r\nEligo eum ludus natu obruo refoveo tincidunt usitas. Exputo iusto occuro singularis valetudo validus vel. Pneum praemitto rusticus sit. Gemino loquor modo turpis utinam vel. Camur defui enim jumentum modo neque. Dolore duis importunus luptatum quidne suscipere.\r\n\r\nExerci praemitto qui. Erat inhibeo obruo praemitto. Abico eligo eu huic illum natu pertineo. Aptent dolor enim metuo paratus paulatim. Conventio defui te valetudo. Acsi dignissim jugis persto proprius tation tego.\r\n\r\nCommoveo eligo elit facilisis jugis minim populus saluto. Abluo hendrerit plaga ratis suscipere. Cogo commoveo facilisis olim pneum. Accumsan aliquip antehabeo capto esse eu imputo tamen utrum. Adipiscing distineo duis gemino hos odio virtus vulpes wisi. Appellatio brevitas consequat elit euismod gravis nibh rusticus. Aptent capto consequat jugis quia quibus secundum vel.\r\n\r\nDiam ea minim neque. Cogo enim eros facilisi pala paratus premo utrum vereor. Abluo conventio dolor refero roto scisco vulpes. Ad obruo populus proprius valde. Consequat feugiat letalis quis roto. Cogo ideo importunus suscipere ullamcorper vindico. Amet commoveo fere inhibeo letalis. Ea nisl pneum te. Hendrerit importunus jus similis singularis sudo tincidunt venio.\r\n\r\n"
+      value: "Welcome to the awe-inspiring realm of the Tre Cime di Lavaredo, a triumvirate of iconic peaks nestled within the captivating Dolomite mountain range. Prepare to embark on a journey of unparalleled beauty and discover a landscape that will ignite your imagination and leave you in awe.\r\n\r\nLocated in the heart of the Italian Alps, the Tre Cime di Lavaredo, also known as the Three Peaks of Lavaredo, stand as majestic sentinels, reaching for the heavens. These towering limestone spires, bathed in hues of pink and gold during sunrise and sunset, create a mesmerizing spectacle that has captivated artists, adventurers, and nature enthusiasts for generations.\r\n\r\nAs you approach the Tre Cime di Lavaredo, anticipation builds. The serpentine mountain roads guide you through verdant valleys, picturesque alpine meadows, and dense forests, offering glimpses of the majestic peaks that lie ahead. The air becomes crisper, carrying the scent of pine and the promise of adventure.\r\n\r\nUpon arrival, you are greeted by the breathtaking trio of peaks, their jagged silhouettes commanding attention against the backdrop of the clear blue sky. The grandeur and scale of the Tre Cime di Lavaredo leave an indelible impression, evoking a sense of reverence for the raw power of nature.\r\n\r\nBegin your exploration with a hike along the well-maintained trails that weave their way through this alpine paradise. As you ascend, the landscape unfolds, revealing panoramic vistas of sheer cliffs, rolling meadows dotted with vibrant wildflowers, and emerald-green lakes mirroring the surrounding peaks.\r\n\r\nFor the intrepid mountaineer, the Tre Cime di Lavaredo offer a playground of alpine challenges. Scaling the sheer faces of these majestic spires is a test of skill, courage, and endurance. Guided by expert mountaineers, you can push your limits and reach exhilarating heights, rewarded with unmatched views of the Dolomite range."
       format: plain_text
       summary: ''
   field_destination:
     -
-      value: destination
+      value: "Cortina d'Ampezzo"
   field_duration:
     -
       entity: ee91487d-da90-46f8-a67c-3748d8e737d6
@@ -57,7 +57,7 @@ default:
       entity: 150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f
   field_origin:
     -
-      value: origin
+      value: "Cortina d'Ampezzo"
   field_picture:
     -
       entity: ce217add-338f-4d8c-94db-207fe8687701

@@ -35,17 +35,17 @@ default:
       value: true
   path:
     -
-      alias: /trip/rocciamelone
+      alias: ''
       langcode: en
-      pathauto: 1
+      pathauto: 0
   body:
     -
-      value: "Accumsan comis commoveo quis ullamcorper virtus. Hos nulla virtus vulpes. Elit lobortis qui. Bene letalis utrum. Damnum decet nimis tation ulciscor uxor. At cogo defui esca haero lenis lobortis nulla rusticus ullamcorper. Consequat elit feugiat lenis paratus patria qui quis ratis ulciscor. Abbas abigo autem consequat scisco valde. Augue duis minim. Ad amet ex iaceo interdico meus minim vereor vulputate.\r\n\r\nComis euismod mauris nostrud praemitto si torqueo valetudo. Iustum jus tego ulciscor verto vindico. Abico abigo acsi. Comis dolor exerci melior populus praesent probo saepius valde.\r\n\r\nEa facilisis hos jugis mos obruo os roto veniam. Autem blandit caecus nunc. Caecus elit iusto jugis lenis nunc quia velit. Et laoreet ludus neo quidem.\r\n\r\nIn lobortis ludus ratis. Consequat eligo iriure nisl persto tincidunt vulputate. Abico abigo abluo cogo in nisl pagus quia roto vicis. Brevitas dignissim illum iustum proprius qui quidem similis tum. Abbas aliquip blandit et exputo genitus metuo quia sed turpis. Ibidem lobortis ut vindico. Dolor laoreet nulla olim pagus pneum praesent tation.\r\n\r\nConsectetuer duis huic ibidem praesent qui. Appellatio commodo diam dolor esse odio patria quia ut. Abico abigo abluo at iusto molior pneum proprius suscipit vulputate. Camur luctus saepius. Commoveo dolus gemino in iusto lenis nutus si sit. Amet et iriure jugis persto plaga sino uxor. Cogo comis hendrerit iaceo in lucidus nutus praesent quibus tincidunt.\r\n\r\nAdipiscing humo in lucidus nimis occuro oppeto pecus ratis. Capto consectetuer ea esse minim nunc paulatim qui typicus. Augue dignissim ex exerci haero natu si tego. Amet augue consectetuer hendrerit valde.\r\n\r\nAmet eligo facilisis feugiat luptatum metuo nulla nunc rusticus. Erat gravis neque paulatim quae refero. Nimis populus probo quae quibus sit vereor. In ludus meus modo.\r\n\r\nNimis pecus utrum. Aliquam autem dolor iaceo nunc os refero sudo torqueo validus. Abbas aptent letalis lobortis ludus minim neo quis ratis.\r\n\r\nAliquam fere haero importunus saluto tego utrum velit. Comis quibus si usitas venio voco wisi. Cogo velit ymo. Esse ille populus ratis sed. Causa humo imputo quidem uxor. Consectetuer paratus populus torqueo. Abluo facilisi ullamcorper. Nobis quidem veniam. Antehabeo hos mauris singularis valetudo. Euismod humo immitto oppeto populus praemitto tation vulpes. Appellatio aptent defui haero letalis ludus natu quidne sed.\r\n\r\nAutem nunc quidne tamen validus. Distineo incassum vindico. Abdo mos nibh nutus occuro olim quae scisco volutpat. Hos huic patria venio. Abdo adipiscing cui genitus secundum vulpes. Esse immitto vindico. Aliquip vel voco. Acsi conventio decet nibh saluto sino tamen validus wisi. Ea esse iusto mos.\r\n\r\nOccuro odio plaga sagaciter torqueo tum utrum. Damnum mauris patria refero similis sino turpis. Abbas commodo cui duis luctus mauris probo ulciscor. Causa et exputo meus modo sagaciter sino suscipere usitas. Abigo exputo ibidem incassum metuo praesent te ulciscor.\r\n\r\nEsca exerci inhibeo lenis minim qui vulputate. Aliquip bene facilisi nibh quis saepius vicis. Abdo jumentum lucidus mauris minim tation vulputate zelus. Comis dolore erat jumentum molior paratus scisco valetudo vel.\r\n\r\n"
+      value: "Welcome to the majestic realm of Rocciamelone, a stunning mountain located in the Piedmont region of Italy. Prepare to embark on a captivating journey through rugged terrain, ancient pilgrimage trails, and breathtaking vistas that will leave you in awe of nature's grandeur.\r\n\r\nStanding tall at an impressive height of 3,538 meters (11,608 feet), Rocciamelone is a sacred peak steeped in history and spirituality. It has been a destination for pilgrims since ancient times, attracting individuals seeking solace, reflection, and a profound connection with the divine.\r\n\r\nAs you approach the base of Rocciamelone, a sense of tranquility envelops you. The mountain's rugged silhouette against the backdrop of lush green valleys creates a harmonious contrast. The air is crisp and invigorating, infused with the scent of pine and wildflowers, while the distant sound of cascading streams adds to the symphony of nature.\r\n\r\nThe journey to the summit begins along ancient pilgrimage routes, where centuries-old stone paths guide your way. These paths are adorned with small chapels and religious shrines, bearing witness to the spiritual significance of Rocciamelone. As you ascend, the landscapes unfold, offering sweeping views of the surrounding valleys, dense forests, and distant peaks.\r\n\r\nThe climb itself is a test of stamina and perseverance, rewarding you with ever-changing panoramas at every step. The path meanders through rocky terrain, alpine meadows, and patches of vibrant wildflowers, immersing you in the natural beauty that Rocciamelone offers.\r\n\r\nUpon reaching the summit, a sense of accomplishment washes over you. The breathtaking view from the top is a feast for the senses, with a 360-degree panorama that stretches across the Piedmont region. On clear days, you can see the shimmering waters of nearby lakes, the rolling hills of the countryside, and the distant outline of the Alps."
       format: plain_text
       summary: ''
   field_destination:
     -
-      value: destination
+      value: Susa
   field_duration:
     -
       entity: ee91487d-da90-46f8-a67c-3748d8e737d6
@@ -57,7 +57,7 @@ default:
       entity: b202ca18-6f0d-43d5-9dac-038b561edb17
   field_origin:
     -
-      value: origin
+      value: Susa
   field_picture:
     -
       entity: c364cf80-229d-4c52-a73d-04116d2f1371

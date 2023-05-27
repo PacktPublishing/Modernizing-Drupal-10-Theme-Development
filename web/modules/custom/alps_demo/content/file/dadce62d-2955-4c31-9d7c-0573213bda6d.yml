@@ -12,7 +12,7 @@ default:
       value: trakking_shoes.jpg
   uri:
     -
-      value: 'public://2023-04/trakking_shoes.jpg'
+      value: 'public://2023-04/trakking_shoes_10.jpg'
   filemime:
     -
       value: image/jpeg

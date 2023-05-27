@@ -35,17 +35,17 @@ default:
       value: true
   path:
     -
-      alias: /trip/monte-bianco
+      alias: ''
       langcode: en
-      pathauto: 1
+      pathauto: 0
   body:
     -
-      value: "Consequat dignissim ea facilisis jugis proprius si wisi. Abbas gilvus iusto macto. Cogo eu jumentum ludus luptatum. Abigo aptent haero hendrerit tum valde. Eu mauris natu rusticus utrum wisi. Jumentum lenis nostrud utinam. Abbas in molior saepius suscipit torqueo vicis. Accumsan in probo te torqueo usitas valetudo.\r\n\r\nConsectetuer immitto qui. Commoveo diam fere suscipere. Abbas aliquam antehabeo eligo iriure natu paratus populus valde. Abico caecus dolore ideo laoreet praesent quae saepius sudo. In neque nimis paratus plaga populus saepius tamen.\r\n\r\nHaero validus velit. Lenis macto ratis valde vulputate. Amet blandit decet letalis lobortis plaga similis ulciscor. Adipiscing conventio euismod gemino humo jumentum molior premo sino tum. Amet camur utinam. Molior refoveo torqueo ulciscor vero. Caecus consectetuer persto tego. Acsi macto odio patria verto. Dolus erat paratus. Ad erat fere iaceo incassum modo neque oppeto typicus. Causa imputo laoreet suscipit typicus ullamcorper veniam.\r\n\r\nAbbas accumsan fere iaceo pneum rusticus tincidunt velit. Abigo ea ullamcorper. Aptent comis decet exputo ideo macto quia sit vicis. Abbas illum natu saluto secundum zelus. Cogo iustum jugis jus loquor pala pecus praemitto quibus.\r\n\r\nErat esse interdico iriure tego ut. Cui ideo nulla persto refero secundum tamen tum. Eros iusto modo refero virtus. Causa decet ibidem incassum lucidus nibh sudo. Causa dolus euismod hendrerit iaceo. Acsi eligo et hos laoreet probo ratis vel vindico. Eu interdico quidem vero. Humo jus paulatim sagaciter scisco tamen.\r\n\r\nConventio gemino minim pertineo qui. Comis lucidus nisl olim ratis. Abigo dolor humo ibidem iustum nimis vindico. Adipiscing autem illum importunus. Decet dignissim illum macto ullamcorper vereor vindico virtus. Erat iustum nisl ratis roto vero.\r\n\r\nAbdo cogo consequat duis exerci lucidus melior proprius scisco. Comis hendrerit jugis nunc. Cogo consectetuer damnum defui ea ideo metuo tamen. Amet autem hos illum pecus suscipere velit vulputate. Duis esse ibidem importunus nibh quis saluto utinam volutpat.\r\n\r\nAbbas abico adipiscing enim fere jugis oppeto si. Adipiscing decet euismod occuro saepius tincidunt ut vereor. Esca luctus nunc os quia quidem ulciscor. Blandit paulatim pneum praesent ratis sagaciter tincidunt vero vicis vindico. Abico comis genitus. Blandit exerci paulatim proprius. Caecus ea modo olim quibus te.\r\n\r\nCapto dolore os velit. Ad commodo eligo enim esca interdico natu nulla quae utrum. Abigo esse euismod ibidem ille jumentum metuo nostrud paulatim wisi. Aptent huic mauris premo saepius sit tum.\r\n\r\nHos melior nisl os rusticus. Accumsan decet dignissim immitto jumentum nunc nutus. Ad jus lenis volutpat. Augue fere haero melior nobis tamen utrum valetudo verto. At caecus letalis odio proprius.\r\n\r\nAbigo euismod veniam. Macto magna sino torqueo verto wisi. Inhibeo iustum lucidus macto quia. Ad feugiat ibidem lucidus neque veniam. Dolore importunus imputo iusto mos natu pertineo ymo. Consequat ibidem ludus. Incassum magna vereor. At huic humo ideo lucidus minim usitas uxor.\r\n\r\nAliquip hendrerit minim. Brevitas letalis odio paulatim premo si vereor. Abico comis dolus eligo haero occuro persto secundum veniam. Ea immitto neo nobis paulatim praesent quia. Aptent facilisis interdico letalis pagus quia refero zelus. Caecus fere hendrerit lucidus luctus neque volutpat. Autem esse laoreet odio.\r\n\r\n"
+      value: "Welcome to the magnificent realm of Monte Bianco, also known as Mont Blanc, the crown jewel of the European Alps. Prepare to embark on a mesmerizing journey through towering peaks, breathtaking glaciers, and awe-inspiring vistas that will leave you spellbound.\r\n\r\nRising to a staggering height of 4,810 meters (15,781 feet), Monte Bianco stands as the highest peak in Western Europe, straddling the border between Italy and France. Its majestic presence dominates the skyline, beckoning adventurers, mountaineers, and nature enthusiasts to explore its pristine beauty.\r\n\r\nAs you approach the base of Monte Bianco, a sense of awe washes over you. The mountain's snow-capped peak, glistening under the sunlight, stands in stark contrast to the deep blue sky. The surrounding valleys, adorned with lush alpine meadows and quaint villages, provide a picturesque backdrop to this natural wonder.\r\n\r\nBegin your adventure by ascending to the summit via cable car or cogwheel train, immersing yourself in the spectacular alpine scenery along the way. As you ascend, the landscape transforms before your eyes, with panoramic views of glaciers, cascading waterfalls, and rugged peaks unfolding in every direction.\r\n\r\nOnce you reach the summit, an otherworldly panorama awaits you. Marvel at the vast expanse of snow and ice that blankets the surrounding landscape, punctuated by dramatic ridges and sharp peaks. On a clear day, the view extends for miles, encompassing the jagged summits of neighboring mountain ranges and the verdant valleys below."
       format: plain_text
       summary: ''
   field_destination:
     -
-      value: destination
+      value: Courmayeur
   field_duration:
     -
       entity: 2c98dd48-f2d3-4eea-be90-a5413fa71327
@@ -57,7 +57,7 @@ default:
       entity: b202ca18-6f0d-43d5-9dac-038b561edb17
   field_origin:
     -
-      value: origin
+      value: Courmayeur
   field_picture:
     -
       entity: bfef303f-5e94-4f3f-aa9d-a5c78543f2de

@@ -6,6 +6,7 @@
  */
 
 use Drupal\block\Entity\Block;
+use Drupal\Core\Form\FormStateInterface;
 
 /**
  * Implements hook_preprocess_image_widget().
@@ -128,4 +129,11 @@ function alps_trips_theme(): array {
       'template' => 'form/user-login-form',
     ],
   ];
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function alps_trips_form_user_login_form_alter(&$form, FormStateInterface $form_state, $form_id): void {
+  $form['name']['#description'] = t('Enter your username.');
 }

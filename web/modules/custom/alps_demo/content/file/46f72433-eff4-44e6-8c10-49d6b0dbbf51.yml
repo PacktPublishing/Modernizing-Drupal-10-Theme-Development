@@ -12,7 +12,7 @@ default:
       value: slide1.jpg
   uri:
     -
-      value: 'public://2023-02/slide1_1_22_3_0_1_0_2_1.jpg'
+      value: 'public://2023-02/slide1_1_22_3_0_1_0_2_1_9.jpg'
   filemime:
     -
       value: image/jpeg
