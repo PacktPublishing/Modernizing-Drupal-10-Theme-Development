@@ -45,7 +45,7 @@ class ForecastBlock extends BlockBase implements ContainerFactoryPluginInterface
     $plugin_id,
     $plugin_definition,
     private readonly WeatherClientInterface $weatherClient,
-    private readonly ConfigFactoryInterface $config
+    private readonly ConfigFactoryInterface $config,
   ) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
   }

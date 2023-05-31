@@ -25,8 +25,8 @@ class WeatherClient implements WeatherClientInterface {
   public function __construct(
     private readonly ClientInterface $httpClient,
     private readonly LoggerInterface $loggerFactory,
-    private readonly ConfigFactoryInterface $configFactory
-    ) {
+    private readonly ConfigFactoryInterface $configFactory,
+  ) {
   }
 
   /**

@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Drupal\alps_quote\Plugin\Block;
 
@@ -19,9 +19,18 @@ class QuoteBlock extends BlockBase {
 
   private array $quotes = [
     ['Life is either a daring adventure, or nothing at all', 'Helen Keller'],
-    ['Travel is fatal to prejudice, bigotry, and narrow-mindedness', 'Mark Twain'],
-    ['A good traveler has no fixed plans, and is not intent on arriving', 'Lao Tzu'],
-    ['The world is a book, and those who do not travel read only one page', 'Saint Augustine'],
+    [
+      'Travel is fatal to prejudice, bigotry, and narrow-mindedness',
+      'Mark Twain',
+    ],
+    [
+      'A good traveler has no fixed plans, and is not intent on arriving',
+      'Lao Tzu',
+    ],
+    [
+      'The world is a book, and those who do not travel read only one page',
+      'Saint Augustine',
+    ],
     ['I haven’t been everywhere, but it’s on my list', 'Susan Sontag'],
     ['Once a year, go somewhere you have never been before', 'Dalai Lama'],
   ];

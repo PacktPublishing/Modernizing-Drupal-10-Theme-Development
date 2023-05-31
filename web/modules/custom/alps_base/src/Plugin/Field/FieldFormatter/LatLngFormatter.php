@@ -19,6 +19,10 @@ use Drupal\Core\Field\FormatterBase;
  * )
  */
 class LatLngFormatter extends FormatterBase {
+
+  /**
+   * {@inheritdoc}
+   */
   public function viewElements(FieldItemListInterface $items, $langcode): array {
     $elements = [];
 
@@ -36,4 +40,5 @@ class LatLngFormatter extends FormatterBase {
     }
     return $elements;
   }
+
 }

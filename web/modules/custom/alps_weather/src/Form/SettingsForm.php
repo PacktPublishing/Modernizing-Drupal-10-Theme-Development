@@ -37,7 +37,8 @@ class SettingsForm extends ConfigFormBase {
     $form['api_key'] = [
       '#type' => 'textfield',
       '#title' => $this->t('API Key'),
-      '#default_value' => $this->config('alps_weather.settings')->get('api_key'),
+      '#default_value' => $this->config('alps_weather.settings')
+        ->get('api_key'),
     ];
 
     $form['units'] = [

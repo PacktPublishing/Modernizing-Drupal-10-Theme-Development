@@ -2,7 +2,7 @@ services:
   logger.channel.alps_weather:
     class: Drupal\Core\Logger\LoggerChannel
     factory: logger.factory:get
-    arguments: ['alps_weather']
+    arguments: [ 'alps_weather' ]
 
   alps_weather.weather_client:
     class: 'Drupal\alps_weather\WeatherClient'

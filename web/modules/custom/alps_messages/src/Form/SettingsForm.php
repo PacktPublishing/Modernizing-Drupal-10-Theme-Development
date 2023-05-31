@@ -31,7 +31,8 @@ class SettingsForm extends ConfigFormBase {
     $form['message'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Message'),
-      '#default_value' => $this->config('alps_messages.settings')->get('message'),
+      '#default_value' => $this->config('alps_messages.settings')
+        ->get('message'),
     ];
     return parent::buildForm($form, $form_state);
   }

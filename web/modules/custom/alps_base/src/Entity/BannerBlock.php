@@ -6,7 +6,7 @@ use Drupal\alps_base\BannerBlockInterface;
 use Drupal\block_content\Entity\BlockContent;
 
 /**
- *
+ * A custom block entity class.
  */
 class BannerBlock extends BlockContent implements BannerBlockInterface {
 
