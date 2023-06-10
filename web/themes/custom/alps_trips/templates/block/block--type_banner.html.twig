@@ -1,5 +1,5 @@
 {{ include('@molecules/banner.html.twig', {
-  'link': block_content.field_link.0.uri,
+  'link': block_content.field_link.0.url.toString(),
   'title': block_content.field_link.0.title,
   'image': file_url(block_content.field_image.0.entity.field_media_image.0.entity.uri.0.url),
   'cta': block_content.field_cta.0.value,
@@ -19,3 +19,9 @@
   'cta': block_content.getCta(),
 }) }}
 
+{{ include('@molecules/banner.html.twig', {
+  'link': get_link_uri(block_content, 'field_link'),
+  'title': get_link_title(block_content, 'field_link'),
+  'image': file_url(get_image(block_content, 'field_image')),
+  'cta': get_text(block_content, 'field_cta'),
+}) }}

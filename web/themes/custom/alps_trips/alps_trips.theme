@@ -58,17 +58,17 @@ function alps_trips_preprocess_block(&$variables): void {
     $id = $variables['elements']['#id'];
     if ($id == 'alps_trips_iceclimber') {
       $variables['link'] = $block_content
-        ->get('field_link')->get(0)->get('uri')
-        ->getValue();
+        ->get('field_link')->first()->getUrl()
+        ->toString();
       $variables['title'] = $block_content
-        ->get('field_link')->get(0)->get('title')
+        ->get('field_link')->first()->get('title')
         ->getValue();
       $variables['image'] = $block_content
         ->get('field_image')
         ->entity->get('field_media_image')->entity
-        ->get('uri')->get(0)->get('url')->getValue();
+        ->get('uri')->first()->get('url')->getValue();
       $variables['cta'] = $block_content
-        ->get('field_cta')->get(0)->get('value')
+        ->get('field_cta')->first()->get('value')
         ->getValue();
     }
   }

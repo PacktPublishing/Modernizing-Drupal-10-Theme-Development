@@ -10,3 +10,9 @@ services:
       - '@http_client'
       - '@logger.channel.alps_weather'
       - '@config.factory'
+
+  alps_weather.twig:
+    class: Drupal\alps_weather\Twig\Extension\WeatherExtension
+    arguments: ['@alps_weather.weather_client', '@config.factory']
+    tags:
+      - { name: twig.extension }

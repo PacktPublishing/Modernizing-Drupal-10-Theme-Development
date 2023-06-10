@@ -14,14 +14,14 @@ class BannerBlock extends BlockContent implements BannerBlockInterface {
    * {@inheritdoc}
    */
   public function getLink(): string {
-    return $this->get('field_link')->getValue()[0]['uri'];
+    return $this->get('field_link')->first()->getUrl()->toString();
   }
 
   /**
    * {@inheritdoc}
    */
   public function getTitle(): string {
-    return $this->get('field_link')->getValue()[0]['title'];
+    return $this->get('field_link')->first()->get('title')->getValue();
   }
 
   /**
@@ -35,7 +35,7 @@ class BannerBlock extends BlockContent implements BannerBlockInterface {
    * {@inheritdoc}
    */
   public function getCta(): string {
-    return $this->get('field_cta')->getValue()[0]['value'];
+    return $this->get('field_cta')->first()->get('value')->getValue();
   }
 
 }
