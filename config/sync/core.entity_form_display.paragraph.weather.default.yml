@@ -1,0 +1,23 @@
+uuid: 08905d28-3f40-410d-bef4-ccaaee7ff318
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.weather.field_city
+    - paragraphs.paragraphs_type.weather
+id: paragraph.weather.default
+targetEntityType: paragraph
+bundle: weather
+mode: default
+content:
+  field_city:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

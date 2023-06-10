@@ -8,6 +8,7 @@ dependencies:
     - paragraphs.paragraphs_type.grid
     - paragraphs.paragraphs_type.slider
     - paragraphs.paragraphs_type.trip_list
+    - paragraphs.paragraphs_type.weather
   module:
     - entity_reference_revisions
 id: node.landing_page.field_contents
@@ -27,6 +28,7 @@ settings:
       grid: grid
       trip_list: trip_list
       slider: slider
+      weather: weather
     negate: 0
     target_bundles_drag_drop:
       card:
@@ -35,10 +37,16 @@ settings:
       grid:
         weight: 4
         enabled: true
+      slide:
+        weight: 10
+        enabled: false
       slider:
         weight: 5
         enabled: true
       trip_list:
         weight: 4
+        enabled: true
+      weather:
+        weight: 7
         enabled: true
 field_type: entity_reference_revisions

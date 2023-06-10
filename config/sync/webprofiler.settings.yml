@@ -11,9 +11,22 @@ active_toolbar_items:
   forms: forms
   memory: memory
   request: request
+  theme: theme
   time: time
   user: user
   views: views
+  assets: '0'
+  cache: '0'
+  configs: '0'
+  events: '0'
+  extensions: '0'
+  frontend: '0'
+  http: '0'
+  mail: '0'
+  routing: '0'
+  services: '0'
+  state: '0'
+  translations: '0'
 query_sort: source
 query_highlight: 5
 ide: 'phpstorm://open?file=%f&line=%l'

@@ -1,0 +1,19 @@
+uuid: 2a8c30b9-a635-438f-b0d4-84a09cba4f63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_city
+    - paragraphs.paragraphs_type.weather
+id: paragraph.weather.field_city
+field_name: field_city
+entity_type: paragraph
+bundle: weather
+label: City
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
