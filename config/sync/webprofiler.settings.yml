@@ -5,6 +5,7 @@ intercept_redirects: false
 purge_on_cache_clear: true
 active_toolbar_items:
   ajax: ajax
+  assets: assets
   blocks: blocks
   database: database
   devel: devel
@@ -15,13 +16,13 @@ active_toolbar_items:
   time: time
   user: user
   views: views
-  assets: '0'
   cache: '0'
   configs: '0'
   events: '0'
   extensions: '0'
   frontend: '0'
   http: '0'
+  logs: '0'
   mail: '0'
   routing: '0'
   services: '0'

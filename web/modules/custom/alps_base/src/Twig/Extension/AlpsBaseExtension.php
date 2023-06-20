@@ -26,6 +26,8 @@ class AlpsBaseExtension extends AbstractExtension {
         'get_text', [$this, 'getText']),
       new TwigFunction(
         'get_image', [$this, 'getImage']),
+      new TwigFunction(
+        'theme_setting', [$this, 'getThemeSetting']),
     ];
   }
 
@@ -97,4 +99,30 @@ class AlpsBaseExtension extends AbstractExtension {
     return $entity->get($field_name)->entity->get('field_media_image')->entity->getFileUri();
   }
 
+  /**
+   * @param string $theme_setting
+   *
+   * @return string|null
+   */
+  public function getThemeSetting(string $theme_setting): ?string {
+    $conf = theme_get_setting($theme_setting);
+    if ($conf !== NULL) {
+      return $conf;
+    }
+
+    $parents = \Drupal::theme()
+      ->getActiveTheme()
+      ->getBaseThemeExtensions();
+    foreach ($parents as $parent) {
+      $conf = theme_get_setting($theme_setting, $parent->getName());
+
+      if ($conf !== NULL) {
+        return $conf;
+      }
+    }
+
+    return NULL;
+  }
+
 }
+

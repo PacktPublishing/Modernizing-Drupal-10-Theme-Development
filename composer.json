@@ -26,6 +26,7 @@
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/formdazzle": "^3.0",
         "drupal/monolog": "3.0.x-dev@dev",
+        "drupal/next": "^1.6",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
         "drupal/search_api": "^1.29",
