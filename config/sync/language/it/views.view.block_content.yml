@@ -7,6 +7,7 @@ display:
           label: 'Descrizione del blocco'
           separator: ', '
         type:
+          label: 'Tipo di blocco'
           separator: ', '
         changed:
           label: Aggiornato
@@ -32,6 +33,9 @@ display:
         info:
           expose:
             label: 'Descrizione del blocco'
+        type:
+          expose:
+            label: 'Tipo di blocco'
   page_1:
     display_title: Pagina
     display_options:
