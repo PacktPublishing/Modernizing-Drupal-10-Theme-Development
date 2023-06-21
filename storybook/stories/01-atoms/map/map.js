@@ -5,6 +5,7 @@
       once('map', '#map').forEach((el) => {
         const { lat, lng, text } = el.dataset;
         const map = L.map('map').setView([lat, lng], 13);
+        map.scrollWheelZoom.disable();
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19,
           attribution:
