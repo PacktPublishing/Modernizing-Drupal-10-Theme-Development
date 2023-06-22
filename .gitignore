@@ -40,3 +40,7 @@ backstop/backstop.json
 # Ignore storybook files.
 storybook/build-storybook.log
 storybook/storybook-static
+
+# Ignore logs.
+logs
+!logs/.gitkeep

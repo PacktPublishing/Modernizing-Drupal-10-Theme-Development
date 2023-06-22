@@ -10,4 +10,4 @@ parameters:
 services:
   monolog.handler.rotating_file:
     class: Monolog\Handler\RotatingFileHandler
-    arguments: ['public://logs/debug.log', 10, 'DEBUG']
+    arguments: ['/var/www/html/logs/debug.log', 10, 'DEBUG']

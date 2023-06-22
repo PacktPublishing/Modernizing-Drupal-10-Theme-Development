@@ -72,6 +72,12 @@ class ForecastBlock extends BlockBase implements ContainerFactoryPluginInterface
 
     $forecast = $this->weatherClient->getForecastData($city);
 
+    if (!array_key_exists('list', $forecast)) {
+      return [
+        '#markup' => 'No forecast available.',
+      ];
+    }
+
     $build['content'] = [
       '#theme' => 'alps_weather_forecast_single',
       '#forecast' => $forecast['list'][0],
