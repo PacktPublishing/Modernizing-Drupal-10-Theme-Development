@@ -5,11 +5,9 @@ services:
       - -c
       - |
         yarn install
-        mkdir /storybook/node_modules/.cache
-        chmod -R 777 /storybook/node_modules/.cache
         npm run storybook
     container_name: "ddev-${DDEV_SITENAME}-storybook"
-    expose: 
+    expose:
       - "6006"
     environment:
       - VIRTUAL_HOST=$DDEV_HOSTNAME
