@@ -157,9 +157,7 @@ function alps_trips_form_user_login_form_alter(&$form, FormStateInterface $form_
  * Implements hook_page_attachments_alter().
  */
 function alps_trips_page_attachments_alter(array &$attachments): void {
-  $attachments['#attached']
-    ['drupalSettings']
-    ['alps_trips'] = [
+  $attachments['#attached']['drupalSettings']['alps_trips'] = [
       'copyright' => theme_get_setting('copyright')
   ];
 }
