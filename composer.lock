@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "026e54592cb6dc70dde53304a71f0c38",
+    "content-hash": "89fb9c6ed17191185f6554645a5dd20c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1687,16 +1687,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.1.0-rc1",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "2707e6b34b7698e35668a0c503d8eb0a7bd3363d"
+                "reference": "b83ccdf5ac7b00b033c245725be64239fd61a4d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/2707e6b34b7698e35668a0c503d8eb0a7bd3363d",
-                "reference": "2707e6b34b7698e35668a0c503d8eb0a7bd3363d",
+                "url": "https://api.github.com/repos/drupal/core/zipball/b83ccdf5ac7b00b033c245725be64239fd61a4d9",
+                "reference": "b83ccdf5ac7b00b033c245725be64239fd61a4d9",
                 "shasum": ""
             },
             "require": {
@@ -1841,13 +1841,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.1.0-rc1"
+                "source": "https://github.com/drupal/core/tree/10.1.0"
             },
-            "time": "2023-06-08T17:04:03+00:00"
+            "time": "2023-06-22T08:41:06+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.1.0-rc1",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1891,13 +1891,13 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.1.0-rc1"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.1.0"
             },
             "time": "2023-04-30T16:15:32+00:00"
         },
         {
             "name": "drupal/core-project-message",
-            "version": "10.1.0-rc1",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -1932,22 +1932,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-project-message/tree/10.1.0-rc1"
+                "source": "https://github.com/drupal/core-project-message/tree/10.1.0"
             },
             "time": "2022-07-01T08:32:39+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.1.0-rc1",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "eca536183e1c0760d0de2107c8b5050980e5dc3e"
+                "reference": "38f93af015f974ff222a120fc32bd8b1bddef1ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/eca536183e1c0760d0de2107c8b5050980e5dc3e",
-                "reference": "eca536183e1c0760d0de2107c8b5050980e5dc3e",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/38f93af015f974ff222a120fc32bd8b1bddef1ac",
+                "reference": "38f93af015f974ff222a120fc32bd8b1bddef1ac",
                 "shasum": ""
             },
             "require": {
@@ -1956,7 +1956,7 @@
                 "doctrine/annotations": "~1.14.3",
                 "doctrine/deprecations": "~v1.1.1",
                 "doctrine/lexer": "~2.1.0",
-                "drupal/core": "10.1.0-rc1",
+                "drupal/core": "10.1.0",
                 "egulias/email-validator": "~4.0.1",
                 "guzzlehttp/guzzle": "~7.7.0",
                 "guzzlehttp/promises": "~2.0.0",
@@ -2014,9 +2014,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.1.0-rc1"
+                "source": "https://github.com/drupal/core-recommended/tree/10.1.0"
             },
-            "time": "2023-06-08T17:04:03+00:00"
+            "time": "2023-06-22T08:41:06+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -2506,11 +2506,17 @@
         },
         {
             "name": "drupal/monolog",
-            "version": "dev-3.0.x",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/monolog.git",
-                "reference": "63021fbe48e4bd0b216b585cf549ae22f0d0e127"
+                "reference": "3.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/monolog-3.0.0.zip",
+                "reference": "3.0.0",
+                "shasum": "8974f12985c1509df1a044ed1a40332c7e20a4f2"
             },
             "require": {
                 "drupal/core": "^10",
@@ -2519,15 +2525,12 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-3.0.x": "3.0.x-dev"
-                },
                 "drupal": {
-                    "version": "3.0.0-beta3+3-dev",
-                    "datestamp": "1680533175",
+                    "version": "3.0.0",
+                    "datestamp": "1687509108",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -3148,11 +3151,17 @@
         },
         {
             "name": "drupal/webprofiler",
-            "version": "dev-10.0.x",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webprofiler.git",
-                "reference": "65814a3b9e195769ef324b7c444a9cb06e56e4d8"
+                "reference": "10.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webprofiler-10.1.0.zip",
+                "reference": "10.1.0",
+                "shasum": "2a29421865f32d0f750fa9fef874a68371991632"
             },
             "require": {
                 "drupal/core": "^10",
@@ -3170,15 +3179,12 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-10.0.x": "10.0.x-dev"
-                },
                 "drupal": {
-                    "version": "10.0.0+23-dev",
-                    "datestamp": "1687280782",
+                    "version": "10.1.0",
+                    "datestamp": "1687509524",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
@@ -4573,16 +4579,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "9b5daeaffce5b926cac47923798bba91059e60e2"
+                "reference": "e2392369686d420ca32df3803de28b5d6f76867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/9b5daeaffce5b926cac47923798bba91059e60e2",
-                "reference": "9b5daeaffce5b926cac47923798bba91059e60e2",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/e2392369686d420ca32df3803de28b5d6f76867d",
+                "reference": "e2392369686d420ca32df3803de28b5d6f76867d",
                 "shasum": ""
             },
             "require": {
@@ -4597,7 +4603,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
+                "graylog2/gelf-php": "^1.4.2 || ^2.0",
                 "guzzlehttp/guzzle": "^7.4.5",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -4605,7 +4611,7 @@
                 "phpstan/phpstan": "^1.9",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.4",
-                "phpunit/phpunit": "^9.5.26",
+                "phpunit/phpunit": "^10.1",
                 "predis/predis": "^1.1 || ^2",
                 "ruflin/elastica": "^7",
                 "symfony/mailer": "^5.4 || ^6",
@@ -4658,7 +4664,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/3.3.1"
+                "source": "https://github.com/Seldaek/monolog/tree/3.4.0"
             },
             "funding": [
                 {
@@ -4670,7 +4676,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-06T13:46:10+00:00"
+            "time": "2023-06-21T08:46:11+00:00"
         },
         {
             "name": "nette/php-generator",
@@ -9749,7 +9755,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "10.1.0-rc1",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -9797,7 +9803,7 @@
             ],
             "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-dev/tree/10.1.0-rc1"
+                "source": "https://github.com/drupal/core-dev/tree/10.1.0"
             },
             "time": "2023-05-25T11:39:24+00:00"
         },
@@ -10638,16 +10644,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.20",
+            "version": "1.10.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803"
+                "reference": "b2a30186be2e4d97dce754ae4e65eb0ec2f04eb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
-                "reference": "c4c8adb56313fbd59ff5a5f4a496bbed1a6b8803",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b2a30186be2e4d97dce754ae4e65eb0ec2f04eb5",
+                "reference": "b2a30186be2e4d97dce754ae4e65eb0ec2f04eb5",
                 "shasum": ""
             },
             "require": {
@@ -10696,7 +10702,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-20T12:07:40+00:00"
+            "time": "2023-06-21T20:07:58+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
@@ -13046,13 +13052,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/components": 10,
-        "drupal/core-composer-scaffold": 5,
-        "drupal/core-project-message": 5,
-        "drupal/core-recommended": 5,
-        "drupal/default_content": 15,
-        "drupal/monolog": 20,
-        "drupal/webprofiler": 20,
-        "drupal/core-dev": 10
+        "drupal/default_content": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,

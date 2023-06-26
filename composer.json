@@ -19,25 +19,25 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/ckeditor5_dev": "^1.0",
         "drupal/components": "^3.0@beta",
-        "drupal/core-composer-scaffold": "10.1.0-rc1@RC",
-        "drupal/core-project-message": "10.1.0-rc1@RC",
-        "drupal/core-recommended": "10.1.0-rc1@RC",
+        "drupal/core-composer-scaffold": "10.1.0",
+        "drupal/core-project-message": "10.1.0",
+        "drupal/core-recommended": "10.1.0",
         "drupal/default_content": "^2.0@alpha",
         "drupal/easy_breadcrumb": "^2.0",
         "drupal/formdazzle": "^3.0",
-        "drupal/monolog": "3.0.x-dev@dev",
+        "drupal/monolog": "3.0.0",
         "drupal/next": "^1.6",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
         "drupal/search_api": "^1.29",
         "drupal/twig_tweak": "^3.2",
-        "drupal/webprofiler": "10.0.x-dev@dev",
+        "drupal/webprofiler": "10.1.0",
         "drush/drush": "^11.3",
         "symfony/stopwatch": "^6.1"
     },
     "require-dev": {
         "drupal/coder": "^8.3",
-        "drupal/core-dev": "^10.1.0-beta1@beta"
+        "drupal/core-dev": "^10.1.0"
     },
     "conflict": {
         "drupal/drupal": "*"
