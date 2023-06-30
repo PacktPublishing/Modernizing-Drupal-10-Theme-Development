@@ -12,7 +12,7 @@ default:
       value: 'Screenshot 2023-04-15 alle 09.50.20.png'
   uri:
     -
-      value: 'public://2023-04/Screenshot 2023-04-15 alle 09.50.20_0_1_0_2_1_9.png'
+      value: 'public://2023-04/Screenshot 2023-04-15 alle 09.50.20.png'
   filemime:
     -
       value: image/png

@@ -9,10 +9,10 @@ default:
       target_id: 1
   filename:
     -
-      value: trakking_shoes.jpg
+      value: trekking_shoes.jpg
   uri:
     -
-      value: 'public://2023-04/trakking_shoes_10.jpg'
+      value: 'public://2023-04/trekking_shoes_10.jpg'
   filemime:
     -
       value: image/jpeg

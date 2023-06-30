@@ -12,7 +12,7 @@ default:
       value: rocciamelone.jpg
   uri:
     -
-      value: 'public://2023-02/rocciamelone_4_21_3_0_1_0_2_1_9.jpg'
+      value: 'public://2023-02/rocciamelone.jpg'
   filemime:
     -
       value: image/jpeg
