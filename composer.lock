@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89fb9c6ed17191185f6554645a5dd20c",
+    "content-hash": "409681ba09cba187e1e5154342a2e592",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2017,6 +2017,60 @@
                 "source": "https://github.com/drupal/core-recommended/tree/10.1.0"
             },
             "time": "2023-06-22T08:41:06+00:00"
+        },
+        {
+            "name": "drupal/critical_css",
+            "version": "1.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/critical_css.git",
+                "reference": "8.x-1.19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/critical_css-8.x-1.19.zip",
+                "reference": "8.x-1.19",
+                "shasum": "4c80f303d3d9e4b9af85114429fbd8572dda164d"
+            },
+            "require": {
+                "drupal/core": ">=9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.19",
+                    "datestamp": "1662794095",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Alberto Silva",
+                    "homepage": "https://www.drupal.org/user/1194228",
+                    "email": "asilgag@gmail.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "keopx",
+                    "homepage": "https://www.drupal.org/user/377362"
+                }
+            ],
+            "description": "Inlines a critical CSS file into a page's HTML head",
+            "homepage": "https://www.drupal.org/project/critical_css",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/critical_css",
+                "issues": "https://www.drupal.org/project/issues/critical_css"
+            }
         },
         {
             "name": "drupal/ctools",

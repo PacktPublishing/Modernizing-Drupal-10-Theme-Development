@@ -31,7 +31,7 @@ default:
       value: true
   path:
     -
-      alias: ''
+      alias: /trip/dolor-exerci-ibidem-qui-utinam
       langcode: en
       pathauto: 1
   body:

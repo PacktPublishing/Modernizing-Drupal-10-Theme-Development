@@ -12,7 +12,7 @@ default:
       value: rain_jacket.jpeg
   uri:
     -
-      value: 'public://2023-04/rain_jacket_9.jpeg'
+      value: 'public://2023-04/rain_jacket.jpeg'
   filemime:
     -
       value: image/jpeg

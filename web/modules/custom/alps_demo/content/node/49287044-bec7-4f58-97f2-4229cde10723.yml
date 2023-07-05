@@ -35,7 +35,7 @@ default:
       value: true
   path:
     -
-      alias: ''
+      alias: /trip/monviso-tour
       langcode: en
       pathauto: 1
   body:

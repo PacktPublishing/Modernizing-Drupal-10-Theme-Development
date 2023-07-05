@@ -30,14 +30,11 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   path:
     -
-      alias: ''
+      alias: /trip/cervino
       langcode: en
-      pathauto: 0
+      pathauto: 1
   body:
     -
       value: "Embark on an unforgettable journey through the awe-inspiring beauty of the Cervino Mountain, a majestic peak located in the heart of the Alps. This extraordinary trip promises a unique blend of breathtaking landscapes, exhilarating adventures, and a deep sense of tranquility.\r\n\r\nAs you arrive at the base of the mountain, a sense of anticipation fills the air. Towering over the surrounding valleys, the Cervino Mountain, also known as the Matterhorn, stands as a symbol of grandeur and natural marvel. Its distinct pyramid-like shape and snow-capped peak dominate the skyline, beckoning adventurers and nature enthusiasts from around the world.\r\n\r\nThe journey begins with a thrilling ascent via cable car. As you ascend higher and higher, the panoramic views unfold before your eyes. Gaze in wonder at the snow-clad peaks, lush alpine meadows, and crystal-clear lakes below. The cable car ride itself is an experience to cherish, as you witness the landscape transform with every passing minute.\r\n\r\nOnce you reach the summit, an ethereal world opens up. Take a moment to absorb the magnificence of the surrounding peaks, with their jagged ridges and glaciers sparkling in the sunlight. The crisp mountain air invigorates your senses, while a serene silence blankets the area, allowing for deep reflection and appreciation of nature's grandeur."

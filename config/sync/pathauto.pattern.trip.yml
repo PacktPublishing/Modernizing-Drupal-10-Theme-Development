@@ -1,0 +1,34 @@
+uuid: 000baa80-62a7-4e85-b796-853fe6bfc2f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - node
+id: trip
+label: Trip
+type: 'canonical_entities:node'
+pattern: 'trip/[node:title]'
+selection_criteria:
+  711bfcb3-67f6-49d4-953b-fc85ff5a2f11:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 711bfcb3-67f6-49d4-953b-fc85ff5a2f11
+    context_mapping:
+      node: node
+    bundles:
+      trip: trip
+  8c3f3ff0-ca9a-4fd9-a6ff-b994b832adc6:
+    id: language
+    negate: false
+    uuid: 8c3f3ff0-ca9a-4fd9-a6ff-b994b832adc6
+    context_mapping:
+      language: 'node:langcode:language'
+    langcodes:
+      en: en
+      it: it
+selection_logic: and
+weight: -10
+relationships:
+  'node:langcode:language':
+    label: Language

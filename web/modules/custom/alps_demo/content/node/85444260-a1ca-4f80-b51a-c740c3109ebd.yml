@@ -30,14 +30,11 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   path:
     -
-      alias: ''
+      alias: /trip/monte-rosa
       langcode: en
-      pathauto: 0
+      pathauto: 1
   body:
     -
       value: "Welcome to the breathtaking realm of Monte Rosa, a majestic mountain range that spans the border between Italy and Switzerland. Prepare to embark on an extraordinary journey through towering peaks, vast glaciers, and alpine landscapes that will captivate your senses and ignite your spirit of adventure.\r\n\r\nAt an impressive elevation of 4,634 meters (15,203 feet), Monte Rosa stands as the second highest peak in the Alps, offering an unparalleled playground for mountaineers, hikers, and nature enthusiasts. The mountain range is a true alpine wonderland, boasting several iconic summits, including Dufourspitze, the highest peak entirely within Switzerland.\r\n\r\nAs you approach the base of Monte Rosa, a sense of awe and anticipation fills the air. The mountain's towering massif, crowned by snow-capped peaks and immense glaciers, creates a dramatic backdrop against the azure sky. The surrounding valleys, dotted with picturesque alpine villages, add a touch of charm and tranquility to the rugged landscape.\r\n\r\nBegin your adventure by exploring the well-established network of hiking trails that traverse the Monte Rosa region. Set out on a journey that takes you through lush meadows, dense forests, and rocky slopes, each step bringing you closer to the heart of this alpine paradise. Along the way, encounter cascading waterfalls, crystal-clear mountain streams, and vibrant wildflowers that add splashes of color to the landscape.\r\n\r\nFor the intrepid mountaineer, Monte Rosa offers a range of challenging routes and technical climbs that test your skills and endurance. Guided by experienced alpine guides, you can tackle classic routes like the Haute Route, traversing high passes, icy crevasses, and narrow ridges as you make your way through the glacial wonderland of Monte Rosa."

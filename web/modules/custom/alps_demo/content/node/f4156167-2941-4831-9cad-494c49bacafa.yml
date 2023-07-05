@@ -31,7 +31,7 @@ default:
       value: true
   path:
     -
-      alias: ''
+      alias: /trip/metuo-quidne
       langcode: en
       pathauto: 1
   body:

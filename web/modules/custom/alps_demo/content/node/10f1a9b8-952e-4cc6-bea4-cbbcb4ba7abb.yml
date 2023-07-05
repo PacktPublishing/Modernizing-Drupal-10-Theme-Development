@@ -35,7 +35,7 @@ default:
       value: true
   path:
     -
-      alias: ''
+      alias: /trip/haute-route
       langcode: en
       pathauto: 1
   body:

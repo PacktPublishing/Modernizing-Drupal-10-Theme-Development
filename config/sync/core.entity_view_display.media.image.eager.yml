@@ -1,0 +1,34 @@
+uuid: efee456c-76da-46b3-bb4c-ff270383f28f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.eager
+    - field.field.media.image.field_media_image
+    - image.style.wide
+    - media.type.image
+  module:
+    - image
+id: media.image.eager
+targetEntityType: media
+bundle: image
+mode: eager
+content:
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

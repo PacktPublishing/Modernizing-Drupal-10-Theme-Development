@@ -39,9 +39,6 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   path:
     -
       alias: ''
@@ -66,9 +63,6 @@ default:
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
-            -
-              value: true
           field_contents:
             -
               entity:
@@ -181,9 +175,6 @@ default:
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
-            -
-              value: true
           field_contents:
             -
               entity:
@@ -203,9 +194,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   field_description:
                     -
                       value: '<p>Our best trips are the ones that leave us with lasting memories and a sense of wonder and appreciation for the world around us.</p>'
@@ -234,9 +222,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   field_description:
                     -
                       value: '<p>Our top route on the mountain offers breathtaking views and a thrilling challenge for adventurous hikers.</p>'
@@ -265,9 +250,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   field_description:
                     -
                       value: '<p>Online booking has made it easier and more convenient than ever before to reserve travel accommodations and activities.</p>'
@@ -296,9 +278,6 @@ default:
           behavior_settings:
             -
               value: {  }
-          revision_translation_affected:
-            -
-              value: true
           field_title:
             -
               value: 'Our best trips!'

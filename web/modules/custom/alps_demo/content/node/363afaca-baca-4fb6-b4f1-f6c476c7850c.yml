@@ -30,14 +30,11 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   path:
     -
-      alias: ''
+      alias: /trip/tre-cime-di-lavaredo
       langcode: en
-      pathauto: 0
+      pathauto: 1
   body:
     -
       value: "Welcome to the awe-inspiring realm of the Tre Cime di Lavaredo, a triumvirate of iconic peaks nestled within the captivating Dolomite mountain range. Prepare to embark on a journey of unparalleled beauty and discover a landscape that will ignite your imagination and leave you in awe.\r\n\r\nLocated in the heart of the Italian Alps, the Tre Cime di Lavaredo, also known as the Three Peaks of Lavaredo, stand as majestic sentinels, reaching for the heavens. These towering limestone spires, bathed in hues of pink and gold during sunrise and sunset, create a mesmerizing spectacle that has captivated artists, adventurers, and nature enthusiasts for generations.\r\n\r\nAs you approach the Tre Cime di Lavaredo, anticipation builds. The serpentine mountain roads guide you through verdant valleys, picturesque alpine meadows, and dense forests, offering glimpses of the majestic peaks that lie ahead. The air becomes crisper, carrying the scent of pine and the promise of adventure.\r\n\r\nUpon arrival, you are greeted by the breathtaking trio of peaks, their jagged silhouettes commanding attention against the backdrop of the clear blue sky. The grandeur and scale of the Tre Cime di Lavaredo leave an indelible impression, evoking a sense of reverence for the raw power of nature.\r\n\r\nBegin your exploration with a hike along the well-maintained trails that weave their way through this alpine paradise. As you ascend, the landscape unfolds, revealing panoramic vistas of sheer cliffs, rolling meadows dotted with vibrant wildflowers, and emerald-green lakes mirroring the surrounding peaks.\r\n\r\nFor the intrepid mountaineer, the Tre Cime di Lavaredo offer a playground of alpine challenges. Scaling the sheer faces of these majestic spires is a test of skill, courage, and endurance. Guided by expert mountaineers, you can push your limits and reach exhilarating heights, rewarded with unmatched views of the Dolomite range."

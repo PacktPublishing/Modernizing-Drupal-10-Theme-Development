@@ -1,0 +1,10 @@
+uuid: 490f9924-0872-4413-981b-8f0a5eead2ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.eager
+label: Eager
+targetEntityType: media
+cache: true

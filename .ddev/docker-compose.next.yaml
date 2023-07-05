@@ -1,3 +1,4 @@
+version: '3.6'
 services:
   next:
     command:
@@ -8,13 +9,11 @@ services:
         yarn --cwd=app run dev
     container_name: "ddev-${DDEV_SITENAME}-next"
     expose:
-      - "3000"
-    ports:
-      - 16000:3000
+      - "4000"
     environment:
       - VIRTUAL_HOST=$DDEV_HOSTNAME
-      - HTTP_EXPOSE=3001:3000
-      - HTTPS_EXPOSE=3000:3000
+      - HTTP_EXPOSE=4000:4000
+      - HTTPS_EXPOSE=4001:4000
     image: node:18-buster-slim
     labels:
       com.ddev.site-name: ${DDEV_SITENAME}

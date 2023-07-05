@@ -30,14 +30,11 @@ default:
   sticky:
     -
       value: false
-  revision_translation_affected:
-    -
-      value: true
   path:
     -
-      alias: ''
+      alias: /trip/monte-bianco
       langcode: en
-      pathauto: 0
+      pathauto: 1
   body:
     -
       value: "Welcome to the magnificent realm of Monte Bianco, also known as Mont Blanc, the crown jewel of the European Alps. Prepare to embark on a mesmerizing journey through towering peaks, breathtaking glaciers, and awe-inspiring vistas that will leave you spellbound.\r\n\r\nRising to a staggering height of 4,810 meters (15,781 feet), Monte Bianco stands as the highest peak in Western Europe, straddling the border between Italy and France. Its majestic presence dominates the skyline, beckoning adventurers, mountaineers, and nature enthusiasts to explore its pristine beauty.\r\n\r\nAs you approach the base of Monte Bianco, a sense of awe washes over you. The mountain's snow-capped peak, glistening under the sunlight, stands in stark contrast to the deep blue sky. The surrounding valleys, adorned with lush alpine meadows and quaint villages, provide a picturesque backdrop to this natural wonder.\r\n\r\nBegin your adventure by ascending to the summit via cable car or cogwheel train, immersing yourself in the spectacular alpine scenery along the way. As you ascend, the landscape transforms before your eyes, with panoramic views of glaciers, cascading waterfalls, and rugged peaks unfolding in every direction.\r\n\r\nOnce you reach the summit, an otherworldly panorama awaits you. Marvel at the vast expanse of snow and ice that blankets the surrounding landscape, punctuated by dramatic ridges and sharp peaks. On a clear day, the view extends for miles, encompassing the jagged summits of neighboring mountain ranges and the verdant valleys below."

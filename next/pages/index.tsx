@@ -1,16 +1,17 @@
 import Head from "next/head"
 import { GetStaticPropsResult } from "next"
 import { DrupalNode } from "next-drupal"
+import { DrupalJsonApiParams } from "drupal-jsonapi-params"
 
 import { drupal } from "lib/drupal"
 import { Layout } from "components/layout"
-import { NodeArticleTeaser } from "components/node--article--teaser"
+import { NodeTripTeaser } from "components/node--trip--teaser"
 
 interface IndexPageProps {
-  nodes: DrupalNode[]
+  trips: DrupalNode[]
 }
 
-export default function IndexPage({ nodes }: IndexPageProps) {
+export default function IndexPage({ trips }: IndexPageProps) {
   return (
     <Layout>
       <Head>
@@ -22,10 +23,10 @@ export default function IndexPage({ nodes }: IndexPageProps) {
       </Head>
       <div>
         <h1 className="mb-10 text-6xl font-black">Latest Articles.</h1>
-        {nodes?.length ? (
-          nodes.map((node) => (
+        {trips?.length ? (
+          trips.map((node) => (
             <div key={node.id}>
-              <NodeArticleTeaser node={node} />
+              <NodeTripTeaser node={node} />
               <hr className="my-20" />
             </div>
           ))
@@ -40,22 +41,22 @@ export default function IndexPage({ nodes }: IndexPageProps) {
 export async function getStaticProps(
   context
 ): Promise<GetStaticPropsResult<IndexPageProps>> {
-  const nodes = await drupal.getResourceCollectionFromContext<DrupalNode[]>(
+  const params = new DrupalJsonApiParams()
+    .addFields("node--trip", ["title", "body", "field_picture", "path"])
+    .addFilter("status", "1")
+    .addSort("created", "DESC")
+
+  const trips = await drupal.getResourceCollectionFromContext<DrupalNode[]>(
     "node--trip",
     context,
     {
-      params: {
-        "filter[status]": 1,
-        "fields[node--trip]": "title,path,field_picture,uid,created",
-        include: "field_picture,uid",
-        sort: "-created",
-      },
+      params: params.getQueryObject(),
     }
   )
 
   return {
     props: {
-      nodes,
+      trips: trips,
     },
   }
 }

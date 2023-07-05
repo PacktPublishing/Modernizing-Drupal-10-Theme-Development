@@ -16,6 +16,7 @@
   {% for social in socials %}
     {{ include('@atoms/social.html.twig',
       {
+        'name': social.name,
         'svg': social.svg,
         'url': social.url,
       })
@@ -32,3 +33,10 @@
     'attributes': attributes
   })
 }}
+
+{% set attribute = create_attribute() %}
+
+<button
+  {{ attribute.setAttribute('aria-expanded', 'false') }}>
+  Preview
+</button>

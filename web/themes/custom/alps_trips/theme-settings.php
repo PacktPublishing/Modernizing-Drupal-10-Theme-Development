@@ -45,9 +45,9 @@ function alps_trips_form_system_theme_settings_alter(&$form, FormStateInterface 
 
   $form['alps_trips']['socials']['github'] = [
     '#type' => 'textfield',
-    '#title' => t('Github'),
+    '#title' => t('GitHub'),
     '#default_value' => theme_get_setting('github'),
-    '#description' => t('Insert the Github url.'),
+    '#description' => t('Insert the GitHub url.'),
   ];
 
 }

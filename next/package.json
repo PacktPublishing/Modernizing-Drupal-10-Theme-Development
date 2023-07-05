@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start",
     "preview": "next build && next start",
@@ -12,8 +12,9 @@
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.8",
+    "drupal-jsonapi-params": "^2.2.0",
     "next": "^13",
-    "next-drupal": "^1.5.0",
+    "next-drupal": "^1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sharp": "^0.31.2"
