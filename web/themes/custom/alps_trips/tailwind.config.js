@@ -5,6 +5,7 @@ module.exports = {
   mode: 'jit',
   content: [
     './templates/**/*.html.twig',
+    './components/**/*.twig',
     '../../../../storybook/stories/**/*.html.twig',
     './js/**/*.js',
   ],

@@ -1,0 +1,16 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: "Button"
+status: "stable"
+props:
+  type: object
+  properties:
+    "title":
+      type: "string"
+      title: "Title"
+      examples:
+        - "Button title"
+    "type":
+      type: "string"
+      title: "Type"
+      examples:
+        - "primary"

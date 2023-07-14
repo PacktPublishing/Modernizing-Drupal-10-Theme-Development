@@ -21,18 +21,20 @@ export default function IndexPage({ trips }: IndexPageProps) {
           content="A Next.js site powered by a Drupal backend."
         />
       </Head>
-      <div>
-        <h1 className="mb-10 text-6xl font-black">Latest Articles.</h1>
-        {trips?.length ? (
-          trips.map((node) => (
-            <div key={node.id}>
-              <NodeTripTeaser node={node} />
-              <hr className="my-20" />
-            </div>
-          ))
-        ) : (
-          <p className="py-4">No nodes found</p>
-        )}
+      <div className="mt-10 space-y-5">
+        <h1 className="text-2xl font-bold text-nord-1">Latest Trips</h1>
+
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+          {trips?.length ? (
+            trips.map((node) => (
+              <div key={node.id}>
+                <NodeTripTeaser node={node} />
+              </div>
+            ))
+          ) : (
+            <p className="py-4">No nodes found</p>
+          )}
+        </div>
       </div>
     </Layout>
   )
@@ -43,8 +45,10 @@ export async function getStaticProps(
 ): Promise<GetStaticPropsResult<IndexPageProps>> {
   const params = new DrupalJsonApiParams()
     .addFields("node--trip", ["title", "body", "field_picture", "path"])
+    .addInclude(["field_picture.field_media_image"])
     .addFilter("status", "1")
-    .addSort("created", "DESC")
+    .addSort("title", "ASC")
+    .addPageLimit(10)
 
   const trips = await drupal.getResourceCollectionFromContext<DrupalNode[]>(
     "node--trip",

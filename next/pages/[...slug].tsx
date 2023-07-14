@@ -6,6 +6,7 @@ import { drupal } from "lib/drupal"
 import { NodeTrip } from "components/node--trip"
 import { NodeBasicPage } from "components/node--basic-page"
 import { Layout } from "components/layout"
+import {DrupalJsonApiParams} from "drupal-jsonapi-params";
 
 const RESOURCE_TYPES = ["node--page", "node--trip", "file--file"]
 
@@ -48,22 +49,22 @@ export async function getStaticProps(
 
   const type = path.jsonapi.resourceName
 
-  let params = {}
+  let params = new DrupalJsonApiParams()
   if (type === "node--trip") {
-    params = {
-      include: "field_picture,uid",
-    }
+    params = new DrupalJsonApiParams()
+      .addFields("node--trip", ["title", "body", "field_picture", "path"])
+      .addInclude(["field_picture.field_media_image"])
   }
 
   const resource = await drupal.getResourceFromContext<DrupalNode>(
     path,
     context,
     {
-      params,
+      params: params.getQueryObject(),
     }
   )
 
-  // At this point, we know the path exists and it points to a resource.
+  // At this point, we know the path exists, and it points to a resource.
   // If we receive an error, it means something went wrong on Drupal.
   // We throw an error to tell revalidation to skip this for now.
   // Revalidation can try again on next request.

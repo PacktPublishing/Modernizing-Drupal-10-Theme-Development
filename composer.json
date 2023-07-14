@@ -19,9 +19,9 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/ckeditor5_dev": "^1.0",
         "drupal/components": "^3.0@beta",
-        "drupal/core-composer-scaffold": "10.1.0",
-        "drupal/core-project-message": "10.1.0",
-        "drupal/core-recommended": "10.1.0",
+        "drupal/core-composer-scaffold": "10.1.1",
+        "drupal/core-project-message": "10.1.1",
+        "drupal/core-recommended": "10.1.1",
         "drupal/critical_css": "^1.19",
         "drupal/default_content": "^2.0@alpha",
         "drupal/easy_breadcrumb": "^2.0",
@@ -38,7 +38,7 @@
     },
     "require-dev": {
         "drupal/coder": "^8.3",
-        "drupal/core-dev": "^10.1.0"
+        "drupal/core-dev": "^10.1.1"
     },
     "conflict": {
         "drupal/drupal": "*"
