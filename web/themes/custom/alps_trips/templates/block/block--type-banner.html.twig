@@ -1,5 +1,5 @@
 {{ include('@molecules/banner.html.twig', {
-  'link': block_content.field_link.0.url.toString(),
+  'link': block_content.field_link.0.url,
   'title': block_content.field_link.0.title,
   'image': file_url(block_content.field_image.0.entity.field_media_image.0.entity.uri.0.url),
   'cta': block_content.field_cta.0.value,
