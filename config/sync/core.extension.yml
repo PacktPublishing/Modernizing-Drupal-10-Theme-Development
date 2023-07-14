@@ -54,6 +54,7 @@ module:
   path_alias: 0
   phpass: 0
   responsive_image: 0
+  sdc: 0
   search_api: 0
   search_api_db: 0
   serialization: 0
