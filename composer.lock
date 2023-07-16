@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79b4bebc7b9d242f828f3f31cbffd8ea",
+    "content-hash": "6d6907f78885145d9d641b5a5f307d4a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1586,6 +1586,54 @@
             "homepage": "https://www.drupal.org/project/ckeditor5_dev",
             "support": {
                 "source": "https://git.drupalcode.org/project/ckeditor5_dev"
+            }
+        },
+        {
+            "name": "drupal/cl_generator",
+            "version": "2.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/cl_generator.git",
+                "reference": "2.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/cl_generator-2.0.0-beta1.zip",
+                "reference": "2.0.0-beta1",
+                "shasum": "2710502d6bdc6d83104958787b26398b84ad0984"
+            },
+            "require": {
+                "chi-teck/drupal-code-generator": "^2.5",
+                "drupal/core": "^9 || ^10",
+                "ext-json": "*",
+                "php": ">=8.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-beta1",
+                    "datestamp": "1682973434",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mateu Aguiló Bosch",
+                    "homepage": "https://www.drupal.org/user/550110",
+                    "email": "mateu@mateuaguilo.com"
+                }
+            ],
+            "description": "Drush integration to generate CL Components interactively.",
+            "homepage": "https://www.drupal.org/project/cl_generator",
+            "support": {
+                "source": "https://git.drupalcode.org/project/cl_generator"
             }
         },
         {
@@ -3204,17 +3252,11 @@
         },
         {
             "name": "drupal/webprofiler",
-            "version": "10.1.0",
+            "version": "dev-10.0.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/webprofiler.git",
-                "reference": "10.1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webprofiler-10.1.0.zip",
-                "reference": "10.1.0",
-                "shasum": "2a29421865f32d0f750fa9fef874a68371991632"
+                "reference": "1f65231cc026ea70cd87eeb074e9578a09670e88"
             },
             "require": {
                 "drupal/core": "^10",
@@ -3232,12 +3274,15 @@
             },
             "type": "drupal-module",
             "extra": {
+                "branch-alias": {
+                    "dev-10.0.x": "10.0.x-dev"
+                },
                 "drupal": {
-                    "version": "10.1.0",
-                    "datestamp": "1687509524",
+                    "version": "10.0.x-dev",
+                    "datestamp": "1689442477",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 },
                 "drush": {
@@ -4582,16 +4627,16 @@
         },
         {
             "name": "mck89/peast",
-            "version": "v1.15.1",
+            "version": "v1.15.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mck89/peast.git",
-                "reference": "cf06286910b7efc9dce7503553ebee314df3d3d3"
+                "reference": "07d82a271d372c6f37897a70b0381ca2ec2e364a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mck89/peast/zipball/cf06286910b7efc9dce7503553ebee314df3d3d3",
-                "reference": "cf06286910b7efc9dce7503553ebee314df3d3d3",
+                "url": "https://api.github.com/repos/mck89/peast/zipball/07d82a271d372c6f37897a70b0381ca2ec2e364a",
+                "reference": "07d82a271d372c6f37897a70b0381ca2ec2e364a",
                 "shasum": ""
             },
             "require": {
@@ -4604,7 +4649,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15.1-dev"
+                    "dev-master": "1.15.2-dev"
                 }
             },
             "autoload": {
@@ -4626,9 +4671,9 @@
             "description": "Peast is PHP library that generates AST for JavaScript code",
             "support": {
                 "issues": "https://github.com/mck89/peast/issues",
-                "source": "https://github.com/mck89/peast/tree/v1.15.1"
+                "source": "https://github.com/mck89/peast/tree/v1.15.2"
             },
-            "time": "2023-01-21T13:18:17+00:00"
+            "time": "2023-07-15T12:25:27+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -13106,8 +13151,10 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/cl_generator": 10,
         "drupal/components": 10,
-        "drupal/default_content": 15
+        "drupal/default_content": 15,
+        "drupal/webprofiler": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

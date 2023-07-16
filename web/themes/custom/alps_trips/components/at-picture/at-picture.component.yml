@@ -4,6 +4,12 @@ status: "stable"
 props:
   type: object
   properties:
-    "attributes":
-      type: "string"
-      title: "Title"
+    src:
+      type: string
+      title: Image source
+      description: The source of the image.
+      examples:
+        - 'https://www.example.org/image.jpg'
+    attributes:
+      type: Drupal\Core\Template\Attribute
+      name: Attributes

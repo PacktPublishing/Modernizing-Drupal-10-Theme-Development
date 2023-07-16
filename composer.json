@@ -18,6 +18,7 @@
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/ckeditor5_dev": "^1.0",
+        "drupal/cl_generator": "^2.0@beta",
         "drupal/components": "^3.0@beta",
         "drupal/core-composer-scaffold": "10.1.1",
         "drupal/core-project-message": "10.1.1",
@@ -32,7 +33,7 @@
         "drupal/pathauto": "^1.11",
         "drupal/search_api": "^1.29",
         "drupal/twig_tweak": "^3.2",
-        "drupal/webprofiler": "10.1.0",
+        "drupal/webprofiler": "10.0.x-dev@dev",
         "drush/drush": "^11.3",
         "symfony/stopwatch": "^6.1"
     },

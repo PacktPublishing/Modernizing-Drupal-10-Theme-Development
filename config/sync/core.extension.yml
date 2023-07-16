@@ -17,7 +17,6 @@ module:
   consumers: 0
   contact: 0
   contextual: 0
-  critical_css: 0
   datetime: 0
   dblog: 0
   decoupled_router: 0

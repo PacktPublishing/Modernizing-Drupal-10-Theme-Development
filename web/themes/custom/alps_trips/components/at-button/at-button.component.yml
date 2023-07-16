@@ -1,16 +1,26 @@
 '$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
 name: "Alps Trips Button"
 status: "stable"
+description: "A button component"
+libraryOverrides:
+  dependencies:
+    - "core/once"
+    - "core/drupal"
 props:
   type: object
   properties:
     "title":
       type: "string"
       title: "Title"
+      description: "Button title"
       examples:
-        - "Button title"
+        - "Click me"
     "type":
       type: "string"
       title: "Type"
+      description: "Button type"
       examples:
         - "primary"
+  required:
+    - title
+    - type
