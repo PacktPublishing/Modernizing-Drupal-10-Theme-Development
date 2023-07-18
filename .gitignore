@@ -13,6 +13,7 @@ web/sites/default/files
 # Ignore dev files
 node_modules
 web/themes/**/build
+web/themes/**/yarn-error.log
 
 # Ignore scaffolded files.
 web/.csslintrc
