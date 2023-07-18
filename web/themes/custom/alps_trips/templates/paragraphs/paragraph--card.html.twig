@@ -48,32 +48,37 @@
   )
 }}
 
-{#{% embed 'alps_trips:at-card' with {
-  'title': content.field_title,
-  'description': content.field_description
-} %}
+{#{% embed 'alps_trips:at-card' with {#}
+{#  'title': content.field_title,#}
+{#  'description': content.field_description#}
+{#} %}#}
 
-  {% block top %}
-    {% set image_uri = content
-      .field_picture[0]['#media']
-      .field_media_image
-      .entity.uri.value %}
+{#  {% block top %}#}
+{#    {% set image_uri = content#}
+{#      .field_picture[0]['#media']#}
+{#      .field_media_image#}
+{#      .entity.uri.value %}#}
+{#    {% set image_alt = content#}
+{#      .field_picture[0]['#media']#}
+{#      .field_media_image[0]#}
+{#      .alt %}#}
 
-    {{ include('alps_trips:at-picture', {
-        'attributes': create_attribute(),
-        'src': image_uri|image_style('large')
-      },
-      with_context = false)
-    }}
-  {% endblock %}
+{#    {{ include('alps_trips:at-picture', {#}
+{#        'picture_attributes': create_attribute()#}
+{#          .setAttribute('alt', image_alt),#}
+{#        'src': image_uri|image_style('large')#}
+{#      },#}
+{#      with_context = false)#}
+{#    }}#}
+{#  {% endblock %}#}
 
-  {% block bottom %}
-    {{ include('alps_trips:at-button', {
-        'title': 'More info',
-        'type': 'primary'
-      },
-      with_context = false)
-    }}
-  {% endblock %}
+{#  {% block bottom %}#}
+{#    {{ include('alps_trips:at-button', {#}
+{#        'title': 'More info',#}
+{#        'type': 'primary'#}
+{#      },#}
+{#      with_context = false)#}
+{#    }}#}
+{#  {% endblock %}#}
 
-{% endembed %}#}
+{#{% endembed %}#}

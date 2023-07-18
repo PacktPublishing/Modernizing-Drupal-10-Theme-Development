@@ -10,6 +10,6 @@ props:
       description: The source of the image.
       examples:
         - 'https://www.example.org/image.jpg'
-    attributes:
+    picture_attributes:
       type: Drupal\Core\Template\Attribute
       name: Attributes
