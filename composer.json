@@ -121,7 +121,8 @@
         "enable-patching": true,
         "patches": {
             "drupal/core": {
-                "Missing required data for configuration: x": "https://www.drupal.org/files/issues/2022-12-22/3304778-21.patch"
+                "Missing required data for configuration: x": "https://www.drupal.org/files/issues/2022-12-22/3304778-21.patch",
+                "Fix regression inntroduced by https://www.drupal.org/project/drupal/issues/2998451": "patches/2998451.patch"
             },
             "drupal/subrequests": {
                 "Get same results on different request": "https://www.drupal.org/files/issues/2019-07-18/change_request_type-63049395-09.patch"

@@ -1,0 +1,15 @@
+diff --git a/core/modules/toolbar/toolbar.module b/core/modules/toolbar/toolbar.module
+index e5ebb05039..178b6fdb6e 100644
+--- a/core/modules/toolbar/toolbar.module
++++ b/core/modules/toolbar/toolbar.module
+@@ -62,8 +62,8 @@ function toolbar_page_attachments(array &$page) {
+   const toolbarState = sessionStorage.getItem('Drupal.toolbar.toolbarState')
+     ? JSON.parse(sessionStorage.getItem('Drupal.toolbar.toolbarState'))
+     : false;
+-  // These are classes that toolbar typically adds to <body>, but this code
+-  // executes before the first paint, when <body> is not yet present. The
++  // These are classes that toolbar typically adds to body, but this code
++  // executes before the first paint, when body is not yet present. The
+   // classes are added to <html> so styling immediately reflects the current
+   // toolbar state. The classes are removed after the toolbar completes
+   // initialization.
