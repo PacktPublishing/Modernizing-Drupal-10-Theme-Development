@@ -20,8 +20,7 @@
       <p class="forecast-element__description">{{ item.weather[0].description|title }}</p>
       <a href="{{ path('alps_weather.details', {city:forecast.city.name, date:item.dt_txt}) }}" class="use-ajax"
          data-dialog-type="dialog"
-         data-dialog-renderer="off_canvas"
-         data-dialog-options='{"buttons":[{"text":"OK","click":"() => {...some actions...}"}]}'>More info</a>
+         data-dialog-options='{"width":700,"title":"{{ 'Details'|t }}"}'>More info</a>
     </div>
   {% endfor %}
 </div>

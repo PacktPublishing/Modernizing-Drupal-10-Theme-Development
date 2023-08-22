@@ -1,38 +1,5 @@
 name: Alps Trips
 type: theme
 'base theme': stable9
-starterkit: true
-libraries:
-  - alps_trips/base
-  - alps_trips/messages
-  - alps_trips/main
-libraries-extend:
-  user/drupal.user:
-    - alps_trips/user
-  core/drupal.dropbutton:
-    - alps_trips/dropbutton
-  core/drupal.dialog:
-    - alps_trips/dialog
-  file/drupal.file:
-    - alps_trips/file
-  core/drupal.progress:
-    - alps_trips/progress
 core_version_requirement: ^10
-generator: 'starterkit_theme:10.0.0'
-regions:
-  header: Header
-  breadcrumb: Breadcrumb
-  help: Help
-  content: Content
-  sidebar: Right sidebar
-  footer: Footer
-  page_top: Page top
-  page_bottom: Page bottom
-components:
-  namespaces:
-    atoms: ../../../../storybook/stories/01-atoms
-    molecules: ../../../../storybook/stories/02-molecules
-    organisms: ../../../../storybook/stories/03-organisms
-ckeditor5-stylesheets:
-  - build/main.css
 description: 'alps_trips theme'
