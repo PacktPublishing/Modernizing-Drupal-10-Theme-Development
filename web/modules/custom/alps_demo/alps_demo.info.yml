@@ -1,0 +1,4 @@
+name: 'Demo contents'
+type: module
+description: 'Demo contents....'
+core_version_requirement: ^10

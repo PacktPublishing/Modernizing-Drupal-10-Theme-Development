@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 94bdf43d-5f09-44c0-8e5e-1554e2f6d532
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: stars.jpg
+  uri:
+    -
+      value: 'public://2023-02/stars.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 2309877
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1676920881

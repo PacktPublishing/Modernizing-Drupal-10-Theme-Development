@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c9020e1f-e259-41ff-9bef-11c0a816e60f
+  bundle: trip
+  default_langcode: en
+  depends:
+    2c98dd48-f2d3-4eea-be90-a5413fa71327: taxonomy_term
+    150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f: taxonomy_term
+    016a8b1d-347d-45cb-88ae-87a4bfa3b0b6: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Marmolada
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/marmolada
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "Aliquam comis ex ludus neque occuro pneum ut. Feugiat macto si. Adipiscing caecus consectetuer cui haero inhibeo oppeto pagus sino vereor.\r\n\r\nAbbas elit magna persto torqueo vero. Acsi comis lenis nimis premo usitas. Ille nibh populus quidne ymo. Abbas aptent haero humo inhibeo interdico nutus sed suscipit validus.\r\n\r\nAugue jugis lobortis olim quis refero tincidunt. Consequat ille inhibeo loquor paratus ut velit vicis. Euismod ex iusto secundum. Comis erat ibidem illum magna. Diam huic patria ratis scisco ulciscor.\r\n\r\nBene feugiat hendrerit iusto lobortis nisl nulla quidem sagaciter. Abigo damnum ille importunus. Interdico magna persto turpis. Consequat jus paratus. Brevitas causa dolus iaceo jumentum luctus neo singularis velit vicis. Abigo facilisi metuo paratus. Abluo commodo roto ut. Abico acsi obruo vicis.\r\n\r\nAbico commodo et exerci nutus pecus refoveo tincidunt vereor voco. Adipiscing damnum humo loquor mos quibus refero saepius. Genitus humo sino suscipit vulputate zelus.\r\n\r\nLuptatum singularis typicus vero zelus. Metuo quibus tamen valetudo vulputate. Abico duis elit gravis minim oppeto pala patria. Iusto similis suscipit. Esse in quidne quis secundum. Abigo aliquip lobortis. Haero nulla singularis. Metuo odio premo saluto.\r\n\r\nAntehabeo consequat gemino. At duis plaga proprius ratis refero vindico. Feugiat praesent roto te tum venio. Acsi iaceo ratis tation te. Elit fere ille lenis melior patria. Aptent qui quibus.\r\n\r\nBene brevitas ideo ille paratus sit tincidunt turpis vicis. Abbas ibidem magna secundum. Eros iaceo macto mauris sino wisi. Diam inhibeo pagus quadrum vereor. Bene ex lobortis macto occuro olim sed verto. Augue decet diam jugis letalis patria pneum scisco validus. Autem defui elit gemino macto pecus saepius sudo. Facilisis iusto nibh nutus quae quis validus vulpes.\r\n\r\nFere probo vindico. Illum valetudo vero vindico. Augue blandit causa usitas. Acsi ad causa esse hendrerit luptatum. Caecus decet eu letalis nimis ratis vindico.\r\n\r\nEt interdico obruo. At eu humo imputo occuro premo sudo suscipere voco. Abdo accumsan exputo iusto nobis volutpat. Adipiscing diam ex humo incassum letalis nunc olim sino. Commoveo decet dolus eros olim praemitto qui usitas voco. Dolor pecus persto. Antehabeo at dignissim praesent refoveo. Erat occuro ullamcorper. Aliquam appellatio erat interdico ludus neque quadrum tamen. Gravis iaceo nostrud olim pagus.\r\n\r\nAutem causa esca hendrerit magna nobis scisco wisi. Amet antehabeo dolus paratus praemitto sit valde valetudo. Dolus esse imputo incassum mos plaga suscipit ulciscor. Iustum pagus ymo.\r\n\r\nAptent capto commodo feugiat neque nunc paratus sagaciter tation usitas. Abico aptent distineo esse gilvus letalis roto te zelus. Laoreet lenis occuro sino. Diam genitus imputo secundum. Enim hendrerit ibidem melior nutus suscipit tum vero virtus. Dignissim iaceo nutus odio roto sit velit venio virtus. Accumsan duis illum minim roto tation veniam.\r\n\r\nImputo pala premo. Aliquip importunus jus loquor luptatum ymo. Bene praesent usitas valetudo velit. Amet facilisis valetudo velit ymo. Abdo ad luctus natu pagus populus quae. Enim huic molior neo nibh nulla probo ulciscor ullamcorper vulpes. Iaceo incassum jus vel. Adipiscing causa euismod laoreet oppeto praesent qui quis ulciscor.\r\n\r\n"
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: Moena
+  field_duration:
+    -
+      entity: 2c98dd48-f2d3-4eea-be90-a5413fa71327
+  field_lat_lng:
+    -
+      value: '46.3760712,11.6488435'
+  field_level:
+    -
+      entity: 150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f
+  field_origin:
+    -
+      value: Moena
+  field_picture:
+    -
+      entity: 016a8b1d-347d-45cb-88ae-87a4bfa3b0b6

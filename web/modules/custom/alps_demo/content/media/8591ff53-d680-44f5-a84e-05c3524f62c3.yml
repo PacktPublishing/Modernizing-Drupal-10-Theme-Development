@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 8591ff53-d680-44f5-a84e-05c3524f62c3
+  bundle: image
+  default_langcode: en
+  depends:
+    46f72433-eff4-44e6-8c10-49d6b0dbbf51: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: slide1.jpg
+  created:
+    -
+      value: 1677178702
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 46f72433-eff4-44e6-8c10-49d6b0dbbf51
+      alt: 'Mountains at night'
+      title: ''
+      width: 4928
+      height: 3264

@@ -1,0 +1,4 @@
+url: http://api.openweathermap.org/data/2.5/forecast
+api_key: xxx
+units: metric
+cnt: 5

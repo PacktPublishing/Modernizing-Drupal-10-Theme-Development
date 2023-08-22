@@ -1,0 +1,5 @@
+name: Quote
+type: module
+description: Provides a block with random travel quotes.
+package: Alps
+core_version_requirement: ^10

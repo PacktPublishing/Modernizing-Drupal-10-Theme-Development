@@ -1,0 +1,11 @@
+uuid: 0df8ea73-4d80-4a92-897b-4b46f14cfcec
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.trip_equipment
+id: taxonomy_term.trip_equipment
+target_entity_type_id: taxonomy_term
+target_bundle: trip_equipment
+default_langcode: site_default
+language_alterable: false

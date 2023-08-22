@@ -1,0 +1,10 @@
+uuid: 494202df-1141-45e4-a5c4-a6bb669410f1
+langcode: en
+status: true
+dependencies: {  }
+id: weather
+label: Weather
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

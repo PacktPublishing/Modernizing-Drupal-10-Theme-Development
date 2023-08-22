@@ -1,0 +1,26 @@
+.forecast-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.forecast-element {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.forecast-element__date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.forecast-element__temp {
+  margin-bottom: 10px;
+}
+
+.forecast-element__description {
+  font-style: italic;
+}

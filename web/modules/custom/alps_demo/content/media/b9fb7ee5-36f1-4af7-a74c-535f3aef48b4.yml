@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: b9fb7ee5-36f1-4af7-a74c-535f3aef48b4
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    c83586b4-1cd4-480f-80b9-a08f6c09ea7d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: monviso_from_turin.jpg
+  created:
+    -
+      value: 1676806220
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_caption:
+    -
+      value: 'Monviso as seen from Turin'
+  field_media_image:
+    -
+      entity: c83586b4-1cd4-480f-80b9-a08f6c09ea7d
+      alt: 'Monviso as seen from Turin'
+      title: ''
+      width: 1420
+      height: 947

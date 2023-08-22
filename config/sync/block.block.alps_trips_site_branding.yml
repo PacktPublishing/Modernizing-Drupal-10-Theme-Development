@@ -1,0 +1,25 @@
+uuid: ded57a0b-a20e-49d3-b3b3-ed44a8315a01
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - alps_trips
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: alps_trips_site_branding
+theme: alps_trips
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

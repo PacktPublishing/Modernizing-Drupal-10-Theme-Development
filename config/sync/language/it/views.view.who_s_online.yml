@@ -1,0 +1,30 @@
+label: 'Blocco "Chi è online"'
+description: 'Mostra il nome utente degli utenti attivi di recente ed il numero totale di utenti attivi.'
+display:
+  default:
+    display_title: Predefinito
+    display_options:
+      title: 'Utenti on-line'
+      exposed_form:
+        options:
+          submit_button: Applica
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+      empty:
+        area_text_custom:
+          content: 'In questo momento ci sono 0 utenti collegati.'
+      filters:
+        access:
+          expose:
+            label: 'Ultimo accesso'
+            description: 'Un utente è considerato on-line per questo tempo dopo la sua ultima visita di una pagina.'
+      header:
+        result:
+          content: 'In questo momento ci sono @total utenti collegati.'
+  who_s_online_block:
+    display_title: 'Utenti on-line'
+    display_options:
+      display_description: 'Un elenco di utenti che sono in questo momento connessi.'
+      block_description: 'Utenti on-line'

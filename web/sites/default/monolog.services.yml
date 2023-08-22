@@ -1,0 +1,13 @@
+parameters:
+  monolog.channel_handlers:
+    default:
+      handlers:
+        - name: 'rotating_file'
+          formatter: 'json'
+  monolog.processors: ['current_user', 'introspection', 'message_placeholder', 'request_uri', 'ip', 'referer', 'filter_backtrace']
+  monolog.logger.processors: ['debug']
+
+services:
+  monolog.handler.rotating_file:
+    class: Monolog\Handler\RotatingFileHandler
+    arguments: ['/var/www/html/logs/debug.log', 10, 'DEBUG']

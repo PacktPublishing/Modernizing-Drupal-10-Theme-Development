@@ -1,0 +1,14 @@
+{
+  "printWidth": 80,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.html.twig",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}

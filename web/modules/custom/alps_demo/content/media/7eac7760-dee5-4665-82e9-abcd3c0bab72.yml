@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7eac7760-dee5-4665-82e9-abcd3c0bab72
+  bundle: image
+  default_langcode: en
+  depends:
+    b7cb952b-1679-4878-9ea0-af6b1e47cc43: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: slide3_1.jpg
+  created:
+    -
+      value: 1677179021
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: b7cb952b-1679-4878-9ea0-af6b1e47cc43
+      alt: 'Monte Cervino'
+      title: ''
+      width: 6000
+      height: 4000

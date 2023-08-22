@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 4edc8159-f2f8-45b6-bec3-0e652651a822
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    ecc74ab6-13c1-409a-80a2-828fc59eb9f2: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: monte_rosa.jpg
+  created:
+    -
+      value: 1676920270
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_caption:
+    -
+      value: 'Monte Rosa'
+  field_media_image:
+    -
+      entity: ecc74ab6-13c1-409a-80a2-828fc59eb9f2
+      alt: 'Monte Rosa'
+      title: ''
+      width: 3264
+      height: 2176

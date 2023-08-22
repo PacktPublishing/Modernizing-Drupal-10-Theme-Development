@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Description: Execute Storybook's yarn commands.
+## Usage: storybook [command]
+## Example: "ddev storybook lint -- Lint storybook Twig files"
+
+yarn --cwd=storybook run $@

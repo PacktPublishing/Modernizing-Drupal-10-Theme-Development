@@ -1,0 +1,8 @@
+uuid: f922ba09-a155-400f-8805-d124813a4c0c
+langcode: en
+status: true
+dependencies: {  }
+id: legal
+label: Legal
+description: 'Footer links for legals'
+locked: false

@@ -1,0 +1,11 @@
+uuid: 139f4863-2eb3-41fe-9996-acf702839c03
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.offer
+id: node.offer
+target_entity_type_id: node
+target_bundle: offer
+default_langcode: site_default
+language_alterable: false

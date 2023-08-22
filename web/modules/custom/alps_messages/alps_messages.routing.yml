@@ -1,0 +1,7 @@
+alps_messages.settings:
+  path: '/admin/config/system/settings'
+  defaults:
+    _title: 'Messages'
+    _form: 'Drupal\alps_messages\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'

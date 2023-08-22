@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6f7b1631-deba-4ed2-be6b-7426ba153608
+  bundle: offer
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Summer on the alps!'
+  created:
+    -
+      value: 1681568089
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Escape to the stunning beauty of the Alps this summer with our exciting new travel promotion. Experience the ultimate adventure and create lasting memories with our incredible offer.</p><p>Book now and enjoy a discounted price of 10% off your trip to the stunning Alpine region. Immerse yourself in breathtaking surroundings while exploring the magnificent landscapes of the Alps.</p><p>Our exclusive package includes a range of activities, such as hiking along alpine trails, rock climbing, skiing and snowboarding, mountain biking, and more. Discover the fascinating local culture and enjoy delicious traditional cuisine while soaking up the glorious sunshine.</p><p>With comfortable accommodation, friendly guides, and top-notch equipment, we guarantee a safe and enjoyable experience for all our guests. Whether you're an experienced adventurer or a first-time visitor to the Alps, we have something for everyone.</p><p>Don't miss out on this fantastic summer promotion. Book now and start packing your bags for the ultimate Alpine adventure. We promise you won't be disappointed!</p>"
+      format: basic_html
+      summary: ''
+  field_new_price:
+    -
+      value: 900.0
+  field_old_price:
+    -
+      value: 1000.0

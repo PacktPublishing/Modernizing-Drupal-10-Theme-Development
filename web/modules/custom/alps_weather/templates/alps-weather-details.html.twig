@@ -1,0 +1,27 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display the detail of a wather forecast.
+ *
+ * Available variables:
+ * - forecast: An array with forecast data.
+ * - units: The system used to render values. Can be metric or imperial.
+ *
+ * @see template_preprocess_alps_weather_details()
+ */
+#}
+
+<div>{{ forecast.weather.0.description|title }}</div>
+
+<img
+  src="https://openweathermap.org/img/w/{{ forecast.weather.0.icon }}.png"
+  alt="{{ forecast.weather.0.description }}"/>
+
+<dl>
+  <dt>{{ 'Wind speed'|trans }}</dt>
+  <dd>{{ forecast.wind.speed }} {{ units == 'metric' ? 'meter/sec'|t : 'miles/hour'|t }}</dd>
+  <dt>{{ 'Pressure'|t }}</dt>
+  <dd>{{ forecast.main.pressure }} hPa</dd>
+  <dt>{{ 'Humidity'|t }}</dt>
+  <dd>{{ forecast.main.humidity }} %</dd>
+</dl>

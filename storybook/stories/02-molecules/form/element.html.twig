@@ -1,0 +1,21 @@
+<div {{ attributes.addClass(classes) }}>
+  {% if labelDisplay in ['before', 'invisible'] %} {{ label }} {% endif %} {% if
+  prefix is not empty %}
+  <span class="field-prefix">{{ prefix }}</span>
+  {% endif %} {% if descriptionDisplay == 'before' and description.content %}
+  <div {{ description.attributes }}>{{ description.content }}</div>
+  {% endif %} {{ children }} {% if suffix is not empty %}
+  <span class="field-suffix">{{ suffix }}</span>
+  {% endif %} {% if labelDisplay == 'after' %} {{ label }} {% endif %} {% if
+  errors %}
+  <div class="form-item--error-message">
+    <span class="text-sm font-medium text-nord-11">{{ errors }}</span>
+  </div>
+  {% endif %} {% if descriptionDisplay in ['after', 'invisible'] and
+  description.content %} {% set descriptionAttributes =
+  description.attributes.addClass('mt-1', 'text-sm', 'font-medium',
+  'text-nord-3') %}
+
+  <div {{ descriptionAttributes }}>{{ description.content }}</div>
+  {% endif %}
+</div>

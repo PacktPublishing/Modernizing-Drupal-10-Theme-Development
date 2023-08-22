@@ -1,0 +1,33 @@
+uuid: 87e4d036-21ca-427d-9208-e26f8218e412
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.trip_equipment.field_picture
+    - taxonomy.vocabulary.trip_equipment
+  module:
+    - text
+id: taxonomy_term.trip_equipment.default
+targetEntityType: taxonomy_term
+bundle: trip_equipment
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_picture:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

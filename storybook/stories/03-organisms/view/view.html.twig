@@ -1,0 +1,24 @@
+<div {{ attributes.addClass(classes) }}>
+  {{ titlePrefix }} {% if title %} {{ title }} {% endif %} {{ titleSuffix }} {%
+  if header %}
+  <div class="view-header">{{ header }}</div>
+  {% endif %} {% if exposed %}
+  <div class="view-filters">{{ exposed }}</div>
+  {% endif %} {% if attachmentBefore %}
+  <div class="attachment attachment-before">{{ attachmentBefore }}</div>
+  {% endif %} {% if rows %}
+  <div class="{% if spaceRows %}space-y-6{% endif %}">{{ rows }}</div>
+  {% elseif empty %}
+  <div class="view-empty">{{ empty }}</div>
+  {% endif %} {% if pager %}
+  <div class="flex justify-center">
+    <div class="mt-10">{{ pager }}</div>
+  </div>
+  {% endif %} {% if attachmentAfter %}
+  <div class="attachment attachment-after">{{ attachmentAfter }}</div>
+  {% endif %} {% if more %} {{ more }} {% endif %} {% if footer %}
+  <div class="view-footer">{{ footer }}</div>
+  {% endif %} {% if feedIcons %}
+  <div class="feed-icons">{{ feedIcons }}</div>
+  {% endif %}
+</div>

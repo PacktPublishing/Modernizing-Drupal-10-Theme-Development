@@ -1,0 +1,29 @@
+uuid: 3e882118-1885-4b03-a780-79840587cbf8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_duration
+    - node.type.trip
+    - taxonomy.vocabulary.duration
+id: node.trip.field_duration
+field_name: field_duration
+entity_type: node
+bundle: trip
+label: Duration
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      duration: duration
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

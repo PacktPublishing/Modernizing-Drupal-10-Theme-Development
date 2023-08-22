@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ecc74ab6-13c1-409a-80a2-828fc59eb9f2
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: monte_rosa.jpg
+  uri:
+    -
+      value: 'public://2023-02/monte_rosa.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3452316
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1676920270

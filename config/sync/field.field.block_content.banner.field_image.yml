@@ -1,0 +1,29 @@
+uuid: 37bacfab-6065-45fd-a6d2-dfcdd5b58061
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+    - field.storage.block_content.field_image
+    - media.type.image
+id: block_content.banner.field_image
+field_name: field_image
+entity_type: block_content
+bundle: banner
+label: Image
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

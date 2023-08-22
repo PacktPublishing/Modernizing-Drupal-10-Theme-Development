@@ -1,0 +1,12 @@
+base:
+  version: 1.0.0
+  css:
+    component:
+      css/alps_weather.css: { }
+  js:
+    js/alps_weather.js: { }
+  dependencies:
+    - core/drupal
+    - core/drupal.ajax
+    - core/jquery
+    - core/once

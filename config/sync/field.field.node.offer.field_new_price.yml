@@ -1,0 +1,23 @@
+uuid: 97af7b53-02a4-4561-a6af-aa8b551ea867
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_new_price
+    - node.type.offer
+id: node.offer.field_new_price
+field_name: field_new_price
+entity_type: node
+bundle: offer
+label: 'New price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: €
+  suffix: ''
+field_type: float

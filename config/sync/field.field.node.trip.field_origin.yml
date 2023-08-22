@@ -1,0 +1,19 @@
+uuid: 88d69575-502e-4a6d-bc70-d79b6444934b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_origin
+    - node.type.trip
+id: node.trip.field_origin
+field_name: field_origin
+entity_type: node
+bundle: trip
+label: Origin
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

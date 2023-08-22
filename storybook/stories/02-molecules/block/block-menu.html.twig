@@ -1,0 +1,34 @@
+{%
+  set classes = [
+  'block-menu',
+  'navigation',
+  'menu--' ~ derivative_plugin_id|clean_class,
+  'navbar-menu fixed items-center justify-between w-72 h-screen top-0 right-0 translate-x-full overflow-y-auto bg-nord-4 drop-shadow-md z-20 transition-transform duration-500 ease-in-out lg:static lg:flex lg:w-auto lg:h-auto lg:overflow-y-hidden lg:bg-transparent lg:drop-shadow-none lg:transition-none lg:transform-none',
+]
+%}
+{% set heading_id = attributes.id ~ '-menu'|clean_id %}
+<div class="lg:hidden order-last">
+  <button class="navbar-open p-3 hover:text-nord-10">
+    <svg class="block h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <title>Mobile menu</title>
+      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+    </svg>
+  </button>
+</div>
+<nav role="navigation" aria-labelledby="{{ heading_id }}" {{ attributes.addClass(classes) }}>
+  <div class="navbar-close border-b border-nord-10 p-1.5 lg:hidden hover:cursor-pointer">
+    <svg class="h-8 w-8 text-nord-10" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <line x1="18" y1="6" x2="6" y2="18" />  <line x1="6" y1="6" x2="18" y2="18" /></svg>
+  </div>
+  {# Label. If not displayed, we still provide it for screen readers. #}
+  {% if not configuration.label_display %}
+    {% set title_attributes = title_attributes.addClass('visually-hidden') %}
+  {% endif %}
+  {{ title_prefix }}
+  <h2 {{ title_attributes.setAttribute('id', heading_id) }}>{{ configuration.label }}</h2>
+  {{ title_suffix }}
+
+  {# Menu. #}
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+</nav>

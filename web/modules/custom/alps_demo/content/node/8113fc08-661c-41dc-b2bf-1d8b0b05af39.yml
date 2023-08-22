@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8113fc08-661c-41dc-b2bf-1d8b0b05af39
+  bundle: trip
+  default_langcode: en
+  depends:
+    2c98dd48-f2d3-4eea-be90-a5413fa71327: taxonomy_term
+    b202ca18-6f0d-43d5-9dac-038b561edb17: taxonomy_term
+    bfef303f-5e94-4f3f-aa9d-a5c78543f2de: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Monte Bianco'
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/monte-bianco
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "Welcome to the magnificent realm of Monte Bianco, also known as Mont Blanc, the crown jewel of the European Alps. Prepare to embark on a mesmerizing journey through towering peaks, breathtaking glaciers, and awe-inspiring vistas that will leave you spellbound.\r\n\r\nRising to a staggering height of 4,810 meters (15,781 feet), Monte Bianco stands as the highest peak in Western Europe, straddling the border between Italy and France. Its majestic presence dominates the skyline, beckoning adventurers, mountaineers, and nature enthusiasts to explore its pristine beauty.\r\n\r\nAs you approach the base of Monte Bianco, a sense of awe washes over you. The mountain's snow-capped peak, glistening under the sunlight, stands in stark contrast to the deep blue sky. The surrounding valleys, adorned with lush alpine meadows and quaint villages, provide a picturesque backdrop to this natural wonder.\r\n\r\nBegin your adventure by ascending to the summit via cable car or cogwheel train, immersing yourself in the spectacular alpine scenery along the way. As you ascend, the landscape transforms before your eyes, with panoramic views of glaciers, cascading waterfalls, and rugged peaks unfolding in every direction.\r\n\r\nOnce you reach the summit, an otherworldly panorama awaits you. Marvel at the vast expanse of snow and ice that blankets the surrounding landscape, punctuated by dramatic ridges and sharp peaks. On a clear day, the view extends for miles, encompassing the jagged summits of neighboring mountain ranges and the verdant valleys below."
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: Courmayeur
+  field_duration:
+    -
+      entity: 2c98dd48-f2d3-4eea-be90-a5413fa71327
+  field_lat_lng:
+    -
+      value: '44.9202345,8.6239312'
+  field_level:
+    -
+      entity: b202ca18-6f0d-43d5-9dac-038b561edb17
+  field_origin:
+    -
+      value: Courmayeur
+  field_picture:
+    -
+      entity: bfef303f-5e94-4f3f-aa9d-a5c78543f2de

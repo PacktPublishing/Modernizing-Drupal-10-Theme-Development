@@ -1,0 +1,5 @@
+name: Weather
+type: module
+description: Adds a page with weather information.
+package: Alps
+core_version_requirement: ^10

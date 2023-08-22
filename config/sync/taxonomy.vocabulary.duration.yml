@@ -1,0 +1,8 @@
+uuid: 1ce41a71-7ce4-4ce7-9316-5dc4ff89c7b6
+langcode: en
+status: true
+dependencies: {  }
+name: Duration
+vid: duration
+description: 'Represent the duration of a tour.'
+weight: 0

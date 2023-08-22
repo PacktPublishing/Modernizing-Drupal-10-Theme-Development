@@ -1,0 +1,11 @@
+uuid: 700ca731-1414-4bcb-8d3d-04ba37b4e6bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.trip
+id: node.trip
+target_entity_type_id: node
+target_bundle: trip
+default_langcode: site_default
+language_alterable: false

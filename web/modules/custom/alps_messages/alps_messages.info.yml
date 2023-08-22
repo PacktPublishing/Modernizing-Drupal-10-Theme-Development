@@ -1,0 +1,5 @@
+name: Messages
+type: module
+description: Print a message on the page_top region.
+package: Alps
+core_version_requirement: ^10

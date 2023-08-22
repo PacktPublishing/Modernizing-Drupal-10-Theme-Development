@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 30ce5dd1-1fcd-41d0-88bb-ff3939ae413b
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    53c73cd7-7496-4558-94ee-11e76acb3047: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Punta_Marguareis.jpg
+  created:
+    -
+      value: 1689962229
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 53c73cd7-7496-4558-94ee-11e76acb3047
+      alt: 'Punta Marguareis'
+      title: ''
+      width: 4000
+      height: 2248

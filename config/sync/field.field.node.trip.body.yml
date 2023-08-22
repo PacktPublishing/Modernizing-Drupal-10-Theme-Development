@@ -1,0 +1,24 @@
+uuid: 84985e0d-29e5-4c23-a03f-a52d1546d68f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.trip
+  module:
+    - text
+id: node.trip.body
+field_name: body
+entity_type: node
+bundle: trip
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

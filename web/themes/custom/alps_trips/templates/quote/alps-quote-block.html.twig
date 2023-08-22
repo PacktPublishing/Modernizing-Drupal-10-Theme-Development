@@ -1,0 +1,18 @@
+{#
+/**
+ * @file
+ * Theme override to display a quote.
+ *
+ * Available variables:
+ * - quote: The text of the quote.
+ * - author: The author of the quote.
+ *
+ * @see template_preprocess_alps_quote_block()
+ */
+#}
+{{ include('@atoms/quote.html.twig',
+  {
+    'quote': quote,
+    'author': author
+  }
+) }}

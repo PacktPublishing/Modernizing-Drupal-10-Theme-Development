@@ -1,0 +1,16 @@
+alps_trips.settings:
+  type: theme_settings
+  label: 'Alps Trips settings'
+  mapping:
+    copyright:
+      type: string
+      label: 'Copyright text'
+    twitter:
+      type: string
+      label: 'Twitter'
+    facebook:
+      type: string
+      label: 'Facebook'
+    github:
+      type: string
+      label: 'Github'

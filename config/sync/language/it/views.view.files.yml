@@ -1,0 +1,88 @@
+label: File
+description: 'Trova e gestisci i file.'
+display:
+  default:
+    display_title: Predefinito
+    display_options:
+      title: File
+      fields:
+        fid:
+          label: Fid
+        filename:
+          label: Nome
+          separator: ', '
+        filemime:
+          label: 'Tipo MIME'
+        filesize:
+          label: Dimensione
+        status:
+          label: Stato
+          settings:
+            format_custom_false: Temporaneo
+            format_custom_true: Permanente
+        created:
+          label: 'Data di caricamento'
+        changed:
+          label: 'Data di ultima modifica'
+        count:
+          label: 'Usato in'
+      pager:
+        options:
+          tags:
+            next: 'Seguente ›'
+            previous: '‹ Precedente'
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+            offset_label: Scostamento
+      exposed_form:
+        options:
+          submit_button: Filtra
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+      empty:
+        area_text_custom:
+          content: 'Nessun file disponibile.'
+      filters:
+        filename:
+          expose:
+            label: 'Nome file'
+        filemime:
+          expose:
+            label: 'Tipo MIME'
+        status:
+          expose:
+            label: Stato
+  page_1:
+    display_title: 'Panoramica file'
+    display_options:
+      menu:
+        title: File
+  page_2:
+    display_title: 'Utilizzo del file'
+    display_options:
+      title: 'Utilizzo del file'
+      fields:
+        entity_label:
+          label: Entità
+        type:
+          label: 'Tipo di entità'
+        module:
+          label: 'Registrazione del modulo'
+        count:
+          label: 'Contatore di utilizzo'
+      pager:
+        options:
+          tags:
+            next: 'Seguente ›'
+            previous: '‹ Precedente'
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+            offset_label: Scostamento
+      arguments:
+        fid:
+          exception:
+            title: Tutti

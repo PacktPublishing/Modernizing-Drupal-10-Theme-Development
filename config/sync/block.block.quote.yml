@@ -1,0 +1,28 @@
+uuid: 9d69d213-d34a-4af2-b44b-faaf79bf5c00
+langcode: en
+status: true
+dependencies:
+  module:
+    - alps_quote
+    - node
+  theme:
+    - alps_trips
+id: quote
+theme: alps_trips
+region: sidebar
+weight: -7
+provider: null
+plugin: alps_quote_block
+settings:
+  id: alps_quote_block
+  label: 'Travel quotes'
+  label_display: '0'
+  provider: alps_quote
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      trip: trip

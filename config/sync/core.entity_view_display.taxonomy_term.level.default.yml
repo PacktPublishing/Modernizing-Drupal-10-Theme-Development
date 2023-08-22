@@ -1,0 +1,33 @@
+uuid: a5ea7310-ba4a-40dc-8aa3-a99403c0ee13
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.level.field_equipment
+    - taxonomy.vocabulary.level
+  module:
+    - text
+id: taxonomy_term.level.default
+targetEntityType: taxonomy_term
+bundle: level
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_equipment:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,17 @@
+uuid: c43bd9c9-0b41-411b-87aa-8b4a86566f78
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Offer
+type: offer
+description: 'Used to publish an offer.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

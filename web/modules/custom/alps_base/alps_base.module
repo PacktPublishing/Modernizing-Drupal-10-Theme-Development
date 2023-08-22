@@ -1,0 +1,40 @@
+<?php
+
+use Drupal\alps_base\Entity\BannerBlock;
+
+/**
+ * Implements hook_help().
+ */
+function alps_base_help($route_name) {
+  switch ($route_name) {
+    case 'help.page.alps_base':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Bae features for the Alps Trips website.') . '</p>';
+
+      return $output;
+  }
+}
+
+/**
+ * @return array[]
+ */
+function alps_base_theme(): array {
+  return [
+    'alps_base_lat_lng' => [
+      'variables' => [
+        'lat' => '',
+        'lng' => '',
+        'text' => '',
+      ],
+    ],
+  ];
+}
+
+/**
+ * Implements hook_entity_bundle_info_alter().
+ */
+function alps_base_entity_bundle_info_alter(array &$bundles): void {
+  if (isset($bundles['block_content']['banner'])) {
+    $bundles['block_content']['banner']['class'] = BannerBlock::class;
+  }
+}

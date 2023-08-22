@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b9067541-fbd1-47b6-93cd-2d03d0d2b91c
+  bundle: trip_equipment
+  default_langcode: en
+  depends:
+    31fb5660-ec44-4f6c-80ee-9ffb4205c7c9: media
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Rain jacket'
+  description:
+    -
+      value: '<p>A rain jacket is a crucial piece of equipment for any mountain trip, as it protects hikers from getting wet and cold in rainy and wet conditions.</p>'
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_picture:
+    -
+      entity: 31fb5660-ec44-4f6c-80ee-9ffb4205c7c9

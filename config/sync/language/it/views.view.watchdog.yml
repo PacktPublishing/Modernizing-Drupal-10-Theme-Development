@@ -1,0 +1,54 @@
+label: Watchdog
+description: 'Messaggi di log recenti'
+display:
+  default:
+    display_title: Predefinito
+    display_options:
+      title: 'Messaggi di log recenti'
+      fields:
+        nothing:
+          admin_label: Icona
+        wid:
+          label: WID
+        severity:
+          label: Rilevanza
+        type:
+          label: Tipo
+        timestamp:
+          label: Data
+        message:
+          label: Messaggio
+        name:
+          label: Utente
+          separator: ', '
+        link:
+          label: Operazioni
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+            offset_label: Scostamento
+      exposed_form:
+        options:
+          submit_button: Filtra
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+      empty:
+        area:
+          admin_label: 'Nessun messaggio di log disponibile.'
+          content: 'Nessun messaggio di log disponibile.'
+      filters:
+        type:
+          expose:
+            label: Tipo
+        severity:
+          expose:
+            label: Rilevanza
+  page:
+    display_title: Pagina

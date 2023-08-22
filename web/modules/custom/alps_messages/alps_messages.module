@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_page_top().
+ */
+function alps_messages_page_top(array &$page_top): void {
+  $theme = \Drupal::theme()->getActiveTheme()->getName();
+  $message = \Drupal::config('alps_messages.settings')->get('message');
+  if ($theme == 'alps_trips' && $message) {
+    $page_top[] = [
+      '#markup' =>
+        '<div class="page-top">
+            <div class="page-top__message">' . $message . '</div>
+        </div>',
+    ];
+  }
+}

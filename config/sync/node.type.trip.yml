@@ -1,0 +1,17 @@
+uuid: b3dbaefe-97c2-4e7b-9563-3ee2b2cf7850
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Trip
+type: trip
+description: 'Used to describe a trip.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

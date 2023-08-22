@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d7919bf9-2358-46d0-bb6a-8bdf13fc37db
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: cervino.jpg
+  uri:
+    -
+      value: 'public://2023-02/cervino.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 11638608
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1676918609

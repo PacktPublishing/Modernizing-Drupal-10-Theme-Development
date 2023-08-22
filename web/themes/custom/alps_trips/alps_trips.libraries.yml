@@ -1,0 +1,155 @@
+base:
+  version: VERSION
+  css:
+    component:
+      css/components/action-links.css:
+        weight: -10
+      css/components/button.css:
+        weight: -10
+      css/components/container-inline.css:
+        weight: -10
+      css/components/details.css:
+        weight: -10
+      css/components/exposed-filters.css:
+        weight: -10
+      css/components/field.css:
+        weight: -10
+      css/components/icons.css:
+        weight: -10
+      css/components/link.css:
+        weight: -10
+      css/components/links.css:
+        weight: -10
+      css/components/menu.css:
+        weight: -10
+      css/components/more-link.css:
+        weight: -10
+      css/components/pager.css:
+        weight: -10
+      css/components/tabledrag.css:
+        weight: -10
+      css/components/tableselect.css:
+        weight: -10
+      css/components/tablesort.css:
+        weight: -10
+      css/components/tabs.css:
+        weight: -10
+      css/components/textarea.css:
+        weight: -10
+      css/components/ui-dialog.css:
+        weight: -10
+dialog:
+  version: VERSION
+  css:
+    component:
+      css/components/dialog.css:
+        weight: -10
+dropbutton:
+  version: VERSION
+  css:
+    component:
+      css/components/dropbutton.css:
+        weight: -10
+file:
+  version: VERSION
+  css:
+    component:
+      css/components/file.css:
+        weight: -10
+image-widget:
+  version: VERSION
+  css:
+    component:
+      css/components/image-widget.css: {}
+indented:
+  version: VERSION
+  css:
+    component:
+      css/components/indented.css: {}
+messages:
+  version: VERSION
+  css:
+    component:
+      css/components/messages.css:
+        weight: -10
+node:
+  version: VERSION
+  css:
+    component:
+      css/components/node.css:
+        weight: -10
+progress:
+  version: VERSION
+  css:
+    component:
+      css/components/progress.css:
+        weight: -10
+search-results:
+  version: VERSION
+  css:
+    component:
+      css/components/search-results.css: {}
+user:
+  version: VERSION
+  css:
+    component:
+      css/components/user.css:
+        weight: -10
+main:
+  version: VERSION
+  js:
+    build/main.js: {}
+  css:
+    theme:
+      build/main.css: {}
+alpine:
+  remote: https://alpinejs.dev
+  version: 2.8.2
+  license:
+    name: MIT
+    url: https://github.com/alpinejs/alpine/blob/main/LICENSE.md
+    gpl-compatible: true
+  js:
+    https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js:
+      { type: external, minified: true }
+swiper:
+  remote: https://swiperjs.com
+  version: 6.8.4
+  license:
+    name: MIT
+    url: https://github.com/nolimits4web/swiper/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js:
+      { type: external, minified: true }
+  css:
+    component:
+      https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css:
+        { type: external, minified: true }
+  dependencies:
+    - alps_trips/alpine
+leaflet:
+  remote: https://leafletjs.com
+  version: 1.9.3
+  license:
+    name: BSD 2-Clause
+    url: https://github.com/Leaflet/Leaflet/blob/main/LICENSE
+    gpl-compatible: true
+  js:
+    node_modules/leaflet/dist/leaflet.js: { minified: true }
+  css:
+    component:
+      node_modules/leaflet/dist/leaflet.css: { minified: true }
+map:
+  version: VERSION
+  js:
+    js/map.js: {}
+  dependencies:
+    - core/once
+    - alps_trips/leaflet
+menu:
+  version: VERSION
+  js:
+    js/block-menu.js: {}
+  dependencies:
+    - core/drupal

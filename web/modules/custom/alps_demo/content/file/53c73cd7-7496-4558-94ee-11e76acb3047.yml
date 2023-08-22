@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 53c73cd7-7496-4558-94ee-11e76acb3047
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Punta_Marguareis.jpg
+  uri:
+    -
+      value: 'public://2023-07/Punta_Marguareis.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3412292
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1689962229

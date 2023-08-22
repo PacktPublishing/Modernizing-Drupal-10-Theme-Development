@@ -1,0 +1,52 @@
+uuid: 19c1f2ab-6dd3-4d48-9e0c-5872f3372c07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contents
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.grid
+    - paragraphs.paragraphs_type.slider
+    - paragraphs.paragraphs_type.trip_list
+    - paragraphs.paragraphs_type.weather
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_contents
+field_name: field_contents
+entity_type: node
+bundle: landing_page
+label: Contents
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      grid: grid
+      trip_list: trip_list
+      slider: slider
+      weather: weather
+    negate: 0
+    target_bundles_drag_drop:
+      card:
+        weight: 3
+        enabled: false
+      grid:
+        weight: 4
+        enabled: true
+      slide:
+        weight: 10
+        enabled: false
+      slider:
+        weight: 5
+        enabled: true
+      trip_list:
+        weight: 4
+        enabled: true
+      weather:
+        weight: 7
+        enabled: true
+field_type: entity_reference_revisions

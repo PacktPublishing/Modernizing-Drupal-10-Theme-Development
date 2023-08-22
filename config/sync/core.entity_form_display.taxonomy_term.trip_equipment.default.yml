@@ -1,0 +1,60 @@
+uuid: e886a2d8-1a7e-48ae-9137-7f256dda90ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.trip_equipment.field_picture
+    - taxonomy.vocabulary.trip_equipment
+  module:
+    - media_library
+    - path
+    - text
+id: taxonomy_term.trip_equipment.default
+targetEntityType: taxonomy_term
+bundle: trip_equipment
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_picture:
+    type: media_library_widget
+    weight: 2
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 3
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

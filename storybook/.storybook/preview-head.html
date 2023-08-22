@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="main.css"/>
+
+<script>
+
+  const domReady = (callback) => {
+    const listener = () => {
+      callback();
+      document.removeEventListener('DOMContentLoaded', listener);
+    };
+    if (document.readyState !== 'loading') {
+      setTimeout(callback, 0);
+    } else {
+      document.addEventListener('DOMContentLoaded', listener);
+    }
+  };
+
+  // On page change, reattach Drupal behaviors.
+  function pageChange() {
+    domReady(() => {
+      Drupal.attachBehaviors(document, drupalSettings);
+    });
+  }
+
+  function watchForChanges() {
+    const mutationObserver = function (mutationsList) {
+      for (let i = 0, len = mutationsList.length; i < len; i++) {
+        if (mutationsList[i].type === 'childList') {
+          pageChange();
+          break;
+        }
+      }
+    };
+
+    const observer = new MutationObserver(mutationObserver);
+    const config = {childList: true, subtree: true};
+    observer.observe(document.getElementById('storybook-root'), config);
+
+    domReady(() => {
+      Drupal.attachBehaviors(document, drupalSettings);
+    });
+
+    // Remove event listener, otherwise we will re-run this function when we fire our manual event
+    document.removeEventListener('DOMContentLoaded', watchForChanges);
+  }
+
+  // Initially create mutation observer
+  document.addEventListener('DOMContentLoaded', watchForChanges);
+</script>

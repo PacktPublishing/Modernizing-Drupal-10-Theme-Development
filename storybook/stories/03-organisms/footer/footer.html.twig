@@ -1,0 +1,22 @@
+{% set attributes = attributes.addClass('bg-nord-6', 'p-4', 'sm:p-6') %}
+
+<footer {{ attributes }}>
+  <div class="mx-auto max-w-5xl">
+    <div class="md:flex md:justify-between">
+      <div class="mb-6 md:mb-0">
+        <span
+          class="self-center whitespace-nowrap text-2xl font-semibold text-nord-1"
+          >{{ title }}</span
+        >
+      </div>
+      <div class="grid grid-cols-2 gap-8">{{ menu }}</div>
+    </div>
+    <hr class="my-6 border-nord-2 sm:mx-auto lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+      <span class="text-sm text-nord-3 sm:text-center">{{ copyright }} </span>
+      <div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+        {{ social }}
+      </div>
+    </div>
+  </div>
+</footer>

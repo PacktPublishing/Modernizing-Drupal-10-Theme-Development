@@ -1,0 +1,13 @@
+label: Lingua
+tips:
+  language-overview:
+    label: Lingue
+    body: '<p>La pagina "Lingue" consente di aggiungere, modificare, eliminare e riordinare le lingue per il sito.</p>'
+  language-add:
+    label: 'Aggiunta lingue'
+  language-reorder:
+    label: 'Riordinare le lingue'
+  language-default:
+    label: 'Impostare una lingua come predefinita'
+  language-operations:
+    label: 'Modifica lingue'

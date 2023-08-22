@@ -1,0 +1,7 @@
+{% set attributes = attributes.addClass('bg-nord-6', 'border', 'border-nord-4',
+  'text-nord-3', 'sm:text-sm', 'rounded-lg', 'focus:ring-nord-8',
+  'focus:border-nord-8', 'block', 'w-full', 'p-2.5') %}
+
+<div{{ wrapper_attributes.addClass('form-textarea-wrapper') }}>
+  <textarea{{ attributes }}>{{ value }}</textarea>
+</div>

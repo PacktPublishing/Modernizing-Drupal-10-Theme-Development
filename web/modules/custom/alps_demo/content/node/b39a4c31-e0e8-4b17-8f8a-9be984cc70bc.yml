@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b39a4c31-e0e8-4b17-8f8a-9be984cc70bc
+  bundle: trip
+  default_langcode: en
+  depends:
+    ee91487d-da90-46f8-a67c-3748d8e737d6: taxonomy_term
+    b202ca18-6f0d-43d5-9dac-038b561edb17: taxonomy_term
+    c364cf80-229d-4c52-a73d-04116d2f1371: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Rocciamelone
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "Welcome to the majestic realm of Rocciamelone, a stunning mountain located in the Piedmont region of Italy. Prepare to embark on a captivating journey through rugged terrain, ancient pilgrimage trails, and breathtaking vistas that will leave you in awe of nature's grandeur.\r\n\r\nStanding tall at an impressive height of 3,538 meters (11,608 feet), Rocciamelone is a sacred peak steeped in history and spirituality. It has been a destination for pilgrims since ancient times, attracting individuals seeking solace, reflection, and a profound connection with the divine.\r\n\r\nAs you approach the base of Rocciamelone, a sense of tranquility envelops you. The mountain's rugged silhouette against the backdrop of lush green valleys creates a harmonious contrast. The air is crisp and invigorating, infused with the scent of pine and wildflowers, while the distant sound of cascading streams adds to the symphony of nature.\r\n\r\nThe journey to the summit begins along ancient pilgrimage routes, where centuries-old stone paths guide your way. These paths are adorned with small chapels and religious shrines, bearing witness to the spiritual significance of Rocciamelone. As you ascend, the landscapes unfold, offering sweeping views of the surrounding valleys, dense forests, and distant peaks.\r\n\r\nThe climb itself is a test of stamina and perseverance, rewarding you with ever-changing panoramas at every step. The path meanders through rocky terrain, alpine meadows, and patches of vibrant wildflowers, immersing you in the natural beauty that Rocciamelone offers.\r\n\r\nUpon reaching the summit, a sense of accomplishment washes over you. The breathtaking view from the top is a feast for the senses, with a 360-degree panorama that stretches across the Piedmont region. On clear days, you can see the shimmering waters of nearby lakes, the rolling hills of the countryside, and the distant outline of the Alps."
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: Susa
+  field_duration:
+    -
+      entity: ee91487d-da90-46f8-a67c-3748d8e737d6
+  field_lat_lng:
+    -
+      value: '44.9202345,8.6239312'
+  field_level:
+    -
+      entity: b202ca18-6f0d-43d5-9dac-038b561edb17
+  field_origin:
+    -
+      value: Susa
+  field_picture:
+    -
+      entity: c364cf80-229d-4c52-a73d-04116d2f1371

@@ -1,0 +1,21 @@
+cancel_confirm:
+  subject: 'Richiesta rimozione profilo per [user:display-name] su [site:name]'
+password_reset:
+  subject: 'Informazioni di autenticazione sostitutive per [user:display-name] su [site:name]'
+  body: "[user:display-name],\r\n\r\nUna richiesta di reimpostazione password è stata effettuata per il tuo profilo su [site:name].\r\n\r\nPuoi autenticarti con un clic su questo collegamento oppure copiando ed incollando il collegamento nel tuo browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nQuesto collegamento può essere usato solo una volta per l'autenticazione e ti consentirà di scegliere la tua password. Il collegamento scadrà dopo un giorno e niente sarà modificato se non utilizzato.\r\n\r\n-- Il team di [site:name]"
+register_admin_created:
+  subject: 'Un amministratore ha creato un profilo utente per te su [site:name]'
+  body: "[user:display-name],\r\n\r\nUn amministratore ha creato il tuo profilo utente sul sito [site:name]. Puoi autenticarti con un clic su questo collegamento oppure copiando ed incollando il collegamento nel tuo browser:\r\n\r\n[user:one-time-login-url]\r\n\r\nQuesto collegamento può essere usato solo una volta per l'autenticazione e ti consentirà di scegliere la tua password.\r\n\r\nDopo aver scelto la password, in futuro, per autenticarti su  [site:login-url] dovrai usare:\r\n\r\nnome utente: [user:name]\r\npassword: La password scelta da te\r\n\r\n-- Il team di [site:name]"
+register_no_approval_required:
+  subject: 'Dettagli profilo per [user:display-name] su [site:name]'
+register_pending_approval:
+  subject: "Dettagli del profilo per [user:display-name] su [site:name] (in attesa dell'approvazione dell'amministratore)"
+register_pending_approval_admin:
+  subject: "Dettagli del profilo per [user:display-name] su [site:name] (in attesa dell'approvazione dell'amministratore)"
+status_activated:
+  subject: 'Dettagli profilo per [user:display-name] su [site:name] (approvato)'
+status_blocked:
+  subject: 'Dettagli profilo per [user:display-name] su [site:name] (bloccato)'
+status_canceled:
+  subject: 'Dettagli profilo per [user:display-name] su [site:name] (eliminato)'
+  body: "[user:display-name],\r\n\r\nIl tuo profilo su [site:name] è stato eliminato.\r\n\r\n--  Il team [site:name]"

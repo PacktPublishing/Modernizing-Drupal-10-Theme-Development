@@ -1,0 +1,19 @@
+label: Traduzione
+tips:
+  locale-overview:
+    label: "Traduzione dell'interfaccia utente"
+  locale-language:
+    label: 'Lingua di traduzione'
+    body: 'Scegli la lingua in cui vuoi tradurre.'
+  locale-search:
+    label: Cerca
+    body: 'Inserisci la parola o la frase specifica che si desidera tradurre, è anche possibile scrivere solo una parte di una parola.'
+  locale-filter:
+    label: 'Filtra la ricerca'
+  locale-submit:
+    label: 'Applicare i criteri di ricerca'
+    body: 'Per applicare il criterio di ricerca, fai click sul pulsante <em>Filtra</em>.'
+  locale-translate:
+    label: Traduci
+  locale-validate:
+    label: 'Convalida la traduzione'

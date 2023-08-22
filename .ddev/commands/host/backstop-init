@@ -1,0 +1,6 @@
+#!/bin/bash
+
+## Description: Init BackstopJS.
+## Usage: backstop-init
+
+docker run -it -v $(pwd)/.ddev/tests/backstop:/src --network=ddev-${DDEV_PROJECT}_default backstopjs/backstopjs:6.2.1 init

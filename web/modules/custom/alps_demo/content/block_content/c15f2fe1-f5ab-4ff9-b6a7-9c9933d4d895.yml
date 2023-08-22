@@ -1,0 +1,33 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: c15f2fe1-f5ab-4ff9-b6a7-9c9933d4d895
+  bundle: banner
+  default_langcode: en
+  depends:
+    8cfb6174-110d-48b6-ab57-4b8a6751b7d4: media
+    364b9eca-4010-49fc-a645-dac970278d32: node
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Ice climber'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_cta:
+    -
+      value: 'Ice climbing'
+  field_image:
+    -
+      entity: 8cfb6174-110d-48b6-ab57-4b8a6751b7d4
+  field_link:
+    -
+      target_uuid: 364b9eca-4010-49fc-a645-dac970278d32
+      title: "Let's do some ice climbing"
+      options: {  }

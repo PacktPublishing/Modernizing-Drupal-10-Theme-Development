@@ -1,0 +1,5 @@
+services:
+  alps_base.twig:
+    class: Drupal\alps_base\Twig\Extension\AlpsBaseExtension
+    tags:
+      - { name: twig.extension }

@@ -1,0 +1,10 @@
+uuid: 12648865-6530-4262-a9bc-d27323524195
+langcode: en
+status: true
+dependencies: {  }
+id: grid
+label: Grid
+icon_uuid: null
+icon_default: null
+description: 'Used to render sub-paragraphs in a grid'
+behavior_plugins: {  }

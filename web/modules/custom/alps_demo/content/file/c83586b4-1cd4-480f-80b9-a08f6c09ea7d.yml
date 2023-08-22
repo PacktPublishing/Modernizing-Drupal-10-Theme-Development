@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: c83586b4-1cd4-480f-80b9-a08f6c09ea7d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: monviso_from_turin.jpg
+  uri:
+    -
+      value: 'public://2023-02/monviso_from_turin.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 281177
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1676806220

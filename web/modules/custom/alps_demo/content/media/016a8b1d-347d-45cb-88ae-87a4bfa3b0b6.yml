@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 016a8b1d-347d-45cb-88ae-87a4bfa3b0b6
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    8288fba1-96af-400e-a0ca-7c794f9d23fe: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Marmolada_Sunset.jpg
+  created:
+    -
+      value: 1689961890
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_media_image:
+    -
+      entity: 8288fba1-96af-400e-a0ca-7c794f9d23fe
+      alt: 'Marmolada at sunset'
+      title: ''
+      width: 4752
+      height: 3168

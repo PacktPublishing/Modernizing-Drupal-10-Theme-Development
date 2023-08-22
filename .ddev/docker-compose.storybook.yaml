@@ -1,0 +1,23 @@
+services:
+  storybook:
+    command:
+      - /bin/sh
+      - -c
+      - |
+        yarn install
+        npm run storybook
+    container_name: "ddev-${DDEV_SITENAME}-storybook"
+    expose:
+      - "6006"
+    environment:
+      - VIRTUAL_HOST=$DDEV_HOSTNAME
+      - HTTP_EXPOSE=6007:6006
+      - HTTPS_EXPOSE=6006:6006
+    image: node:16-alpine3.15
+    labels:
+      com.ddev.site-name: ${DDEV_SITENAME}
+      com.ddev.approot: ${DDEV_APPROOT}
+    volumes:
+      - ".:/mnt/ddev_config"
+      - "../storybook:/storybook"
+    working_dir: "/storybook"

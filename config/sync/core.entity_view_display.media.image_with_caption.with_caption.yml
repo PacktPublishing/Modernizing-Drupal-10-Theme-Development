@@ -1,0 +1,43 @@
+uuid: de546f50-fcd1-4bee-a6f9-2938c4cdaa39
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.with_caption
+    - field.field.media.image_with_caption.field_caption
+    - field.field.media.image_with_caption.field_media_image
+    - image.style.wide
+    - media.type.image_with_caption
+  module:
+    - image
+id: media.image_with_caption.with_caption
+targetEntityType: media
+bundle: image_with_caption
+mode: with_caption
+content:
+  field_caption:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: file
+      image_style: wide
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

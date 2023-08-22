@@ -1,0 +1,19 @@
+uuid: 46830fa5-f6c7-4a06-88db-1b669f3aaace
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+    - field.storage.block_content.field_cta
+id: block_content.banner.field_cta
+field_name: field_cta
+entity_type: block_content
+bundle: banner
+label: CTA
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

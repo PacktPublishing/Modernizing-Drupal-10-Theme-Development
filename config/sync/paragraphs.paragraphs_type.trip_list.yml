@@ -1,0 +1,10 @@
+uuid: 3630df03-31a6-4f53-a3e9-122bb3dc3cae
+langcode: en
+status: true
+dependencies: {  }
+id: trip_list
+label: 'Trip list'
+icon_uuid: null
+icon_default: null
+description: 'Used to place a list of referenced trips.'
+behavior_plugins: {  }

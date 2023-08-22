@@ -1,0 +1,6 @@
+alps_weather.settings:
+  title: Weather Settings
+  description: 'Configure weather settings.'
+  parent: system.admin_config_system
+  route_name: alps_weather.settings
+  weight: 10

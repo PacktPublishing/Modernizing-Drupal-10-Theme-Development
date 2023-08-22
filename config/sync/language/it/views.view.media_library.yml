@@ -1,0 +1,100 @@
+display:
+  default:
+    display_title: Predefinito
+    display_options:
+      title: Media
+      fields:
+        media_bulk_form:
+          action_title: Azione
+      pager:
+        options:
+          tags:
+            next: ››
+            previous: ‹‹
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+            offset_label: Scostamento
+      exposed_form:
+        options:
+          submit_button: 'Applica filtri'
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_asc_label: Asc
+          sort_desc_label: Disc
+      empty:
+        area_text_custom:
+          content: 'Non è disponibile alcun contributo mediale.'
+      sorts:
+        created:
+          expose:
+            label: 'Prima i più recenti'
+      filters:
+        status:
+          expose:
+            label: 'Stato di pubblicazione'
+          group_info:
+            label: Pubblicato
+            group_items:
+              1:
+                title: Pubblicato
+              2:
+                title: 'Non pubblicato'
+        name:
+          expose:
+            label: Nome
+        langcode:
+          expose:
+            label: Lingua
+  page:
+    display_title: Pagina
+    display_options:
+      fields:
+        media_bulk_form:
+          action_title: Azione
+        name:
+          separator: ', '
+        edit_media:
+          text: Modifica
+        delete_media:
+          text: Elimina
+  widget:
+    display_title: Widget
+    display_options:
+      arguments:
+        bundle:
+          exception:
+            title: Tutti
+      filters:
+        name:
+          expose:
+            label: Nome
+      header:
+        display_link_grid:
+          label: Griglia
+        display_link_table:
+          label: Tabella
+  widget_table:
+    display_options:
+      fields:
+        thumbnail__target_id:
+          label: Miniatura
+        name:
+          label: Nome
+        uid:
+          label: Autore
+        changed:
+          label: Aggiornato
+      arguments:
+        bundle:
+          exception:
+            title: Tutti
+      filters:
+        name:
+          expose:
+            label: Nome
+      header:
+        display_link_grid:
+          label: Griglia
+        display_link_table:
+          label: Tabella

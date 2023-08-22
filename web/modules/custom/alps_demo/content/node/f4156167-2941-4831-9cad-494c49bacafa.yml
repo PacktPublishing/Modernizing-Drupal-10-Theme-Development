@@ -1,0 +1,63 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f4156167-2941-4831-9cad-494c49bacafa
+  bundle: trip
+  default_langcode: en
+  depends:
+    ee91487d-da90-46f8-a67c-3748d8e737d6: taxonomy_term
+    150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f: taxonomy_term
+    30ce5dd1-1fcd-41d0-88bb-ff3939ae413b: media
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Punta Marguareis'
+  created:
+    -
+      value: 1675667710
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /trip/punta-marguareis
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "Camur eligo neque oppeto patria paulatim premo ulciscor. Dolore dolus jumentum letalis metuo quis tation utinam utrum vicis. \r\n\r\nAccumsan duis elit hos nutus ratis zelus. Antehabeo melior odio. Comis importunus quis. Abbas brevitas decet hendrerit incassum iustum persto quae ratis ulciscor. Eros mos sed tum. Aliquip distineo fere lobortis metuo wisi.\r\n\r\nCamur cui illum neque nisl sudo. Elit imputo tation vulpes. Gravis importunus premo. Augue camur magna melior persto qui sudo torqueo volutpat zelus. Consequat iustum jugis saepius.\r\n\r\nGenitus gilvus inhibeo molior quidne scisco zelus. Accumsan exputo illum magna odio saluto typicus valetudo virtus. Abigo gemino imputo minim praesent singularis. Abdo abigo cogo dolore genitus nisl paulatim roto venio vulpes. Caecus ideo loquor ludus pertineo premo refero saepius turpis velit. Comis hendrerit tamen. Commoveo et refoveo scisco. Aliquip humo ille sino utrum. Autem capto et hos imputo laoreet tum ulciscor.\r\n\r\nEsse et ex luptatum nulla patria valetudo. At iusto quibus sagaciter suscipere turpis ut vicis. Aliquip defui nobis oppeto pertineo quidne. Appellatio eros paulatim sed. Fere nunc pertineo tation ulciscor. Damnum decet modo. Autem huic interdico letalis premo turpis usitas voco.\r\n\r\nAcsi comis euismod lucidus ullamcorper verto voco zelus. Abigo consequat in letalis nunc os praemitto sino suscipere. Consectetuer damnum enim esca nulla refero.\r\n\r\nCamur diam nisl olim sino ut valde voco. Augue facilisi inhibeo lobortis pagus persto probo saluto singularis typicus. Eu fere gravis illum incassum iriure praemitto praesent sed velit. Autem commodo dolus eum minim pecus singularis valetudo. Adipiscing aliquam eu ille nobis obruo suscipit turpis utrum. Acsi ad antehabeo distineo interdico nimis populus praesent torqueo vel. Inhibeo luptatum metuo modo neo proprius ratis ut.\r\n\r\nDefui eu feugiat nibh occuro pneum. Blandit consectetuer exputo hendrerit metuo plaga. Defui distineo elit euismod exputo jumentum torqueo wisi. Cogo fere ille incassum nunc tum ut veniam. Fere luctus mauris oppeto persto quadrum quidem scisco. Dolus gemino incassum jugis lobortis populus roto usitas ut. Adipiscing augue elit fere iusto tation vel. Abigo adipiscing ex ideo metuo nimis obruo os paratus patria.\r\n\r\nAppellatio macto neque saepius. Antehabeo commodo eum jus quadrum tamen tation. Bene comis imputo ludus mos nibh premo. Esca inhibeo interdico luctus nobis pagus te venio. Adipiscing commodo ea ex pala quadrum refero ymo. Abbas consequat ibidem sagaciter suscipit. Capto lobortis pneum probo typicus valetudo voco. Adipiscing elit utrum. Bene obruo praemitto ulciscor validus venio. Ad cui duis esse iaceo minim nulla sino vulputate.\r\n\r\nConventio et venio. Dignissim eum os quidem sagaciter ullamcorper validus velit venio. Acsi dignissim secundum. Blandit dignissim minim nimis nobis patria veniam volutpat. Adipiscing humo pala. Aptent commodo gravis humo modo olim pecus quibus utrum.\r\n\r\nAmet camur eligo esse huic in nostrud si wisi. Facilisis ibidem ille ludus luptatum paulatim refero saluto typicus. Acsi distineo nunc. Consequat cui ea eligo pecus probo te ut utrum. Duis elit eum nostrud velit. Causa meus natu roto. Adipiscing hendrerit proprius ratis. Antehabeo commoveo iriure loquor vereor verto.\r\n\r\nDolus ea ideo mauris quadrum singularis te. Causa huic ideo probo quia si validus veniam. Abluo damnum genitus humo imputo mauris nimis odio refoveo. Antehabeo defui dolus facilisis genitus typicus.\r\n\r\nCaecus dolore genitus inhibeo interdico quibus. Duis molior nibh nunc os paulatim praemitto quis ulciscor valetudo. Autem et facilisis ibidem iustum praemitto.\r\n\r\n"
+      format: plain_text
+      summary: ''
+  field_destination:
+    -
+      value: 'Chiusa di Pesio'
+  field_duration:
+    -
+      entity: ee91487d-da90-46f8-a67c-3748d8e737d6
+  field_lat_lng:
+    -
+      value: '44.188767,7.688069'
+  field_level:
+    -
+      entity: 150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f
+  field_origin:
+    -
+      value: 'Chiusa di Pesio'
+  field_picture:
+    -
+      entity: 30ce5dd1-1fcd-41d0-88bb-ff3939ae413b

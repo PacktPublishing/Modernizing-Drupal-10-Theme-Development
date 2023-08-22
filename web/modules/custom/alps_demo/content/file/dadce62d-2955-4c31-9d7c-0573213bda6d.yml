@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dadce62d-2955-4c31-9d7c-0573213bda6d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: trekking_shoes.jpg
+  uri:
+    -
+      value: 'public://2023-04/trekking_shoes_10.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 171391
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1682756625

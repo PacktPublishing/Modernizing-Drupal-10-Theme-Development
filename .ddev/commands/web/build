@@ -1,0 +1,20 @@
+#!/bin/bash
+
+## Description: Build the demo website
+## Usage: build
+
+# Install Composer dependencies.
+composer install --prefer-dist
+
+# Install Drupal from an installation profile.
+drush site:install alps_trips_profile --account-pass=admin --existing-config --yes
+drush search-api:index
+drush set-homepage 106a9575-b7ee-4c3f-9523-269553b50ae4
+drush cr
+
+# Setup and build the theme.
+yarn --cwd=web/themes/custom/alps_trips install
+yarn --cwd=web/themes/custom/alps_trips build:dev
+
+# Build the styleguide.
+cd storybook; npm run generate-css

@@ -1,0 +1,21 @@
+{{ header }}
+
+<div class="mx-10 mb-5 max-w-5xl lg:mx-auto">
+  {{ breadcrumb }} {{ help }}
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+
+    <div class="gap-4 md:flex">
+      <div class="min-w-0 flex-1">{{ content }}</div>
+
+      {% if sidebar %}
+      <aside class="w-56 flex-none" role="complementary">
+        <div class="mt-14">{{ sidebar }}</div>
+      </aside>
+      {% endif %}
+    </div>
+  </main>
+</div>
+
+{{ footer }}

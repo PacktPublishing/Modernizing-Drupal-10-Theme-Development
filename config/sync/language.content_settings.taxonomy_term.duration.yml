@@ -1,0 +1,11 @@
+uuid: 6b4a5c9b-83fc-4469-87ac-8f8eeb60c931
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.duration
+id: taxonomy_term.duration
+target_entity_type_id: taxonomy_term
+target_bundle: duration
+default_langcode: site_default
+language_alterable: false

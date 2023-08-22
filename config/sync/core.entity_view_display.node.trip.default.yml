@@ -1,0 +1,85 @@
+uuid: b6237a63-53a5-496e-bee0-89aa79641241
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.trip.body
+    - field.field.node.trip.field_destination
+    - field.field.node.trip.field_duration
+    - field.field.node.trip.field_lat_lng
+    - field.field.node.trip.field_level
+    - field.field.node.trip.field_origin
+    - field.field.node.trip.field_picture
+    - node.type.trip
+  module:
+    - alps_base
+    - text
+    - user
+id: node.trip.default
+targetEntityType: node
+bundle: trip
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_destination:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_duration:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_lat_lng:
+    type: lat_lng
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_level:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_origin:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_picture:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: with_caption
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

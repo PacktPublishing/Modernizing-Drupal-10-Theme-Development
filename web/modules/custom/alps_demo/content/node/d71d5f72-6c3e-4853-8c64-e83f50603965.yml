@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d71d5f72-6c3e-4853-8c64-e83f50603965
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Terms & conditions'
+  created:
+    -
+      value: 1676194846
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p><strong>Introduction:</strong><br>These terms and conditions govern your use of [Website Name]. By accessing or using [Website Name], you agree to be bound by these terms and conditions, as well as the privacy policy, which is incorporated into these terms and conditions. If you do not agree with any of these terms and conditions, please do not use [Website Name].</p><p>&nbsp;</p><p><strong>Intellectual Property:</strong><br>The content, logos, graphics, design, images, and all other material on [Website Name] are protected by copyright, trademark and other intellectual property laws and may not be used without the prior written consent of [Website Name].</p><p>&nbsp;</p><p><strong>Third-Party Content:</strong><br>[Website Name] may display or provide links to third-party content, such as products or services offered by other websites. We do not control such third-party content, and are not responsible for its accuracy or reliability. Your use of third-party content is at your own risk.</p><p>&nbsp;</p><p><strong>User Content:</strong><br>[Website Name] may allow users to submit, upload, publish or otherwise make available content, including but not limited to text, photographs, videos, and audio (collectively, "User Content"). By making any User Content available through [Website Name], you grant to [Website Name] a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use, copy, modify, create derivative works based on, distribute, publicly display, publicly perform, and otherwise exploit in any manner such User Content in all formats and distribution channels now known or hereafter devised (including in connection with [Website Name] and [Website Name]''s business and on third-party sites and services), without further notice to or consent from you, and without the requirement of payment to you or any other person or entity.</p><p>&nbsp;</p><p><strong>User Conduct:</strong><br>You agree to not use [Website Name] to:</p><ul><li>upload, post, transmit, share or otherwise make available any User Content that is unlawful, harmful, threatening, abusive, harassing, tortious, defamatory, vulgar, obscene, libelous, invasive of another''s privacy, hateful, or racially, ethnically or otherwise objectionable.</li><li>harm minors in any way.</li><li>impersonate any person or entity or falsely state or otherwise misrepresent your affiliation with a person or entity.</li><li>upload, post, transmit, share, store or otherwise make publicly available on [Website Name] any private information of any third party, including, without limitation, addresses, phone numbers, email addresses, Social Security numbers and credit card numbers.</li></ul><p>&nbsp;</p><p><strong>Warranty Disclaimer:</strong><br>[Website Name] is provided on an "as is" and "as available" basis. [Website Name] makes no representations or warranties of any kind, express or implied, as to the operation of [Website Name] or the information, content, materials, or products included on [Website Name].</p>'
+      format: basic_html
+      summary: ''

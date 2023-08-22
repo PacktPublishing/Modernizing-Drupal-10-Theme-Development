@@ -1,0 +1,10 @@
+uuid: 1035f0f3-d967-4c4a-b07c-c3116869c7c0
+langcode: en
+status: true
+dependencies: {  }
+id: card
+label: Card
+icon_uuid: null
+icon_default: null
+description: 'Used to place a card.'
+behavior_plugins: {  }

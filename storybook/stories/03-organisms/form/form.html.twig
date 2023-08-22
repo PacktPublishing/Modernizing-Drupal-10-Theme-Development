@@ -1,0 +1,13 @@
+<form {{ attributes }}>
+  {% if centered %}
+  <div class="mx-auto flex flex-col items-center justify-center">
+    <div class="w-full sm:max-w-md md:mt-0 xl:p-0">
+  {% endif %}
+      <div class="space-y-4 md:space-y-6">
+         {{ children }}
+      </div>
+  {% if centered %}
+    </div>
+  </div>
+  {% endif %}
+</form>

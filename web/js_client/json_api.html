@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Drupal JSON:API Example</title>
+
+  <script>
+    async function loadNode(nodeUuid) {
+      const nodeResponse =
+        await fetch(
+          '/jsonapi/node/trip/' +
+          nodeUuid +
+          '?include=field_picture.field_media_image'
+        );
+      const node = await nodeResponse.json();
+      console.log(node);
+
+      document.
+        getElementById('title').innerHTML =
+          node.data.attributes.title;
+      document.
+        getElementById('body').innerHTML =
+          node.data.attributes.body.processed;
+      document.
+        getElementById('image').src =
+          node.included[1].attributes.uri.url;
+      document.
+        getElementById('image').alt =
+          node.included[0].relationships.
+            field_media_image.data.meta.alt;
+    }
+  </script>
+</head>
+
+<body onload="loadNode(
+  '49287044-bec7-4f58-97f2-4229cde10723'
+  )">
+  <h1 id="title">Loading</h1>
+  <img id="image" src="" alt="" height="200px" />
+  <div id="body">...</div>
+</body>
+
+</html>

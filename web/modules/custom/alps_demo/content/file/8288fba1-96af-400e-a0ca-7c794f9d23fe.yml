@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8288fba1-96af-400e-a0ca-7c794f9d23fe
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Marmolada_Sunset.jpg
+  uri:
+    -
+      value: 'public://2023-07/Marmolada_Sunset_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 5065019
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1689961890

@@ -1,0 +1,22 @@
+uuid: ba0b82b8-6a22-4d34-a0dc-f43b0bffa60d
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - alps_trips
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: alps_trips_help
+theme: alps_trips
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

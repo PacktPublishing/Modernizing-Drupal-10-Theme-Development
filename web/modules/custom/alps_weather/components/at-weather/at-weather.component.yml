@@ -1,0 +1,13 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: "Alps Trips Weather"
+status: "stable"
+description: "A weather component"
+props:
+  type: object
+  properties:
+    city:
+      type: string
+      title: City
+      description: The city for the weather
+  required:
+    - city

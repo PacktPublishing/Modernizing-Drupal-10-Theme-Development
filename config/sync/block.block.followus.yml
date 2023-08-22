@@ -1,0 +1,25 @@
+uuid: 3b5ce337-34cb-48da-a0b4-e66d6dec33c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.follow-us
+  module:
+    - system
+  theme:
+    - alps_trips
+id: followus
+theme: alps_trips
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:follow-us'
+settings:
+  id: 'system_menu_block:follow-us'
+  label: 'Follow Us'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

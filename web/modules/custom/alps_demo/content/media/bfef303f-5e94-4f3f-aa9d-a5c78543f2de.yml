@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bfef303f-5e94-4f3f-aa9d-a5c78543f2de
+  bundle: image_with_caption
+  default_langcode: en
+  depends:
+    27348acb-d933-46cc-95cb-784678b758ce: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: monte_bianco.jpg
+  created:
+    -
+      value: 1676918679
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_caption:
+    -
+      value: 'Monte Bianco'
+  field_media_image:
+    -
+      entity: 27348acb-d933-46cc-95cb-784678b758ce
+      alt: 'Monte Bianco'
+      title: ''
+      width: 1600
+      height: 1200

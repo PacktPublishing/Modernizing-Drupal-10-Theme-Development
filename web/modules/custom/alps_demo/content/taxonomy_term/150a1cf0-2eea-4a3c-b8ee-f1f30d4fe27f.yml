@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 150a1cf0-2eea-4a3c-b8ee-f1f30d4fe27f
+  bundle: level
+  default_langcode: en
+  depends:
+    bf348f90-9265-4827-80cd-196d13c3e78d: taxonomy_term
+    180da54a-9dbe-42f7-9f81-1cc00224c927: taxonomy_term
+    b9067541-fbd1-47b6-93cd-2d03d0d2b91c: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Intermediate
+  description:
+    -
+      value: '<p>An intermediate mountain trip typically involves hiking on trails that may have steep ascents and descents, as well as some rocky or uneven terrain. The trip may require some endurance and physical fitness, as you may be hiking for several hours at a time and gaining significant elevation. Additionally, intermediate mountain trips may require some basic technical skills, such as using trekking poles or navigating over small streams and rocky sections of the trail.</p>'
+      format: basic_html
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_equipment:
+    -
+      entity: bf348f90-9265-4827-80cd-196d13c3e78d
+    -
+      entity: 180da54a-9dbe-42f7-9f81-1cc00224c927
+    -
+      entity: b9067541-fbd1-47b6-93cd-2d03d0d2b91c

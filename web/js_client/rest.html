@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Drupal REST Example</title>
+
+  <script>
+    async function loadNode(nodeId) {
+      const nodeResponse =
+        await fetch('/node/' + nodeId + '?_format=json');
+      const node = await nodeResponse.json();
+      console.log(node);
+
+      const mediaResponse =
+        await fetch(node.field_picture[0].url + '?_format=json');
+      const media = await mediaResponse.json();
+      console.log(media);
+
+      document.
+        getElementById('title').innerHTML = node.title[0].value;
+      document.
+        getElementById('body').innerHTML = node.body[0].processed;
+      document.
+        getElementById('image').src = media.field_media_image[0].url;
+      document.
+        getElementById('image').alt = media.field_media_image[0].alt;
+    }
+  </script>
+</head>
+
+<body onload="loadNode(11)">
+  <h1 id="title">Loading</h1>
+  <img id="image" src="" alt="" height="200px" />
+  <div id="body">...</div>
+</body>
+
+</html>

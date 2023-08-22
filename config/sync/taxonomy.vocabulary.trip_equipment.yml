@@ -1,0 +1,8 @@
+uuid: 06a0f119-60b9-43a9-8e69-cf0f4c863d1b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Trip equipment'
+vid: trip_equipment
+description: 'Various equipment types.'
+weight: 0

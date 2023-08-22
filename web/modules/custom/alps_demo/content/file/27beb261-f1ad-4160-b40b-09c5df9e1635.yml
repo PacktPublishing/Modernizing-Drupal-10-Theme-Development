@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 27beb261-f1ad-4160-b40b-09c5df9e1635
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: trekking.jpg
+  uri:
+    -
+      value: 'public://2023-02/trekking.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 3741436
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1676920801

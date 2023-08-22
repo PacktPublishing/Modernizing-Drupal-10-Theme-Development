@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 2bc6c256-c483-443a-a8fb-8319e828f15d
+  bundle: recommended_shoes
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Trekking shoes'
+  description:
+    -
+      value: '<p>Trekking shoes are designed to withstand rough terrains and harsh weather conditions, so they are usually made from high-quality materials such as leather, synthetic fibers, and waterproof membranes like Gore-Tex.</p>'
+      format: basic_html
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0

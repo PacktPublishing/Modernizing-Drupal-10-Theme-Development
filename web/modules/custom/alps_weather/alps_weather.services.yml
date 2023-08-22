@@ -1,0 +1,18 @@
+services:
+  logger.channel.alps_weather:
+    class: Drupal\Core\Logger\LoggerChannel
+    factory: logger.factory:get
+    arguments: [ 'alps_weather' ]
+
+  alps_weather.weather_client:
+    class: 'Drupal\alps_weather\WeatherClient'
+    arguments:
+      - '@http_client'
+      - '@logger.channel.alps_weather'
+      - '@config.factory'
+
+  alps_weather.twig:
+    class: Drupal\alps_weather\Twig\Extension\WeatherExtension
+    arguments: ['@alps_weather.weather_client', '@config.factory']
+    tags:
+      - { name: twig.extension }

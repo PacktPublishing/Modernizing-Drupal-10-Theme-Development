@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4b41973c-cc92-4fd0-a6fe-40697da37f41
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: compass.jpg
+  uri:
+    -
+      value: 'public://2023-04/compass.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106684
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1682761076

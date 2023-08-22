@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a wather forecast.
+ *
+ * Available variables:
+ * - forecast: An array with forecast data.
+ * - city: The city name.
+ * - units: The system used to render values. Can be metric or imperial.
+ *
+ * @see template_preprocess_alps_weather_forecast()
+ */
+#}
+
+<div class="forecast-list">
+  <div class="forecast-element">
+    <h3 class="forecast-element__date">{{ forecast.dt_txt|date("d/m/Y H:i") }}</h3>
+    <p class="forecast-element__temp">{{ forecast.main.temp }} °{{ units == 'metric' ? 'C' : 'F' }}</p>
+    <p class="forecast-element__description">{{ forecast.weather[0].description|title }}</p>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+uuid: cd72f1cb-1a26-4bb8-a7ad-90ab8407a701
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.slide
+  module:
+    - text
+id: paragraph.slide.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: slide
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

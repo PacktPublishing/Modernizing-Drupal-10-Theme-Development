@@ -1,0 +1,21 @@
+uuid: 6cd39675-3aba-43dc-b353-13cce90a7f6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lat_lng
+    - node.type.trip
+id: node.trip.field_lat_lng
+field_name: field_lat_lng
+entity_type: node
+bundle: trip
+label: LatLng
+description: 'Insert value like latitute;longitude.'
+required: false
+translatable: false
+default_value:
+  -
+    value: '44.9202345,8.6239312'
+default_value_callback: ''
+settings: {  }
+field_type: string

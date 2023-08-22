@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function alps_quote_theme(): array {
+  return [
+    'alps_quote_block' => [
+      'variables' => [
+        'quote' => '',
+        'author' => '',
+      ],
+    ],
+  ];
+}
