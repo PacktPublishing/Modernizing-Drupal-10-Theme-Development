@@ -7,6 +7,8 @@
   "dependencies": {
   },
   "scripts": {
-    "build:dev": "ls"
+    "build:dev": "ls",
+    "lint:js": "ls",
+    "lint:css": "ls"
   }
 }
