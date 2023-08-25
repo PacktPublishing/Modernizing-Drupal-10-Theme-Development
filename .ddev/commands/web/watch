@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## Description: Run yarn build:dev command
+## Usage: watch
+## Example: "ddev watch -- Read the HOW-TO.md for more commands"
+
+yarn --cwd=web/themes/custom/alps_trips install
+yarn --cwd=web/themes/custom/alps_trips build:dev
