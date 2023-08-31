@@ -32,8 +32,6 @@ website, with all the styles applied.
 The [HOW-TO.md](HOW-TO.md) contains instructions on how to start the stack and build the website, and a set of useful
 commands.
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/xxx).
-
 ## Related products
 * Drupal 10 Development Cookbook - Third Edition [[Packt]](https://www.packtpub.com/product/drupal-10-development-cookbook-third-edition/9781803234960) [[Amazon]](https://www.amazon.com/dp/1803234962)
 * Drupal 10 Module Development - Fourth Edition [[Packt]](https://www.packtpub.com/product/drupal-10-module-development-fourth-edition/9781837631803) [[Amazon]](https://www.amazon.com/dp/1837631808)
@@ -48,8 +46,3 @@ universities to big system integrators. Luca is an open-source lover and Drupal 
 modules like WebProfiler and Monolog. He’s also a speaker at conferences like DrupalCon Europe and Drupal Developer
 Days. Lately, he has shifted his interest toward front-end performances. Luca holds a master’s degree in Computer
 Science, and he’s an Acquia-certified developer.
-
-### Download a free PDF
-
-<i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
-<p align="center"> <a href="https://packt.link/free-ebook/xxx">https://packt.link/free-ebook/xxx </a> </p>
