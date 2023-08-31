@@ -1,8 +1,8 @@
 # Modernizing Drupal 10 Theme Development
 
-<a href="https://www.amazon.com/dp/1803238097"><img src="https://m.media-amazon.com/images/I/41GXkrGsgpL._SX403_BO1,204,203,200_.jpg" alt="" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/modernizing-drupal-10-theme-development/9781803238098"><img src="https://m.media-amazon.com/images/I/41GXkrGsgpL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" alt="Modernizing Drupal 10 Theme Development" height="256px" align="right"></a>
 
-This is the code repository for [Modernizing Drupal 10 Theme Development](https://www.amazon.com/dp/1803238097), published by Packt.
+This is the code repository for [Modernizing Drupal 10 Theme Development](https://www.packtpub.com/product/modernizing-drupal-10-theme-development/9781803238098), published by Packt.
 
 **Build responsive and faster Drupal websites with custom theme design to deliver a rich user experience**
 
