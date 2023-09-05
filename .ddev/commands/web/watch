@@ -5,4 +5,4 @@
 ## Example: "ddev watch -- Read the HOW-TO.md for more commands"
 
 yarn --cwd=web/themes/custom/alps_trips install
-yarn --cwd=web/themes/custom/alps_trips build:dev
+yarn --cwd=web/themes/custom/alps_trips start:dev
