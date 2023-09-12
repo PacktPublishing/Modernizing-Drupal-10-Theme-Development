@@ -1,0 +1,34 @@
+<div class="ml-auto flex flex-col justify-end lg:order-1 lg:ml-0 lg:w-auto">
+  <button type="button" class="toggle-menu-open ml-auto p-3 lg:hidden">
+    <span class="sr-only">{{ 'Toggle account menu'|t }}</span>
+    <svg class="h-5 w-5" viewbox="0 0 512 512" aria-hidden="true">
+      <path d="{{ icon }}" />
+    </svg>
+  </button>
+  <div
+    class="toggle-menu-menu navbar-menu fixed right-0 top-0 z-20 h-screen w-72 translate-x-full items-center justify-between overflow-y-auto bg-nord-4 drop-shadow-md transition-transform duration-500 ease-in-out lg:static lg:flex lg:h-auto lg:w-auto lg:transform-none lg:overflow-y-hidden lg:bg-transparent lg:drop-shadow-none lg:transition-none"
+  >
+    <div
+      class="toggle-menu-close border-b border-nord-10 p-1.5 hover:cursor-pointer lg:hidden"
+    >
+      <svg
+        class="h-8 w-8 text-nord-10"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" />
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+      </svg>
+    </div>
+    <ul class="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8">
+      {{ items }}
+    </ul>
+  </div>
+</div>

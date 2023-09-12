@@ -153,3 +153,9 @@ menu:
     js/block-menu.js: {}
   dependencies:
     - core/drupal
+menu-toggle:
+  version: VERSION
+  js:
+    js/menu-toggle.js: {}
+  dependencies:
+    - core/drupal
