@@ -27,3 +27,9 @@
   {% extends "views-view--trips.html.twig" %}
   ```
 * Page 227, point 2: `templates/views` should be `templates/form`
+
+## Chapter 15
+
+* Page 301, first paragraph should be:
+  
+  **REpresentational State Transfer (REST)** is an architectural approach to constructing web services. Embracing the simplicity of REST and leveraging the capabilities inherent to the internet's **Hypertext Transfer Protocol (HTTP)**, it accomplishes its goals by building upon existing systems and features rather than introducing novel standards, frameworks, or technologies.
