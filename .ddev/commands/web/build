@@ -17,4 +17,4 @@ yarn --cwd=web/themes/custom/alps_trips install
 yarn --cwd=web/themes/custom/alps_trips build:dev
 
 # Build the styleguide.
-cd storybook; npm run generate-css
+cd storybook; npm install; npm run generate-css
