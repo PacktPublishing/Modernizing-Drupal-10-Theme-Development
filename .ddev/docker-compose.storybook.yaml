@@ -11,7 +11,7 @@ services:
       - "6006"
     environment:
       - VIRTUAL_HOST=$DDEV_HOSTNAME
-      - HTTP_EXPOSE=6007:6006
+      - HTTP_EXPOSE=6006:6006
       - HTTPS_EXPOSE=6006:6006
     image: node:16-alpine3.15
     labels:
