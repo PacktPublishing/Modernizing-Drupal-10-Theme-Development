@@ -19,45 +19,27 @@ What you will learn:
 * Explore advanced topics like extending Twig, making a theme configurable, and boosting performance and accessibility
 * Find out how to build a decoupled website using json:api and Next.js
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1803238097) today!
+If you feel this book is for you, get your [copy](https://packt.link/CGNe7) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png"
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter09.
-
-The code will look like the following:
-```
-<div class="relative">
- <a href="{{ link }}" title="{{ title }}">
- <div
- class="z-10 h-48 w-full border-2 border-nord-4 bg-
- cover bg-center bg-no-repeat opacity-50"
- style="background-image:url('{{ image }}');"
- ></div>
-```
-
-**Following is what you need for this book:**
-If you are a Drupal backend developer or frontend developer who wants to create Drupal themes that follow industry best practices and are fast and maintainable, this book is for you. Basic knowledge of HTML, CSS, and JavaScript and working knowledge of a CMS are needed to grasp the concepts present in this book.
-
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
-### Software and Hardware List
-| Chapter | Software required | OS required |
-| -------- | ------------------------------------ | ----------------------------------- |
-| 1-15 | Docker | Windows, Mac OS X, and Linux (Any) |
-| 1-15 | DDEV | Windows, Mac OS X, and Linux (Any) |
-| 1-15 | Git | Windows, Mac OS X, and Linux (Any) |
-| 1-15 | Visual Studio Code | Windows, Mac OS X, and Linux (Any) |
-| 1-15 | Drupal 10 | Windows, Mac OS X, and Linux (Any) |
-| 1-15 | Next.js | Windows, Mac OS X, and Linux (Any) |
-
 On this repository you will find two branches: `main` and `final`. The `main` branch contains the Drupal website that
 you have to style, along with the design system made with Storybook. The `final` branch contains the final result of the
 website, with all the styles applied.
 
 The [HOW-TO.md](HOW-TO.md) contains instructions on how to start the stack and build the website, and a set of useful
 commands.
+
+## Errata corrige
+
+We've put a lot of effort into making sure that the code in this book is correct, but we're only human.
+
+If you find an error in the book, please submit an issue to www.packtpub.com/support/errata. \
+If you find an error in the code, please fork this repository and submit a pull request.
+
+All fixes will be published [here](ERRATA.md).
 
 ## Related products
 * Drupal 10 Development Cookbook - Third Edition [[Packt]](https://www.packtpub.com/product/drupal-10-development-cookbook-third-edition/9781803234960) [[Amazon]](https://www.amazon.com/dp/1803234962)
