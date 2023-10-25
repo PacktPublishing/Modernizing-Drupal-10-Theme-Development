@@ -29,8 +29,6 @@ website, with all the styles applied.
 The [HOW-TO.md](HOW-TO.md) contains instructions on how to start the stack and build the website, and a set of useful
 commands.
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/xxx).
-
 ## Errata corrige
 
 We've put a lot of effort into making sure that the code in this book is correct, but we're only human.
