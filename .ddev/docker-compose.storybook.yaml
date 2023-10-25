@@ -4,8 +4,7 @@ services:
       - /bin/sh
       - -c
       - |
-        yarn install
-        npm run storybook
+        yarn install && npm run storybook
     container_name: "ddev-${DDEV_SITENAME}-storybook"
     expose:
       - "6006"
