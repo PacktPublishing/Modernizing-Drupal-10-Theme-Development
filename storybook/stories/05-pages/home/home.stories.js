@@ -34,6 +34,9 @@ export default {
       }),
     }),
   },
+  parameters: {
+    layout: 'fullscreen',
+  },
   decorators: [(story) => injectSwiper(story)],
 };
 

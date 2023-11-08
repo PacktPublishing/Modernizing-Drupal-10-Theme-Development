@@ -9,7 +9,7 @@ export default {
     url: 'https://www.alps-trips.com/',
     active: false,
   },
-  decorators: [(story) => `<ul>${story()}</ul>`],
+  decorators: [(story) => `<ul class="flex">${story()}</ul>`],
 };
 
 export const Default = ({ title, url, active }) =>
