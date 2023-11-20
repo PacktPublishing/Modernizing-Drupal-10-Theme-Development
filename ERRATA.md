@@ -28,6 +28,11 @@
 * Page 72, figure 3.7 should be [this](ERRATA/3.7.png).
 * Page 68, first paragraph: `Figure 4.5` should be `Figure 3.5`.
 
+## Chapter 7
+
+* Page 183, point 1: `input.html` should be `input.html.twig`.
+* Page 184, point 2: `input--submit.html` should be `input--submit.html.twig`.
+
 ## Chapter 10
 
 * Page 227, code for point 1 should be:
