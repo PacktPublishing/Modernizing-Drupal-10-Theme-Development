@@ -28,6 +28,10 @@
 * Page 72, figure 3.7 should be [this](ERRATA/3.7.png).
 * Page 68, first paragraph: `Figure 4.5` should be `Figure 3.5`.
 
+## Chapter 6
+
+* Page 167: `Finally, we need a template to render the alps_base_lat_lng theme hook:` should be: 'Finally, we need a template to render the alps_base_lat_lng theme hook. Create a file named templates/components/alps-base-lat-lng.html.twig with this content:'.
+
 ## Chapter 7
 
 * Page 183, point 1: `input.html` should be `input.html.twig`.
