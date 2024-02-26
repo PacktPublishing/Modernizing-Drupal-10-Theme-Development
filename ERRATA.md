@@ -2,6 +2,7 @@
 
 ## Chapter 1
 
+* Page 11, composer commands need a double dash prefix. The correct commands are `composer update --prefer-dist` and `composer install --prefer-dist`.
 * Page 14, figure 1.6 should be [this](ERRATA/1.6.png).
 * Page 18, note box, last sentence (`This text is not part of the note. I must be moved outside, just before the next sentence (At the end...)`) must be ignored. 
 
