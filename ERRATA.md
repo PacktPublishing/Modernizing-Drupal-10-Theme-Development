@@ -21,7 +21,7 @@
       build/main.js: {}
     css:
       theme:
-        build/style.css: {}
+        build/styles.css: {}
   ```
 * Page 40: `ddev get drud/ddev-browsersync` should be `ddev get ddev/ddev-browsersync` (both will work, but now all official ddev extensions are under the `ddev` project on GitHub).
 * Page 43, first paragraph: `Figure 3.6` should be `Figure 2.6`.
