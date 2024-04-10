@@ -34,6 +34,7 @@
 ## Chapter 6
 
 * Page 167: `Finally, we need a template to render the alps_base_lat_lng theme hook:` should be: 'Finally, we need a template to render the alps_base_lat_lng theme hook. Create a file named templates/components/alps-base-lat-lng.html.twig with this content:'.
+* Page 173: ckeditor5-stylesheets configuration should be `- build/styles.css`.
 
 ## Chapter 7
 
