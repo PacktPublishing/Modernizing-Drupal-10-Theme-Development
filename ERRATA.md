@@ -31,6 +31,85 @@
 * Page 72, figure 3.7 should be [this](ERRATA/3.7.png).
 * Page 68, first paragraph: `Figure 4.5` should be `Figure 3.5`.
 
+## Chapter 5
+
+* Page 119: the last paragraph should be:
+
+Now that we’re on our custom theme, with our custom layout, we can start using Tailwind classes to style it. Remember that Tailwind looks at your templates to find which classes need to be included in the final CSS, so every time you add or change a Tailwind class, you must rebuild your theme assets. In development, you can use the `start:dev` Yarn command to run webpack in watch mode; this will recompile the `styles.css` file every time a Twig file changes.
+
+Before proceeding, we need to tweak our `tailwind.config.js` to match the one from Storybook. First of all, we need to install two yarn packages (run the next command from the `web/themes/custom/alps_trips` folder inside the Docker container):
+
+```
+yarn add -D @tailwindcss/typography @tailwindcss/forms
+```
+
+Finally, we must edit the `tailwind.config.js` to be equal to:
+
+```
+const typography = require('@tailwindcss/typography');
+const forms = require('@tailwindcss/forms');
+
+module.exports = {
+  mode: 'jit',
+  content: [
+    './templates/**/*.html.twig',
+    './components/**/*.twig',
+    '../../../../storybook/stories/**/*.html.twig',
+    './js/**/*.js',
+  ],
+  safelist: [
+    'text-nord-0',
+    'text-nord-1',
+    'text-nord-2',
+    'text-nord-3',
+    'text-nord-4',
+    'text-nord-5',
+    'text-nord-6',
+    'text-nord-7',
+    'text-nord-8',
+    'text-nord-9',
+    'text-nord-10',
+    'text-nord-11',
+    'text-nord-12',
+    'text-nord-13',
+    'text-nord-14',
+    'text-nord-15',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        'nord-0': '#2E3440',
+        'nord-1': '#3B4252',
+        'nord-2': '#434C5E',
+        'nord-3': '#4C566A',
+        'nord-4': '#D8DEE9',
+        'nord-5': '#E5E9F0',
+        'nord-6': '#ECEFF4',
+        'nord-7': '#8FBCBB',
+        'nord-8': '#88C0D0',
+        'nord-9': '#81A1C1',
+        'nord-10': '#5E81AC',
+        'nord-11': '#BF616A',
+        'nord-12': '#D08770',
+        'nord-13': '#EBCB8B',
+        'nord-14': '#A3BE8C',
+        'nord-15': '#B48EAD',
+      },
+    },
+  },
+  // Add plugins
+  plugins: [typography, forms],
+};
+```
+
+With this configuration, we've:
+
+* registered the two new Tailwind plugins
+* added some classes to the safe list
+* added some colors
+
+Now we can rebuild the `styles.css` file using a shortcut of the `start:dev` Yarn command that can be executed from the outside of the Docker web container:
+
 ## Chapter 6
 
 * Page 167: `Finally, we need a template to render the alps_base_lat_lng theme hook:` should be: 'Finally, we need a template to render the alps_base_lat_lng theme hook. Create a file named templates/components/alps-base-lat-lng.html.twig with this content:'.
