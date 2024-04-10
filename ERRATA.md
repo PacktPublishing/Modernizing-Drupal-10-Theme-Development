@@ -110,6 +110,18 @@ With this configuration, we've:
 
 Now we can rebuild the `styles.css` file using a shortcut of the `start:dev` Yarn command that can be executed from the outside of the Docker web container:
 
+* Page 127: the `region--header--front.html.twig` content must be:
+
+```
+{{
+  include('@organisms/header.html.twig',
+    {
+      'blocks': content,
+      'attributes': attributes.setAttribute('role', 'banner'),
+    })
+}}
+```
+
 ## Chapter 6
 
 * Page 167: `Finally, we need a template to render the alps_base_lat_lng theme hook:` should be: 'Finally, we need a template to render the alps_base_lat_lng theme hook. Create a file named templates/components/alps-base-lat-lng.html.twig with this content:'.
